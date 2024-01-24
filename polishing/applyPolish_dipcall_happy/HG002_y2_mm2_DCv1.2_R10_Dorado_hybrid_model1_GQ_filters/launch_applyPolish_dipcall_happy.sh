@@ -6,17 +6,20 @@
 #               	sample_file.csv should have a header (otherwised first sample will be skipped)
 #					and the sample names should be in the first column
 
-#SBATCH --job-name=HPRC-DeepPolisher-batch2
-#SBATCH --cpus-per-task=4
+#SBATCH --job-name=applyPolish_dipcall_hybrid_model1_GQfilters
+#SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --partition=high_priority
+#SBATCH --partition=medium
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
 #SBATCH --mem=200gb
-#SBATCH --output=hprc_DeepPolisher_submit_logs/hprcDeepPolisher_submit_%x_%j_%A_%a.log
-#SBATCH --time=7-0:00
-#SBATCH --array=1-10%5
+#SBATCH --threads-per-core=1
+#SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
+#SBATCH --time=12:00:00
+#SBATCH --array=8%8
+
+set -ex
 
 ## Pull samples names from CSV passed to script
 sample_file=$1
@@ -24,7 +27,6 @@ sample_file=$1
 # Read the CSV file and extract the sample ID for the current job array task
 # Skip first row to avoid the header
 sample_id=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $1}' "${sample_file}")
-
 
 # Ensure a sample ID is obtained
 if [ -z "${sample_id}" ]; then
@@ -38,29 +40,48 @@ echo "${sample_id}"
 mkdir -p ${sample_id}
 cd ${sample_id}
 
+mkdir -p toil_logs
+mkdir -p applyPolish_dipcall_outputs
 
-mkdir toil_logs
-mkdir hprc_DeepPolisher_outputs
-
-export SINGULARITY_CACHEDIR=`pwd`/outputs/cache/.singularity/cache
-export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/outputs/cache/.cache/miniwdl
-export TOIL_SLURM_ARGS="--time=7-0:00 --partition=high_priority"
+export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
+export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
+export TOIL_SLURM_ARGS="--time=12:00:00 --partition=medium"
 export TOIL_COORDINATION_DIR=/data/tmp
 
+toil clean "./jobstore"
+
+set -o pipefail
+set +e
 time toil-wdl-runner \
-    --jobStore ./polishing_bigstore \
-    --batchSystem slurm \
+    --jobStore ./jobstore \
+    --stats \
+    --clean=never \
+    --batchSystem single_machine \
+    --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
-    /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-    ../hprc_DeepPolisher_input_jsons/${sample_id}_hprc_DeepPolisher.json \
-    --outputDirectory hprc_DeepPolisher_outputs \
-    --outputFile ${sample_id}_hprc_DeepPolisher_outputs.json \
+    /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish_dipcall.wdl \
+    ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
+    --outputDirectory ./applyPolish_dipcall_outputs \
+    --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \
     --runLocalJobsOnWorkers \
     --retryCount 1 \
     --disableProgress \
-    --restart \
-    --clusterStats ${sample_id}_clusterstats.json \
     2>&1 | tee log.txt
+EXITCODE=$?
+set -e
 
-wait
-echo "Done."
+toil stats --outputFile stats.txt ./jobstore
+
+if [[ "${EXITCODE}" == "0" ]] ; then
+    echo "Succeeded."
+else
+    echo "Failed."
+    exit "${EXITCODE}"
+fi
+
+# run happy
+mkdir -p ./happy_outputs
+bash /private/home/mmastora/progs/scripts/HG002_happy.sh \
+applyPolish_dipcall_outputs/*vcf.gz \
+applyPolish_dipcall_outputs/*.bed \
+./happy_outputs/${sample_id}_happy_out
