@@ -35,10 +35,10 @@ cd /private/groups/patenlab/mira/hprc_polishing/hifi_ONT_combined_model/evaluati
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/HG002_y2_mm2_DCv1.2_R10_Dorado_hybrid_model1_GQ_filters/* ./
 
-mkdir submit_logs
+mkdir applyPolish_dipcall_submit_logs
 
-## launch with slurm array job chr20 to test
-# #SBATCH --array=11%1
+## launch with slurm array
+
 sbatch \
      launch_hprc_deepPolisher_batch2.sh \
      intermAssembl_batch1_sample_table_20231204_WUSTLonly_s3_mira_polishing_batch2_noTopUp.csv

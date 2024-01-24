@@ -73,15 +73,13 @@ set -e
 toil stats --outputFile stats.txt ./jobstore
 
 if [[ "${EXITCODE}" == "0" ]] ; then
-    echo "Succeeded."
+    echo "Succeeded.Running Happy"
+    mkdir -p ./happy_outputs
+    bash /private/home/mmastora/progs/scripts/HG002_happy.sh \
+    applyPolish_dipcall_outputs/*vcf.gz \
+    applyPolish_dipcall_outputs/*.bed \
+    ./happy_outputs/${sample_id}_happy_out
 else
     echo "Failed."
     exit "${EXITCODE}"
 fi
-
-# run happy
-mkdir -p ./happy_outputs
-bash /private/home/mmastora/progs/scripts/HG002_happy.sh \
-applyPolish_dipcall_outputs/*vcf.gz \
-applyPolish_dipcall_outputs/*.bed \
-./happy_outputs/${sample_id}_happy_out
