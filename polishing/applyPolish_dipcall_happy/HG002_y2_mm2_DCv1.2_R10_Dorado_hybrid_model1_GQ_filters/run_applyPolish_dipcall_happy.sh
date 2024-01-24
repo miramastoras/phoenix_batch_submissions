@@ -41,7 +41,7 @@ mkdir applyPolish_dipcall_submit_logs
 
 sbatch \
      launch_hprc_deepPolisher_batch2.sh \
-     intermAssembl_batch1_sample_table_20231204_WUSTLonly_s3_mira_polishing_batch2_noTopUp.csv
+     GQ_filters_hybrid_model1_sample_table.csv
 
 ###############################################################################
 ##                             write output files to csv                     ##
