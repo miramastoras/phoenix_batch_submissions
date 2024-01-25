@@ -59,7 +59,7 @@ time toil-wdl-runner \
     --batchSystem single_machine \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
-    /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish_dipcall.wdl \
+    /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/workflows/applyPolish_dipcall.wdl \
     ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
     --outputDirectory ./applyPolish_dipcall_outputs \
     --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \

@@ -40,7 +40,7 @@ mkdir applyPolish_dipcall_submit_logs
 ## launch with slurm array
 
 sbatch \
-     launch_hprc_deepPolisher_batch2.sh \
+     launch_applyPolish_dipcall_happy.sh \
      GQ_filters_hybrid_model1_sample_table.csv
 
 ###############################################################################
