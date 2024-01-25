@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=8%8
+#SBATCH --array=1-8%8
 
 set -ex
 
@@ -76,9 +76,9 @@ if [[ "${EXITCODE}" == "0" ]] ; then
     echo "Succeeded.Running Happy"
     mkdir -p ./happy_outputs
     bash /private/home/mmastora/progs/scripts/HG002_happy.sh \
-    ./applyPolish_dipcall_outputs/*vcf.gz \
-    ./applyPolish_dipcall_outputs/*.bed \
-    ./happy_outputs/${sample_id}_happy_out
+    `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
+    `pwd`/applyPolish_dipcall_outputs/*.bed \
+    `pwd`/happy_outputs/${sample_id}_happy_out
 else
     echo "Failed."
     exit "${EXITCODE}"
