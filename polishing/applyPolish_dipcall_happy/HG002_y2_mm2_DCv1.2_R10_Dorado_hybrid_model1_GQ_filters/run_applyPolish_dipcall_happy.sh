@@ -31,7 +31,9 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 ## check that hpp production wdls github repo is up to date
 git -C /private/home/mmastora/progs/hpp_production_workflows pull
 
+# move to work dir
 cd /private/groups/patenlab/mira/hprc_polishing/hifi_ONT_combined_model/evaluation/HG002_y2_mm2_DCv1.2_R10_Dorado_hybrid_model1/GQ_filters/applyPolish_dipcall_happy
+
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/HG002_y2_mm2_DCv1.2_R10_Dorado_hybrid_model1_GQ_filters/* ./
 
