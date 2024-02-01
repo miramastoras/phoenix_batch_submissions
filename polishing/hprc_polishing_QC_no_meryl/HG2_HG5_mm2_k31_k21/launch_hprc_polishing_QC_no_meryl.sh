@@ -10,14 +10,14 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --partition=medium
+#SBATCH --partition=high_priority
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
 #SBATCH --mem=200gb
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=1-8%8
+#SBATCH --array=1-4%4
 
 set -ex
 
@@ -45,7 +45,7 @@ mkdir -p hprc_polishing_QC_no_meryl_outputs
 
 export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
 export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
-export TOIL_SLURM_ARGS="--time=12:00:00 --partition=medium"
+export TOIL_SLURM_ARGS="--time=12:00:00 --partition=high_priority"
 export TOIL_COORDINATION_DIR=/data/tmp
 
 toil clean "./jobstore"
@@ -60,9 +60,9 @@ time toil-wdl-runner \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
     /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
-    ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
+    ../hprc_polishing_QC_no_meryl_input_jsons/${sample_id}_hprc_polishing_QC_no_meryl.json \
     --outputDirectory ./hprc_polishing_QC_no_meryl_outputs \
-    --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \
+    --outputFile ${sample_id}_hprc_polishing_QC_no_meryl_outputs.json \
     --runLocalJobsOnWorkers \
     --retryCount 1 \
     --disableProgress \
@@ -74,11 +74,7 @@ toil stats --outputFile stats.txt ./jobstore
 
 if [[ "${EXITCODE}" == "0" ]] ; then
     echo "Succeeded.Running Happy"
-    mkdir -p ./happy_outputs
-    bash /private/home/mmastora/progs/scripts/HG002_happy.sh \
-    `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
-    `pwd`/applyPolish_dipcall_outputs/*.bed \
-    `pwd`/happy_outputs/${sample_id}_happy_out
+    toil clean ./jobstore
 else
     echo "Failed."
     exit "${EXITCODE}"
