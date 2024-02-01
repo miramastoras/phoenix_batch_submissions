@@ -42,8 +42,8 @@ mkdir hprc_polishing_QC_no_meryl_submit_logs
 ## launch with slurm array
 
 sbatch \
-     launch_applyPolish_dipcall_happy.sh \
-     GQ_filters_hybrid_model1_sample_table.csv
+     launch_hprc_polishing_QC_no_meryl.sh \
+     HG002_HG005_k31_k21_sample_table.csv
 
 ###############################################################################
 ##                             write output files to csv                     ##

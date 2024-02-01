@@ -7,7 +7,7 @@
 #					and the sample names should be in the first column
 
 #SBATCH --job-name=hprc_polishing_QC_HG2_HG5
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=64
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --partition=high_priority
