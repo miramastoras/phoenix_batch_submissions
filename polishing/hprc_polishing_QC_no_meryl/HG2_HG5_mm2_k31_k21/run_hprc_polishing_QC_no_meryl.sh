@@ -45,6 +45,11 @@ sbatch \
      launch_hprc_polishing_QC_no_meryl.sh \
      HG002_HG005_k31_k21_sample_table.csv
 
+# launch samples with new docker
+#SBATCH --array=5-8%4
+sbatch \
+     launch_hprc_polishing_QC_no_meryl.sh \
+     HG002_HG005_k31_k21_sample_table.csv
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
