@@ -1,6 +1,8 @@
 input,type,value
 hprc_polishing_QC.polishedHap1Fasta,scalar,$input.polishedHap1Fasta
 hprc_polishing_QC.polishedHap2Fasta,scalar,$input.polishedHap2Fasta
+hprc_polishing_QC.rawHap1Fasta,scalar,$input.rawHap1Fasta
+hprc_polishing_QC.rawHap2Fasta,scalar,$input.rawHap2Fasta
 hprc_polishing_QC.polishingVcf,scalar,$input.polishingVcf
 hprc_polishing_QC.sampleYak,scalar,$input.sampleYak
 hprc_polishing_QC.maternalYak,scalar,$input.maternalYak
