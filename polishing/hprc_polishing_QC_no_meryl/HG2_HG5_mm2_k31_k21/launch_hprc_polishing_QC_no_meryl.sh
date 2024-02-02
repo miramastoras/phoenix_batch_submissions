@@ -13,7 +13,7 @@
 #SBATCH --partition=high_priority
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mem=400gb
+#SBATCH --mem=600gb
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
