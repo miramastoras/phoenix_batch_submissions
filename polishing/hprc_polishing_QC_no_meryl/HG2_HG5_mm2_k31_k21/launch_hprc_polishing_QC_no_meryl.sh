@@ -13,11 +13,11 @@
 #SBATCH --partition=high_priority
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mem=200gb
+#SBATCH --mem=400gb
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=1-4%4
+#SBATCH --array=1,2,5,6%4
 
 set -ex
 
@@ -73,7 +73,7 @@ set -e
 toil stats --outputFile stats.txt ./jobstore
 
 if [[ "${EXITCODE}" == "0" ]] ; then
-    echo "Succeeded.Running Happy"
+    echo "Succeeded."
     toil clean ./jobstore
 else
     echo "Failed."
