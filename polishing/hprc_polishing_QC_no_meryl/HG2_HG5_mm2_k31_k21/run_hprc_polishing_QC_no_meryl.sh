@@ -50,6 +50,18 @@ sbatch \
 sbatch \
      launch_hprc_polishing_QC_no_meryl.sh \
      HG002_HG005_k31_k21_sample_table.csv
+
+# relaunch HG002 samples with more memory in launch script
+#SBATCH --array=1,2,5,6%4
+sbatch \
+     launch_hprc_polishing_QC_no_meryl.sh \
+     HG002_HG005_k31_k21_sample_table.csv
+
+# relaunch HG002 k31 samples with logDebug
+#SBATCH --array=2,6%2
+sbatch \
+     launch_hprc_polishing_QC_no_meryl.sh \
+     HG002_HG005_k31_k21_sample_table.csv
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
