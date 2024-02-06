@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=6%1
+#SBATCH --array=5,7,8%3
 
 set -ex
 
