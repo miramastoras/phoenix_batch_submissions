@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=1-8%8
+#SBATCH --array=5-8%4
 
 set -ex
 
@@ -66,7 +66,6 @@ time toil-wdl-runner \
     --runLocalJobsOnWorkers \
     --retryCount 1 \
     --disableProgress \
-    --logDebug \
     2>&1 | tee log.txt
 EXITCODE=$?
 set -e
