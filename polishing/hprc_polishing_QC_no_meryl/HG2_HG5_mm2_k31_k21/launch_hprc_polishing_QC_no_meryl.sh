@@ -17,10 +17,11 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=5,7,8%3
+#SBATCH --array=6%1
 
 set -ex
 
+tar -zcvf /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.meryl.tar.gz /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.meryl
 ## Pull samples names from CSV passed to script
 sample_file=$1
 

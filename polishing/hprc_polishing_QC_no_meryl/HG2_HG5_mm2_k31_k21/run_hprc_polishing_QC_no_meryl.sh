@@ -62,6 +62,12 @@ sbatch \
 sbatch \
      launch_hprc_polishing_QC_no_meryl.sh \
      HG002_HG005_k31_k21_sample_table.csv
+
+# launch HG002 k21, HG005 k=21 and k=31
+#SBATCH --array=5,7,8%3
+sbatch \
+     launch_hprc_polishing_QC_no_meryl.sh \
+     HG002_HG005_k31_k21_sample_table.csv
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
