@@ -62,7 +62,7 @@ time toil-wdl-runner \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
     ~/progs/hpp_production_workflows/QC/wdl/tasks/dipcall.wdl \
-    ../dipcall_input_jsons/${sample_id}_polished_dipcall.json \
+    ../dipcall_input_jsons/${sample_id}_dipcall_polished.json \
     --outputDirectory ./polished_dipcall_outputs \
     --outputFile ${sample_id}_polished_dipcall_outputs.json \
     --runLocalJobsOnWorkers \
@@ -93,7 +93,7 @@ time toil-wdl-runner \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
     ~/progs/hpp_production_workflows/QC/wdl/tasks/dipcall.wdl \
-    ../dipcall_input_jsons/${sample_id}_raw_dipcall.json \
+    ../dipcall_input_jsons/${sample_id}_dipcall_raw.json \
     --outputDirectory ./raw_dipcall_outputs \
     --outputFile ${sample_id}_raw_dipcall_outputs.json \
     --runLocalJobsOnWorkers \
