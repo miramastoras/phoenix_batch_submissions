@@ -61,11 +61,14 @@ cd HPRC_batch2_batch3
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/count_hets_homs_hprc_DeepPolisher_pipeline/HPRC_batch2_batch3/* ./
 
-
 mkdir counting_submit_logs
 
 ## launch with slurm array
+#SBATCH --array=1-10%10
 
 sbatch \
      launch_counting.sh \
      polishing_batch2_updated.csv
+
+# launch batch 3
+#SBATCH --array=1-10%10
