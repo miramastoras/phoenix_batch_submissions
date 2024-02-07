@@ -126,9 +126,9 @@ jmcdani20/hap.py:v0.3.12 /opt/hap.py/bin/hap.py \
 `pwd`/raw_dipcall_outputs/*.dipcall.vcf.gz \
 `pwd`/polished_dipcall_outputs/*dipcall.vcf.gz \
 -r /private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta \
--o `pwd`/happy_counting/${sampleID}.happy.out \
+-o `pwd`/happy_counting/${sample_id}.happy.out \
 --pass-only --no-roc --no-json --engine=vcfeval --threads="${SLURM_CPUS_PER_TASK}"
 
 ## Run counting script
 bash ~/progs/element_polishing/scripts/count_missing_vars_happy.sh \
-`pwd`/happy_counting/${sampleID}.happy.out.vcf.gz `pwd`/happy_counting/${sampleID}.het.hom.counts.csv
+`pwd`/happy_counting/${sample_id}.happy.out.vcf.gz `pwd`/happy_counting/${sample_id}.het.hom.counts.csv
