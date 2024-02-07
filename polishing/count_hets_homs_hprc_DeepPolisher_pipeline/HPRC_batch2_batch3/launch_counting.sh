@@ -73,6 +73,8 @@ time toil-wdl-runner \
 EXITCODE=$?
 set -e
 
+toil stats --outputFile stats_polished.txt ./jobstore
+
 if [[ "${EXITCODE}" == "0" ]] ; then
     echo "Succeeded."
     toil clean ./jobstore
@@ -82,10 +84,9 @@ else
 fi
 
 
-toil stats --outputFile stats_polished.txt ./jobstore
-
-toil clean "./jobstore"
 # run dipcall for raw assembly
+set -o pipefail
+set +e
 
 time toil-wdl-runner \
     --jobStore ./jobstore \
@@ -103,8 +104,19 @@ time toil-wdl-runner \
     --disableProgress \
     2>&1 | tee log.txt
 
-toil stats --outputFile stats_raw.txt ./jobstore
+EXITCODE=$?
 set -e
+toil stats --outputFile stats_raw.txt ./jobstore
+
+
+if [[ "${EXITCODE}" == "0" ]] ; then
+    echo "Succeeded."
+    toil clean ./jobstore
+else
+    echo "Failed."
+    exit "${EXITCODE}"
+fi
+
 
 mkdir -p happy_counting
 ## Run hap.py
