@@ -7,7 +7,7 @@
 #					and the sample names should be in the first column
 
 #SBATCH --job-name=count_hets_homs_hprc_DP
-#SBATCH --cpus-per-task=64
+#SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --partition=high_priority
@@ -15,9 +15,9 @@
 #SBATCH --mail-type=FAIL,END
 #SBATCH --mem=600gb
 #SBATCH --threads-per-core=1
-#SBATCH --output=hprc_polishing_QC_no_meryl_submit_logs/hprc_polishing_QC_no_meryl_submit_%x_%j_%A_%a.log
+#SBATCH --output=counting_submit_logs/counting_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=5,7,8%3
+#SBATCH --array=1-10%10
 
 set -ex
 

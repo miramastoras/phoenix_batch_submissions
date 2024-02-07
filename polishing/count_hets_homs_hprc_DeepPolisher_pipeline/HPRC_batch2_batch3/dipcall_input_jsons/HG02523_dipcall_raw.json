@@ -1,0 +1,7 @@
+{
+  "runDipcall.dipcall.referenceFai": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.fai",
+  "runDipcall.dipcall.referenceFasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "runDipcall.dipcall.assemblyFastaMat": "/private/groups/hprc/assembly/batch2/HG02523/analysis/assembly/HG02523.mat.fa.gz",
+  "runDipcall.dipcall.isMaleSample": true,
+  "runDipcall.dipcall.assemblyFastaPat": "/private/groups/hprc/assembly/batch2/HG02523/analysis/assembly/HG02523.pat.fa.gz"
+}

@@ -32,10 +32,10 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/home/mmastora/progs/hpp_production_workflows pull
 
 # move to work dir
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG2_HG5_mm2_k31_k21_hprc_polishing_QC
+cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/count_hets_homs_hprc_DeepPolisher
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/HG2_HG5_mm2_k31_k21/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/count_hets_homs_hprc_DeepPolisher_pipeline/* ./
 
 mkdir hprc_polishing_QC_no_meryl_submit_logs
 
