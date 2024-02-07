@@ -42,6 +42,7 @@ cd ${sample_id}
 
 mkdir -p toil_logs
 mkdir -p polished_dipcall_outputs
+mkdir -p raw_dipcall_outputs
 
 ## Run dipcall against GRCh38 for both polished and raw sample
 
