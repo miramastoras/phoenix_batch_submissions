@@ -71,4 +71,7 @@ sbatch \
      polishing_batch2_updated.csv
 
 # launch batch 3
-#SBATCH --array=1-10%10
+#SBATCH --array=1-34%34
+sbatch \
+     launch_counting.sh \
+     polishing_batch3_updated.csv
