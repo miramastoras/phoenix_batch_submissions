@@ -58,6 +58,10 @@ cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_as
 mkdir -p HPRC_batch2_batch3
 cd HPRC_batch2_batch3
 
+## get files to run in polishing folder ...
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/count_hets_homs_hprc_DeepPolisher_pipeline/HPRC_batch2_batch3/* ./
+
+
 mkdir counting_submit_logs
 
 ## launch with slurm array

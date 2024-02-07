@@ -35,7 +35,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/count_hets_homs_hprc_DeepPolisher
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/count_hets_homs_hprc_DeepPolisher_pipeline/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/HG2_HG5_mm2_k31_k21/* ./
 
 mkdir hprc_polishing_QC_no_meryl_submit_logs
 

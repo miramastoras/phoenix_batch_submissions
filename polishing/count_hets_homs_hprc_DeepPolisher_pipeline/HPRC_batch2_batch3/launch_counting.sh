@@ -41,7 +41,7 @@ mkdir -p ${sample_id}
 cd ${sample_id}
 
 mkdir -p toil_logs
-mkdir -p count_het_homs
+mkdir -p polished_dipcall_outputs
 
 ## Run dipcall against GRCh38 for both polished and raw sample
 
