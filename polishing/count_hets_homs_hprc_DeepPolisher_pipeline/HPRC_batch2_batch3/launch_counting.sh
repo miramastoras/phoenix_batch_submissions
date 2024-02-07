@@ -84,6 +84,7 @@ fi
 
 toil stats --outputFile stats_polished.txt ./jobstore
 
+toil clean "./jobstore"
 # run dipcall for raw assembly
 
 time toil-wdl-runner \
