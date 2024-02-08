@@ -41,7 +41,7 @@ mkdir -p ${sample_id}
 cd ${sample_id}
 
 mkdir -p toil_logs
-mkdir -p ${LOCAL_FOLDER}/merfin_outputs
+mkdir -p ./merfin_outputs
 
 export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
 export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
@@ -60,8 +60,8 @@ time toil-wdl-runner \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
     /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/merfin.wdl \
-    ${LOCAL_FOLDER}/${sample_id}_merfin.json \
-    --outputDirectory ${LOCAL_FOLDER}/merfin_outputs \
+    .${sample_id}_merfin.json \
+    --outputDirectory ./merfin_outputs \
     --outputFile ${sample_id}_merfin_outputs.json \
     --runLocalJobsOnWorkers \
     --retryCount 1 \
