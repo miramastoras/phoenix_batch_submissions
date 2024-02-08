@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=merfin_submit_logs/hprcDeepPolisher_submit_%x_%j_%A_%a.log
 #SBATCH --time=7-0:00
-#SBATCH --array=9%9
+#SBATCH --array=1-9%9
 
 set -ex
 
