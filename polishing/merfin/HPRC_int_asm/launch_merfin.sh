@@ -59,7 +59,7 @@ time toil-wdl-runner \
     --batchSystem single_machine \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
-    /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/tasks/merfin.wdl \
+    /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/merfin.wdl \
     ${LOCAL_FOLDER}/${sample_id}_merfin.json \
     --outputDirectory ${LOCAL_FOLDER}/merfin_outputs \
     --outputFile ${sample_id}_merfin_outputs.json \
