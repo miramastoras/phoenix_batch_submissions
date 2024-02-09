@@ -42,7 +42,7 @@ cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_as
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/applyPolish/* ./
 
-mkdir merfin_submit_logs
+mkdir applyPolish_submit_logs
 
 ## launch with slurm array
 
@@ -56,9 +56,18 @@ sbatch \
 
 
 # on hprc after entire batch has finished
-cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin
+cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/applyPolish
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
       --input_data_table ./samples.merfin_updated.csv \
+      --output_data_table ./samples.merfin.applyPolish_updated.mat.csv \
+      --json_location '{sample_id}_applyPolish_mat_outputs.json'
+
+sed -i "s|asmPolished|polishedAsmHap2|g" ./samples.merfin.applyPolish_updated.mat.csv
+
+python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+      --input_data_table ./samples.merfin.applyPolish_updated.mat.csv \
       --output_data_table ./samples.merfin.applyPolish_updated.csv \
-      --json_location '{sample_id}_merfin_outputs.json'
+      --json_location '{sample_id}_applyPolish_pat_outputs.json'
+
+sed -i "s|asmPolished|polishedAsmHap1|g" ./samples.merfin.applyPolish_updated.csv
