@@ -34,9 +34,6 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/hprc_polishing_QC
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/* ./
-
-## get files to run hifiasm in sandbox...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/hprc_polishing_QC/* ./
 
 mkdir hprc_polishing_QC_submit_logs

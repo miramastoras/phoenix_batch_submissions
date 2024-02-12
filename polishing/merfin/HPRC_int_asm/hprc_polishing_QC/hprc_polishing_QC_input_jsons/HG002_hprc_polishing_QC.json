@@ -3,7 +3,7 @@
   "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/applyPolish/HG002/./applyPolish_mat_outputs/HG002_hap2.polished.fasta",
   "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/HG002/./merfin_outputs/polisher_output.merfin.filter.vcf.gz",
   "hprc_polishing_QC.sampleReadsIlm": [
-    "[\u201c/private/groups/patenlab/masri/hprc/polishing/HG002/reads/illumina/HG002_HiSeq30x_subsampled_R1.fastq.gz\u201d,\u201d/private/groups/patenlab/masri/hprc/polishing/HG002/reads/illumina/HG002_HiSeq30x_subsampled_R2.fastq.gz\u201d]"
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/illumina/HG002_HiSeq30x_subsampled_R1.fastq.gz","/private/groups/patenlab/masri/hprc/polishing/HG002/reads/illumina/HG002_HiSeq30x_subsampled_R2.fastq.gz"
   ],
   "hprc_polishing_QC.maternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/mat.HG004.yak",
   "hprc_polishing_QC.paternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/pat.HG003.yak",
