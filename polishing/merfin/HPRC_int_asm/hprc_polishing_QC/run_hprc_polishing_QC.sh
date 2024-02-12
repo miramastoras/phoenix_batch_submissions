@@ -37,7 +37,7 @@ cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_as
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/* ./
 
 ## get files to run hifiasm in sandbox...
-cp -r /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/hprc_polishing_QC/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merfin/HPRC_int_asm/hprc_polishing_QC/* ./
 
 mkdir hprc_polishing_QC_submit_logs
 
