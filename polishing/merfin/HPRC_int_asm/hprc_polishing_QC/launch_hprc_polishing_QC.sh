@@ -7,7 +7,7 @@
 #					and the sample names should be in the first column
 
 #SBATCH --job-name=HPRC-polishing_QC
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=64
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --partition=high_priority
@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=hprc_polishing_QC_submit_logs/hprc_polishing_QC_submit_%x_%j_%A_%a.log
 #SBATCH --time=7-0:00
-#SBATCH --array=1-4,6-9%8
+#SBATCH --array=6%1
 
 set -ex
 
