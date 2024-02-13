@@ -1,0 +1,12 @@
+{
+  "kmerPolishingEval.sampleID": "HG02129_GQ16_INS1_GQ7_else",
+  "kmerPolishingEval.paternalYak": "/private/groups/hprc/assembly/batch1/HG02129/analysis/assembly/HG02131.yak",
+  "kmerPolishingEval.maternalYak": "/private/groups/hprc/assembly/batch1/HG02129/analysis/assembly/HG02130.yak",
+  "kmerPolishingEval.sampleYak": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/hprc_polishing_QC/HG02129/hprc_polishing_QC_outputs/sample.yak",
+  "kmerPolishingEval.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish/HG02129_GQ16_INS1_GQ7_else/./applyPolish_mat_outputs/HG02129_GQ16_INS1_GQ7_else_hap2.polished.fasta",
+  "kmerPolishingEval.hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish/HG02129_GQ16_INS1_GQ7_else/./applyPolish_pat_outputs/HG02129_GQ16_INS1_GQ7_else_hap1.polished.fasta",
+  "kmerPolishingEval.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "kmerPolishingEval.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/hprc_polishing_QC/HG02129/hprc_polishing_QC_outputs/HG02129.meryl.tar",
+  "kmerPolishingEval.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "kmerPolishingEval.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+}

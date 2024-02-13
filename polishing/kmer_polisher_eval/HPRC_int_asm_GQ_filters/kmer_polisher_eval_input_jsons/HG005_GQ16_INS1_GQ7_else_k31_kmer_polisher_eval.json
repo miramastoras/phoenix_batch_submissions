@@ -1,0 +1,12 @@
+{
+  "kmerPolishingEval.sampleID": "HG005_GQ16_INS1_GQ7_else_k31",
+  "kmerPolishingEval.paternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG005/parents/pat.HG006.yak",
+  "kmerPolishingEval.maternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG005/parents/mat.HG007.yak",
+  "kmerPolishingEval.sampleYak": "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/illumina/yak/HG005.yak",
+  "kmerPolishingEval.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish/HG005_GQ16_INS1_GQ7_else/./applyPolish_mat_outputs/HG005_GQ16_INS1_GQ7_else_hap2.polished.fasta",
+  "kmerPolishingEval.hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish/HG005_GQ16_INS1_GQ7_else/./applyPolish_pat_outputs/HG005_GQ16_INS1_GQ7_else_hap1.polished.fasta",
+  "kmerPolishingEval.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "kmerPolishingEval.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.meryl.tar.gz",
+  "kmerPolishingEval.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "kmerPolishingEval.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+}
