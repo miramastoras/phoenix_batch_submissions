@@ -22,11 +22,6 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ## on HPC...
 cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/hprc_polishing_QC
 
-
-
-## check that github repo is up to date
-git -C /private/groups/hprc/polishing/hprc_intermediate_assembly pull
-
 ## get wdl workflow from github
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 

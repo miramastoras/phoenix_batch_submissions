@@ -1,7 +1,7 @@
 input,type,value
 hprc_polishing_QC.polishedHap1Fasta,scalar,$input.polishedAsmHap1
 hprc_polishing_QC.polishedHap2Fasta,scalar,$input.polishedAsmHap2
-hprc_polishing_QC.polishingVcf,scalar,$input.merfinFilteredVcf
+hprc_polishing_QC.polishingVcf,scalar,$input.polishing_vcf
 hprc_polishing_QC.sampleReadsIlm,array,$input.child_ilmn
 hprc_polishing_QC.maternalYak,scalar,$input.maternalYak
 hprc_polishing_QC.paternalYak,scalar,$input.paternalYak
@@ -13,4 +13,4 @@ hprc_polishing_QC.rawHap1Fasta,scalar,$input.paternalFastaGz
 hprc_polishing_QC.rawHap2Fasta,scalar,$input.maternalFastaGz
 hprc_polishing_QC.grch38Fasta,scalar,/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
 hprc_polishing_QC.sampleID,scalar,$input.sample_id
-hprc_polishing_QC.yakMerylKmerSize,scalar,21
+hprc_polishing_QC.yakMerylKmerSize,scalar,31
