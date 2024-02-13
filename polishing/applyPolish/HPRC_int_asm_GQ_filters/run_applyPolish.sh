@@ -56,18 +56,18 @@ sbatch \
 
 
 # on hprc after entire batch has finished
-cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/applyPolish
+cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./samples.merfin_updated.csv \
-      --output_data_table ./samples.merfin.applyPolish_updated.mat.csv \
+      --input_data_table ./HPRC_int_asm_GQfilters.samples.csv \
+      --output_data_table ./HPRC_int_asm_GQfilters.samples.mat.csv \
       --json_location '{sample_id}_applyPolish_mat_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap2|g" ./samples.merfin.applyPolish_updated.mat.csv
+sed -i "s|asmPolished|polishedAsmHap2|g" ./HPRC_int_asm_GQfilters.samples.mat.csv
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./samples.merfin.applyPolish_updated.mat.csv \
-      --output_data_table ./samples.merfin.applyPolish_updated.csv \
+      --input_data_table ./HPRC_int_asm_GQfilters.samples.mat.csv \
+      --output_data_table ./HPRC_int_asm_GQfilters.samples.updated.csv \
       --json_location '{sample_id}_applyPolish_pat_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap1|g" ./samples.merfin.applyPolish_updated.csv
+sed -i "s|asmPolished|polishedAsmHap1|g" ./HPRC_int_asm_GQfilters.samples.updated.csv
