@@ -46,6 +46,8 @@ sbatch \
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
+# combined output csv files
+ls | grep "HG" | while read line ; do tail -n3 $line/hprc_polishing_QC_outputs/${line}.polishing.QC.csv | head -n 2; done 
 
 # on hprc after entire batch has finished
 cd /private/groups/hprc/polishing/batch2
