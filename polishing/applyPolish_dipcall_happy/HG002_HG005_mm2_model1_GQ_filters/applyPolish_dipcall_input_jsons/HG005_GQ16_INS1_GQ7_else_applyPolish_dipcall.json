@@ -1,0 +1,11 @@
+{
+  "applyPolish_dipcall.referenceFasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "applyPolish_dipcall.referenceFastaFai": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.fai",
+  "applyPolish_dipcall.hap1Fasta": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa.gz",
+  "applyPolish_dipcall.hap2Fasta": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
+  "applyPolish_dipcall.sampleID": "HG005_GQ16_INS1_GQ7_else",
+  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/data/HG005_GRCh38_1_22_v4.2.1_benchmark.bed",
+  "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ16_INS1_GQ7_else/HG005.polisher_output.GQ16_INS1_GQ7_else.vcf.gz",
+  "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ16_INS1_GQ7_else/HG005.polisher_output.GQ16_INS1_GQ7_else.vcf.gz",
+  "applyPolish_dipcall.dipcall_t.isMaleSample": true
+}
