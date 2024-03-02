@@ -5,5 +5,5 @@
   "runDeepPolisher.Bam": "/private/groups/hprc/polishing/batch2/HG01975/hprc_DeepPolisher_outputs/HG01975.hifi.to.diploid.asm.PHARAOH.bam",
   "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
   "runDeepPolisher.sampleName": "HG01975",
-  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/HG01975.dip.fa.gz"
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/HG01975.dip.fa"
 }

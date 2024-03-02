@@ -12,6 +12,8 @@ cat /private/groups/hprc/assembly/batch1/${sample}/analysis/assembly/${sample}.m
 /private/groups/hprc/assembly/batch1/${sample}/analysis/assembly/${sample}.pat.fa.gz > \
 /private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/${sample}.dip.fa.gz ; done
 
+gunzip /private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/*
+
 ###############################################################################
 ##                             prepare input jsons                            ##
 ###############################################################################
@@ -33,7 +35,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ###############################################################################
 
 ## on HPC...
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model1_platinum_test
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test
 
 ## get wdl workflow from github
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
