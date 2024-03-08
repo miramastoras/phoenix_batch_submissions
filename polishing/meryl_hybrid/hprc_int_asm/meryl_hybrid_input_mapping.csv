@@ -1,0 +1,4 @@
+input,type,value
+runMeryl.identifier,scalar,$input.sample_id
+runMeryl.sampleReadsILM,array,$input.child_ilmn
+runMeryl.sampleReadsHiFi,array,$input.hifi

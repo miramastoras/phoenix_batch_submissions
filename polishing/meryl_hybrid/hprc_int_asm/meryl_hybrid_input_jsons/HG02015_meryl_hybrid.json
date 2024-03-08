@@ -1,0 +1,11 @@
+{
+  "runMeryl.identifier": "HG02015",
+  "runMeryl.sampleReadsILM": [
+    "s3://human-pangenomics/submissions/AD30A684-C7A8-4D24-89B2-040DFF021B0C--Y2_1000G_DATA/HG02015/Illumina/child/HG02015.final.cram"
+  ],
+  "runMeryl.sampleReadsHiFi": [
+    "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02015/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02015.m64043_210901_164337.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02015/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02015.m64043_210903_163032.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02015/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02015.m64043_210905_032603.dc.q20.fastq.gz"
+  ]
+}
