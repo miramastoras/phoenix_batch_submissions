@@ -13,7 +13,7 @@
 #SBATCH --partition=high_priority
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
-#SBATCH --mem=600gb
+#SBATCH --mem=300gb
 #SBATCH --threads-per-core=1
 #SBATCH --output=merqury_hybrid_k21_submit_logs/merqury_hybrid_k21_submit_%x_%j_%A_%a.log
 #SBATCH --time=24:00:00
@@ -52,7 +52,7 @@ mkdir -p $RAW_CONF_OUTDIR
 mkdir -p $POL_CONF_OUTDIR
 
 # untar hybrid meryl
-tar -zxvf ${BASE}/${sample_id}/meryl_hybrid_outputs/${sample_id}.hybrid.meryl.tar.gz
+tar -zxvf ${BASE}/${sample_id}/meryl_hybrid_outputs/${sample_id}.hybrid.meryl.tar.gz -C ${BASE}/${sample_id}/meryl_hybrid_outputs/
 
 # run hybrid merqury for raw assembly, whole genome
 time docker run --rm -u `id -u`:`id -g` \

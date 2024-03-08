@@ -13,7 +13,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/
 
 # copy files in
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_in_asm_meryl_hybrid/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid/* ./
 
 # make submit log dir
 mkdir -p merqury_hybrid_k21_submit_logs
