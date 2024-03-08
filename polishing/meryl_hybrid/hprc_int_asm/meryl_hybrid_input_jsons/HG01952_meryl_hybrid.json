@@ -12,5 +12,6 @@
     "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_101332_s2.hifi_reads.bc2029.bam",
     "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_121301_s3.hifi_reads.bc2029.bam",
     "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_141231_s4.hifi_reads.bc2029.bam"
-  ]
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
 }

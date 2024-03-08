@@ -16,14 +16,8 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ## add/commit/push to github (hprc_intermediate_assembly)
 
 ###############################################################################
-##                             create launch polishing                      ##
+##                             create launch meryl                      ##
 ###############################################################################
-
-## on HPC...
-cd /private/groups/patenlab/mira
-
-## clone repo
-git clone https://github.com/miramastoras/phoenix_batch_submissions.git
 
 ## check that github repo is up to date
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull

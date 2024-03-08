@@ -8,5 +8,6 @@
     "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02258/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02258.m64043_211219_050421.dc.q20.fastq.gz",
     "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02258/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02258.m64043_211220_160211.dc.q20.fastq.gz",
     "s3://human-pangenomics/submissions/42AFCE59-2972-45EE-BB72-5B84E7B57377--HPRC_DEEPCONSENSUS_v1pt2_2023_08_q20/HG02258/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02258.m64043_220114_181052.dc.q20.fastq.gz"
-  ]
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
 }
