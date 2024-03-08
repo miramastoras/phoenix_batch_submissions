@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/assembly/batch1/HG03834/analysis/assembly/HG03834.pat.fa.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/HG03834/./merfin_outputs/polisher_output.merfin.filter.vcf",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap1",
-  "runApplyPolish.applyPolish.outPrefix": "HG03834"
-}

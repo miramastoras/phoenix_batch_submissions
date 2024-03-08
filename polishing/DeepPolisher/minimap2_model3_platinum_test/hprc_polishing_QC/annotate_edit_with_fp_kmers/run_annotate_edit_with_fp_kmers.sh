@@ -39,7 +39,7 @@ cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minima
 ## get files
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/DeepPolisher/minimap2_model3_platinum_test/hprc_polishing_QC/annotate_edit_with_fp_kmers/* ./
 
-mkdir annotate_edit_with_fp_kmers_submit_logs
+mkdir -p annotate_edit_with_fp_kmers_submit_logs
 
 ## launch with slurm array job
 sbatch \

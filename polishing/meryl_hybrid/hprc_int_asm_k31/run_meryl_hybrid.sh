@@ -31,7 +31,7 @@ cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/meryl_hybrid_k31
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/meryl_hybrid/hprc_int_asm_k31/* ./
 
-mkdir meryl_hybrid_submit_logs
+mkdir -p meryl_hybrid_submit_logs
 
 ## launch first 10
 

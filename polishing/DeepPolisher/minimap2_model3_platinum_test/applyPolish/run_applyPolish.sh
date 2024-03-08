@@ -53,15 +53,15 @@ sbatch \
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/applyPolish
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./samples.merfin_updated.csv \
-      --output_data_table ./samples.merfin.applyPolish_updated.mat.csv \
+      --input_data_table ./samples.deepPolisher_updated.csv \
+      --output_data_table ./samples.deepPolisher.applyPolish_updated.mat.csv \
       --json_location '{sample_id}_applyPolish_mat_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap2|g" ./samples.merfin.applyPolish_updated.mat.csv
+sed -i "s|asmPolished|polishedAsmHap2|g" ./samples.deepPolisher.applyPolish_updated.mat.csv
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./samples.merfin.applyPolish_updated.mat.csv \
-      --output_data_table ./samples.merfin.applyPolish_updated.csv \
+      --input_data_table ./samples.deepPolisher.applyPolish_updated.mat.csv \
+      --output_data_table ./samples.deepPolisher.applyPolish_updated.csv \
       --json_location '{sample_id}_applyPolish_pat_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap1|g" ./samples.merfin.applyPolish_updated.csv
+sed -i "s|asmPolished|polishedAsmHap1|g" ./samples.deepPolisher.applyPolish_updated.csv

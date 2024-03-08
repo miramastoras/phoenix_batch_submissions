@@ -46,9 +46,23 @@ git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 ## get files to run hifiasm in sandbox...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/DeepPolisher/minimap2_model3_platinum_test/* ./
 
-mkdir DeepPolisher_submit_logs
+mkdir -p DeepPolisher_submit_logs
 
 ## launch with slurm array job
 sbatch \
      launch_DeepPolisher.sh \
      samples.csv
+
+
+###############################################################################
+##                             write output files to csv                     ##
+###############################################################################
+
+
+# on hprc after entire batch has finished
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test
+
+python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+      --input_data_table ./samples.csv \
+      --output_data_table ./samples.deepPolisher_updated.csv \
+      --json_location '{sample_id}_DeepPolisher_outputs.json'
