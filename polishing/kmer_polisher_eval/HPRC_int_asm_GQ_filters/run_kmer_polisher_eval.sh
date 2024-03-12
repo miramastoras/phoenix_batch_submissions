@@ -4,7 +4,6 @@
 
 ## on personal computer...
 
-# Remove top up data from data table
 
 cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/kmer_polisher_eval/HPRC_int_asm_GQ_filters/kmer_polisher_eval_input_jsons
 

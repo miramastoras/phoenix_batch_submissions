@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=kmer_polisher_eval_submit_logs/kmer_polisher_eval_submit_%x_%j_%A_%a.log
 #SBATCH --time=7-0:00
-#SBATCH --array=1-28%28
+#SBATCH --array=23-26%4
 
 set -ex
 
