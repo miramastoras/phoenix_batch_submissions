@@ -37,10 +37,10 @@ fi
 echo "${sample_id}"
 
 BASE="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/meryl_hybrid"
-RAW_WG_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/raw_wg/${sample_id}"
-POL_WG_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/pol_wg/${sample_id}"
-RAW_CONF_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/raw_conf/${sample_id}"
-POL_CONF_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/pol_conf/${sample_id}"
+RAW_WG_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/raw_wg/${sample_id}"
+POL_WG_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/pol_wg/${sample_id}"
+RAW_CONF_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/raw_conf/${sample_id}"
+POL_CONF_OUTDIR="/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/pol_conf/${sample_id}"
 
 mkdir -p $RAW_WG_OUTDIR
 mkdir -p $POL_WG_OUTDIR
