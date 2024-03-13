@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=merqury_hybrid_k21_submit_logs/merqury_hybrid_k21_submit_%x_%j_%A_%a.log
 #SBATCH --time=24:00:00
-#SBATCH --array=1-2%1
+#SBATCH --array=10%1
 
 set -ex
 
