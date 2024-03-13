@@ -1,8 +1,8 @@
 #### On phoenix cluster
 
 # create working directories
-mkdir -p /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/
-mkdir -p /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31/
+mkdir -p /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/
+mkdir -p /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31_unfiltered/
 
 # update github repos
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
@@ -10,10 +10,10 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/home/mmastora/progs/hpp_production_workflows pull
 
 # Run hybrid k21
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21/
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/
 
 # copy files in
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid_unfiltered/* ./
 
 # make submit log dir
 mkdir -p merqury_hybrid_k21_submit_logs
@@ -24,7 +24,7 @@ sbatch \
      HPRC_int_asm_batch2_3_4.samples.csv
 
 # run hybrid k31
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31/
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31_unfiltered/
 
 # copy files in
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid/* ./

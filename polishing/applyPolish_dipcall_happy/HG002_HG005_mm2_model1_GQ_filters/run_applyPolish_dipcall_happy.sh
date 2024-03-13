@@ -40,7 +40,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 ## get files to run in polishing folder ...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/HG002_HG005_mm2_model1_GQ_filters/* ./
 
-mkdir applyPolish_dipcall_submit_logs
+mkdir -p applyPolish_dipcall_submit_logs
 
 ## launch with slurm array
 
