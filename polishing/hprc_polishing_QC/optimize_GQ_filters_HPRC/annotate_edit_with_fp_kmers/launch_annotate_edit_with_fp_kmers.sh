@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=annotate_edit_with_fp_kmers_submit_logs/annotate_edit_with_fp_kmers_submit_%x_%j_%A_%a.log
 #SBATCH --time=6:00:00
-#SBATCH --array=1-8%8
+#SBATCH --array=9-10%2
 
 set -ex
 
