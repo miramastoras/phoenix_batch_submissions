@@ -1,0 +1,10 @@
+input,type,value
+applyPolish_dipcall.referenceFasta,scalar,/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
+applyPolish_dipcall.referenceFastaFai,scalar,/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.fai
+applyPolish_dipcall.hap1Fasta,scalar,$input.raw_pat_fa
+applyPolish_dipcall.hap2Fasta,scalar,$input.raw_mat_fa
+applyPolish_dipcall.sampleID,scalar,$input.sample_id
+applyPolish_dipcall.confidenceBedFile,scalar,$input.happy_conf_bed_giab
+applyPolish_dipcall.hap1PolishingVcf,scalar,$input.polishing_vcf_pat
+applyPolish_dipcall.hap2PolishingVcf,scalar,$input.polishing_vcf_mat
+applyPolish_dipcall.dipcall_t.isMaleSample,scalar,true
