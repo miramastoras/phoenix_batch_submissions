@@ -13,7 +13,6 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
      --field_mapping ../applyPolish_dipcall_input_mapping.csv \
      --workflow_name applyPolish_dipcall
 
-
 ###############################################################################
 ##                             create launch polishing                      ##
 ###############################################################################
@@ -29,7 +28,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 
 # move to work dir
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/polishing/applyPolish_dipcall_happy/GIAB_samples_manuscript/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/GIAB_samples_manuscript/* ./
 
 mkdir -p applyPolish_dipcall_submit_logs
 
