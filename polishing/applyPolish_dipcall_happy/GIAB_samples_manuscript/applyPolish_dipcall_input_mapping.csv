@@ -8,3 +8,4 @@ applyPolish_dipcall.confidenceBedFile,scalar,$input.happy_conf_bed_giab
 applyPolish_dipcall.hap1PolishingVcf,scalar,$input.polishing_vcf_pat
 applyPolish_dipcall.hap2PolishingVcf,scalar,$input.polishing_vcf_mat
 applyPolish_dipcall.dipcall_t.isMaleSample,scalar,true
+applyPolish_dipcall.GenotypeToPolish,scalar,$input.GenotypeToPolish

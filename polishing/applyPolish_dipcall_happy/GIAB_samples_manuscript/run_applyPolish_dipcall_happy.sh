@@ -13,6 +13,10 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
      --field_mapping ../applyPolish_dipcall_input_mapping.csv \
      --workflow_name applyPolish_dipcall
 
+
+# change genotype formatting - hack
+ls | while read line ; do sed 's|genotype2|2|g' $line > $line.tmp ; mv $line.tmp $line; done
+ls | while read line ; do sed 's|genotype1|1|g' $line > $line.tmp ; mv $line.tmp $line; done
 ###############################################################################
 ##                             create launch polishing                      ##
 ###############################################################################

@@ -7,5 +7,6 @@
   "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/data/HG005_GRCh38_1_22_v4.2.1_benchmark.bed",
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HG005_winnowmap_DV/HG005.dip.y2_hifiasm_0.19.5.DC_1.2.40x.HiFi_winnowmap.deepvariant.PASS.VAF0.5.GQ30.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HG005_winnowmap_DV/HG005.dip.y2_hifiasm_0.19.5.DC_1.2.40x.HiFi_winnowmap.deepvariant.PASS.VAF0.5.GQ30.vcf.gz",
-  "applyPolish_dipcall.dipcall_t.isMaleSample": true
+  "applyPolish_dipcall.dipcall_t.isMaleSample": true,
+  "applyPolish_dipcall.GenotypeToPolish": "1"
 }
