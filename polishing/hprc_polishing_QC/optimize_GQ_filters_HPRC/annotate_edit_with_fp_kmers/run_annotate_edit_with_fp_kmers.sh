@@ -39,7 +39,7 @@ cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_as
 ## get files
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC/optimize_GQ_filters_HPRC/annotate_edit_with_fp_kmers/* ./
 
-mkdir annotate_edit_with_fp_kmers_submit_logs
+mkdir -p annotate_edit_with_fp_kmers_submit_logs
 
 ## launch with slurm array job
 sbatch \

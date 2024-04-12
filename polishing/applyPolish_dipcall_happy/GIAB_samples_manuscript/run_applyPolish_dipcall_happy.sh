@@ -37,3 +37,15 @@ mkdir -p applyPolish_dipcall_submit_logs
 sbatch \
      launch_applyPolish_dipcall_happy.sh \
      GIAB_samples_polisher_evaluation_manuscript.csv
+
+###############################################################################
+##                             update table with outputs                     ##
+###############################################################################
+
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy
+
+## collect location of QC results
+python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+      --input_data_table GIAB_samples_polisher_evaluation_manuscript.csv  \
+      --output_data_table GIAB_samples_polisher_evaluation_manuscript.updated.csv  \
+      --json_location '{sample_id}_applyPolish_dipcall_outputs.json' 

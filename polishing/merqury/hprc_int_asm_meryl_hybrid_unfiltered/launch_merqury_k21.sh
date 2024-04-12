@@ -17,7 +17,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=merqury_hybrid_k21_submit_logs/merqury_hybrid_k21_submit_%x_%j_%A_%a.log
 #SBATCH --time=24:00:00
-#SBATCH --array=10%1
+#SBATCH --array=1-9,11-21%10
 
 set -ex
 
@@ -66,8 +66,8 @@ time docker run --rm -u `id -u`:`id -g` \
 -v ${POL_WG_OUTDIR}:/data \
 juklucas/hpp_merqury:latest merqury.sh \
 ${BASE}/${sample_id}/meryl_hybrid_outputs/${sample_id}.hybrid.meryl \
-/private/groups/hprc/polishing/batch3/${sample_id}/hprc_DeepPolisher_outputs/${sample_id}_hap1.polished.fasta \
-/private/groups/hprc/polishing/batch3/${sample_id}/hprc_DeepPolisher_outputs/${sample_id}_hap2.polished.fasta \
+/private/groups/hprc/polishing/batch3/${sample_id}/hprc_DeepPolisher_outputs/${sample_id}_Hap1.polished.fasta \
+/private/groups/hprc/polishing/batch3/${sample_id}/hprc_DeepPolisher_outputs/${sample_id}_Hap2.polished.fasta \
 ${sample_id}_polished_merqury_hybrid_k21_wg
 
 # run hybrid merqury for raw assembly, inside conf regions

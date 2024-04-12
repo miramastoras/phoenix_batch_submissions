@@ -3,7 +3,7 @@
 ###############################################################################
 
 ## on personal computer...
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/annotate_edit_with_fp_kmers/HG005/annotate_edit_with_fp_kmers_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/annotate_edit_with_fp_kmers/HG005_mm2_model1_dockerv0.8/annotate_edit_with_fp_kmers_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../HG005_samples.csv \
@@ -32,14 +32,14 @@ mkdir -p /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG005_
 cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG005_y2_DCv1.2_PHv6_DPmm2_model1_docker_v0.0.8_12122023/annotate_edit_with_fp_kmers
 
 ## get files
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/annotate_edit_with_fp_kmers/HG005/annotate_edit_with_fp_kmers/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/annotate_edit_with_fp_kmers/HG005_mm2_model1_dockerv0.8/* ./
 
 mkdir -p annotate_edit_with_fp_kmers_submit_logs
 
 ## launch with slurm array job
 sbatch \
      launch_annotate_edit_with_fp_kmers.sh \
-     optimize_GQ_HPRC_int_asm.QC_results.csv
+     HG005_samples.csv
 
 
 ###############################################################################

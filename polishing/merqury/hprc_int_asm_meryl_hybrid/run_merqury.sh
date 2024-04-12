@@ -24,10 +24,10 @@ sbatch \
      HPRC_int_asm_batch2_3_4.samples.csv
 
 # run hybrid k31
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31/
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k31_unfiltered/
 
 # copy files in
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/merqury/hprc_int_asm_meryl_hybrid_unfiltered/* ./
 
 # make submit log dir
 mkdir -p merqury_hybrid_k31_submit_logs
@@ -86,3 +86,6 @@ pol_conf_d=`grep Both ./pol_wg/${line}/${line}_polished_merqury_hybrid_k31_conf.
 echo ${line},raw,${raw_wg_h1},${raw_wg_h2},${raw_wg_d},${raw_conf_h1},${raw_conf_h2},${raw_conf_d} >> all_samples_results.csv; \
 echo ${line},polished,${pol_wg_h1},${pol_wg_h2},${pol_wg_d},${pol_conf_h1},${pol_conf_h2},${pol_conf_d} >> all_samples_results.csv ;\
 done
+
+
+docker run --rm -u 30162:600 -v /private/groups:/private/groups -v /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/merqury_hybrid_k21_unfiltered/pol_wg/HG04115:/data juklucas/hpp_merqury:latest merqury.sh /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/meryl_hybrid/HG04115/meryl_hybrid_outputs/meryl/HG04115.hybrid.meryl /private/groups/hprc/polishing/batch3/HG04115/hprc_DeepPolisher_outputs/HG04115_Hap1.polished.fasta /private/groups/hprc/polishing/batch3/HG04115/hprc_DeepPolisher_outputs/HG04115_Hap2.polished.fasta HG04115_polished_merqury_hybrid_k21_wg
