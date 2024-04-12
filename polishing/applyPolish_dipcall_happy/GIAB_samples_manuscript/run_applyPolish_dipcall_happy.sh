@@ -48,4 +48,4 @@ cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
       --input_data_table GIAB_samples_polisher_evaluation_manuscript.csv  \
       --output_data_table GIAB_samples_polisher_evaluation_manuscript.updated.csv  \
-      --json_location '{sample_id}_applyPolish_dipcall_outputs.json' 
+      --json_location '{sample_id}_applyPolish_dipcall_outputs.json'
