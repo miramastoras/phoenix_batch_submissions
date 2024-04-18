@@ -21,7 +21,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl
 
 ## check that github repo is up to date
-git -C /private/groups/hprc/polishing/hprc_intermediate_assembly pull
+git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 
 ## check that github repo is up to date
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
@@ -35,8 +35,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[1-6,12,13]%8 \
-     --partition=high_priority \
+     --array=[2-6,12-16]%9 \
+     --partition=long \
      --cpus-per-task=32 \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
