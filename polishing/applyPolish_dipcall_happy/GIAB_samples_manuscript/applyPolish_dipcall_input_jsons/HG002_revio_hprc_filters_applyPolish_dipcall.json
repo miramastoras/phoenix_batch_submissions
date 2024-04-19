@@ -5,8 +5,8 @@
   "applyPolish_dipcall.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
   "applyPolish_dipcall.sampleID": "HG002_revio_hprc_filters",
   "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/data/HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
-  "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_output/polisher_output.vcf.gz",
-  "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_output/polisher_output.vcf.gz",
+  "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
+  "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "2"
+  "applyPolish_dipcall.GenotypeToPolish": "genotype2"
 }

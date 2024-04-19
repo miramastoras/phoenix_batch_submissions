@@ -8,5 +8,5 @@
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ20_INS1_GQ12_DEL1_GQ5_else/HG005.mm2_model1.polisher_output.GQ20_INS1_GQ12_DEL1_GQ5_else.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ20_INS1_GQ12_DEL1_GQ5_else/HG005.mm2_model1.polisher_output.GQ20_INS1_GQ12_DEL1_GQ5_else.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "2"
+  "applyPolish_dipcall.GenotypeToPolish": "genotype2"
 }
