@@ -8,5 +8,5 @@
   "applyPolish_dipcall.hap1PolishingVcf": NaN,
   "applyPolish_dipcall.hap2PolishingVcf": NaN,
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "genotype2"
+  "applyPolish_dipcall.GenotypeToPolish": "2"
 }

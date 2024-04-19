@@ -8,5 +8,5 @@
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG005_y2_DCv1.2_PHv6_DPmm2model1_docker_v0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG005_y2_DCv1.2_PHv6_DPmm2model1_docker_v0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "genotype2"
+  "applyPolish_dipcall.GenotypeToPolish": "2"
 }

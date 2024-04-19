@@ -8,5 +8,5 @@
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/t2t_polish/HG002_y2_rerun_without_pharaoh_04052024/merfin/merfin.outfiles/HG002_MERGED_SMALL_VARIANTS.merfin.polish.vcf",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/t2t_polish/HG002_y2_rerun_without_pharaoh_04052024/merfin/merfin.outfiles/HG002_MERGED_SMALL_VARIANTS.merfin.polish.vcf",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "genotype1"
+  "applyPolish_dipcall.GenotypeToPolish": "1"
 }

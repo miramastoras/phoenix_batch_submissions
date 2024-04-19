@@ -8,5 +8,5 @@
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/hprc/polishing/batch1/HG002_revio/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
-  "applyPolish_dipcall.GenotypeToPolish": "genotype2"
+  "applyPolish_dipcall.GenotypeToPolish": "2"
 }
