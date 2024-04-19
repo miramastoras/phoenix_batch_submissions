@@ -29,14 +29,16 @@ git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 ## get files to run hifiasm in sandbox...
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript/* ./
 
-mkdir slurm_logs
+mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit job
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[2-6,12-16]%9 \
+     --array=[4-6,12-16]%7 \
      --partition=long \
+     --mail-type=FAIL,END \
+     --mail-user=mmastora@ucsc.edu \
      --cpus-per-task=32 \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
