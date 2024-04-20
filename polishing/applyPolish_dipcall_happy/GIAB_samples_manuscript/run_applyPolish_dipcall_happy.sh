@@ -42,6 +42,10 @@ sbatch \
      launch_applyPolish_dipcall_happy.sh \
      GIAB_samples_polisher_evaluation_manuscript.csv
 
+# submit revio
+sbatch \
+     launch_applyPolish_dipcall_happy.sh \
+     GIAB_samples_polisher_evaluation_manuscript.csv
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
