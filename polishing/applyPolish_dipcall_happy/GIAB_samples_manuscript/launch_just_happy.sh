@@ -40,6 +40,7 @@ source /private/home/mmastora/progs/miniconda3/etc/profile.d/conda.sh
 conda activate analysis
 
 GIAB_basename=`basename ${bed_file}`
+echo $GIAB_basename
 
 # intersect GIAB bed file with dipcall bed
 bedtools intersect \
@@ -50,6 +51,6 @@ bedtools intersect \
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy.sh \
     `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
-    `pwd`/applyPolish_dipcall_outputs/*.bed \
+    `pwd`/applyPolish_dipcall_outputs/${GIAB_basename}.dipcall.bed \
     `pwd`/happy_outputs/${sample_id}_happy_out \
     ${sample}
