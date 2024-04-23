@@ -4,7 +4,7 @@
   "applyPolish_dipcall.hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
   "applyPolish_dipcall.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
   "applyPolish_dipcall.sampleID": "HG002_y2_DCv1.2_PHv5_winnowmap_model5_dockerv0.8",
-  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/data/HG002_GRCh38_1_22_v4.2.1_benchmark_noinconsistent.bed",
+  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/hprc_polishing/GIAB_T2T_truthset_testing/GIAB_T2T_Q100_conf_beds_concordant_50bp.dipcall_z2k.bed",
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG002_y2_DCv1.2_PHv5_DPmodel5_dockerv0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG002_y2_DCv1.2_PHv5_DPmodel5_dockerv0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,

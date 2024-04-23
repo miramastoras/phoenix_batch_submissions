@@ -42,9 +42,9 @@ sbatch \
      launch_applyPolish_dipcall_happy.sh \
      GIAB_samples_polisher_evaluation_manuscript.csv
 
-# submit revio
+# rerun just happy with new conf bed file for HG002
 sbatch \
-     launch_applyPolish_dipcall_happy.sh \
+     launch_just_happy.sh \
      GIAB_samples_polisher_evaluation_manuscript.csv
 ###############################################################################
 ##                             update table with outputs                     ##
