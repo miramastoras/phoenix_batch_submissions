@@ -32,10 +32,10 @@ cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_pol
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
-# submit job
+# submit just HG005
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[4-6,12-16]%7 \
+     --array=[3,5,7,13,15,17]%6 \
      --partition=long \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
@@ -46,42 +46,14 @@ sbatch \
      --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
      --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
 
-# submit revios
-sbatch \
-     --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[19]%1 \
-     --partition=long \
-     --mail-type=FAIL,END \
-     --mail-user=mmastora@ucsc.edu \
-     --cpus-per-task=32 \
-     --mem=400gb \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
-     --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
-     --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
-
-# submit 20x hg002
-# submit revios
-sbatch \
-     --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[21,22]%2 \
-     --partition=long \
-     --mail-type=FAIL,END \
-     --mail-user=mmastora@ucsc.edu \
-     --cpus-per-task=32 \
-     --mem=400gb \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
-     --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
-     --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/hprc/polishing/batch5
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl
 
 ## collect location of QC results
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table HPRC_Intermediate_Assembly_s3Locs_Batch4_w_hifiasm_w_QC.csv  \
-      --output_data_table HPRC_Intermediate_Assembly_s3Locs_Batch4_w_hifiasm_w_QC.polished.csv  \
-      --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'
+      --input_data_table GIAB_samples_polisher_evaluation_manuscript.csv  \
+      --output_data_table GIAB_samples_polisher_evaluation_manuscript.kmer_QC_complete.csv  \
+      --json_location '{sample_id}_hprc_polishing_QC_no_meryl_outputs.json'
