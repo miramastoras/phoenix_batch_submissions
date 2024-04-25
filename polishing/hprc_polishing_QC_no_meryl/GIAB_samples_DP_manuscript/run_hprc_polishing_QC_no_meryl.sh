@@ -32,10 +32,11 @@ cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_pol
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
-# submit just HG005
+# submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[3,5,7,13,15,17]%6 \
+     --array=[2-9,13,15,17-20,]%20 \
+     --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
@@ -45,6 +46,8 @@ sbatch \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
      --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
      --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
+
+# submit HG002
 
 ###############################################################################
 ##                             write output files to csv                     ##

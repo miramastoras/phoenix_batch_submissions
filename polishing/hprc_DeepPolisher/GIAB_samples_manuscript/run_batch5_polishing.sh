@@ -37,13 +37,14 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[1-10]%10 \
+     --array=[1-3,5-8,10]%10 \
      --partition=long \
      --cpus-per-task=32 \
+     --exclude=phoenix-[09,10,22,23,24] \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv HPRC_Intermediate_Assembly_s3Locs_Batch4_w_hifiasm_w_QC.csv \
+     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
 
 

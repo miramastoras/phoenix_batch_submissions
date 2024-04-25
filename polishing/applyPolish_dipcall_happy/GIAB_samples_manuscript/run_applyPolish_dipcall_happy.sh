@@ -46,6 +46,15 @@ sbatch \
 sbatch \
      launch_just_happy.sh \
      GIAB_samples_polisher_evaluation_manuscript.csv
+
+
+# manually run HG002 y2 happy  raw assembly
+
+bash /private/home/mmastora/progs/scripts/GIAB_happy.sh \
+    /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/dipCallTar/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dipcall/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dip.vcf.gz \
+    /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/dipCallTar/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dipcall.GIAB_T2T_Q100_conf_beds_concordant_50bp.dipcall_z2k.bed \
+    /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/happy_GIAB_Q100_concordant/happy_out \
+    HG002
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
@@ -57,3 +66,11 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --input_data_table GIAB_samples_polisher_evaluation_manuscript.csv  \
       --output_data_table GIAB_samples_polisher_evaluation_manuscript.updated.csv  \
       --json_location '{sample_id}_applyPolish_dipcall_outputs.json'
+
+# combine output files
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy
+
+cut -f 1 -d "," GIAB_samples_polisher_evaluation_manuscript.csv | grep -v "sample_id" | while read line
+    do echo $line
+    cat ${line}/happy_outputs/${line}_happy_out.summary.csv
+  done
