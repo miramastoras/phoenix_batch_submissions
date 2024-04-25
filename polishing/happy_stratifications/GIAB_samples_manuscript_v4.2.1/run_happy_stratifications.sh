@@ -8,4 +8,5 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/happy_stratifications/GIAB_samples_manuscript_v4.2.1/* ./
 
 #
+mkdir -p slurm_logs
 sbatch launch_happy.sh GIAB_samples_polisher_evaluation_manuscript.csv
