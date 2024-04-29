@@ -40,6 +40,8 @@ conda activate analysis
 
 GIAB_basename=`basename ${bed_file}`
 
+mkdir -p `pwd`/happy_stratifications_outputs/
+
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_stratifications.sh \
     /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/${sample_id}/applyPolish_dipcall_outputs/*vcf.gz \
