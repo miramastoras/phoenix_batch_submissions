@@ -43,6 +43,6 @@ GIAB_basename=`basename ${bed_file}`
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_stratifications.sh \
     /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/${sample_id}/applyPolish_dipcall_outputs/*vcf.gz \
-    /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/${sample_id}/applyPolish_dipcall_outputs/${GIAB_basename}*dipcall.bed \
+    /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/${sample_id}/applyPolish_dipcall_outputs/*dipcall.bed \
     `pwd`/happy_stratifications_outputs/${sample_id}_happy_out \
     ${sample}
