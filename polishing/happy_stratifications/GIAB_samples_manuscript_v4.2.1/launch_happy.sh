@@ -31,6 +31,9 @@ if [ -z "${sample_id}" ]; then
 fi
 
 echo "${sample_id}"
+echo "${sample}"
+echo "${bed_file}"
+echo "${vcf_file}"
 
 ## Create then change into sample directory...
 mkdir -p ${sample_id}
@@ -46,6 +49,6 @@ mkdir -p `pwd`/happy_stratifications_outputs/
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_stratifications.sh \
     ${vcf_file} \
-    ${bedfile} \
+    ${bed_file} \
     `pwd`/happy_stratifications_outputs/${sample_id}_happy_out \
     ${sample}
