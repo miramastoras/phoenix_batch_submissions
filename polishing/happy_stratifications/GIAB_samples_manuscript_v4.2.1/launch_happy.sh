@@ -11,7 +11,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=slurm_logs/happy_stratifications_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=[23,24]%2
+#SBATCH --array=[2-7,12,13]%2
 
 
 ## Pull samples names from CSV passed to script
