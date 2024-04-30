@@ -10,3 +10,13 @@ cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/happy_st
 #
 mkdir -p slurm_logs
 sbatch launch_happy.sh GIAB_samples_polisher_evaluation_manuscript.csv
+
+# combine outputs files
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/happy_stratifications
+
+ls | grep "HG" | while read line
+    do echo $line
+    cat ${line}/happy_stratifications_outputs/${line}_happy_out.extended.csv \
+    | grep "PASS" | grep -v "C1_5" | grep -v "C16_PLUS" | grep -v "C6_15" | grep -v "D1_5" \
+    | grep -v "D16_PLUS" | grep -v "D6_15" | grep -v "I1_5" | grep -v "I16_PLUS" | grep -v "I6_15"
+  done > all_samples.stratifications.csv
