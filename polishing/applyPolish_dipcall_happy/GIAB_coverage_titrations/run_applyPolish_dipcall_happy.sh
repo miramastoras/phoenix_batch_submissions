@@ -58,7 +58,7 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
 # combine output files
 cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy
 
-cut -f 1 -d "," GIAB_samples_polisher_evaluation_manuscript.csv | grep -v "sample_id" | while read line
+cut -f 1 -d "," GIAB_samples_hprc_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
     do echo $line
     cat ${line}/happy_outputs/${line}_happy_out.summary.csv
-  done
+  done > all_samples.csv

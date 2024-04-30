@@ -27,7 +27,7 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
 ## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_coverage_titrations/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
@@ -58,3 +58,7 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --input_data_table GIAB_samples_hprc_deepPolisher_manuscript.csv  \
       --output_data_table GIAB_samples_hprc_deepPolisher_manuscript.kmer_QC_complete.csv  \
       --json_location '{sample_id}_hprc_polishing_QC_no_meryl_outputs.json'
+
+
+# combine output files
+ls | grep "HG" | while read line ; do echo $line ; cat $line/analysis/hprc_polishing_QC_no_meryl_outputs/${line}.polishing.QC.csv  ; done >> all_samples.csv
