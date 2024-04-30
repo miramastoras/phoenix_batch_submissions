@@ -40,7 +40,7 @@ mkdir -p applyPolish_dipcall_submit_logs
 
 sbatch \
      launch_applyPolish_dipcall_happy.sh \
-     GIAB_samples_polisher_evaluation_manuscript.csv
+     GIAB_samples_hprc_deepPolisher_manuscript.csv
 
 
 ###############################################################################
