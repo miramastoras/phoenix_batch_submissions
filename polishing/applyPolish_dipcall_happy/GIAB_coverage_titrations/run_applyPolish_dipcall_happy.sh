@@ -42,7 +42,9 @@ sbatch \
      launch_applyPolish_dipcall_happy.sh \
      GIAB_samples_hprc_deepPolisher_manuscript.csv
 
-
+sbatch launch_just_happy.sh \
+    GIAB_samples_hprc_deepPolisher_manuscript.csv
+    
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
