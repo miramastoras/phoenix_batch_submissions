@@ -44,7 +44,7 @@ sbatch \
 
 sbatch launch_just_happy.sh \
     GIAB_samples_hprc_deepPolisher_manuscript.csv
-    
+
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
@@ -58,7 +58,7 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --json_location '{sample_id}_applyPolish_dipcall_outputs.json'
 
 # combine output files
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_coverage_titrations/applyPolish_dipcall_happy
 
 cut -f 1 -d "," GIAB_samples_hprc_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
     do echo $line
