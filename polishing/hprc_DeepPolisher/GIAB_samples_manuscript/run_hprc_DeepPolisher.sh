@@ -65,7 +65,7 @@ sbatch \
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
      --array=[11,12]%2 \
-     --partition=long \
+     --partition=high_priority \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
      --mem=400gb \
@@ -74,7 +74,7 @@ sbatch \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-     
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
