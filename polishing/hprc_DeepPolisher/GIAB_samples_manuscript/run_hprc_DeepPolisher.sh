@@ -50,9 +50,9 @@ sbatch \
 # resubmit samples which failed due to out of space
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[5,6,7]%3 \
+     --array=[6,7]%2 \
      --partition=long \
-     --cpus-per-task=64 \
+     --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
      --mem=400gb \
      --ntasks-per-node=2 \
@@ -61,6 +61,20 @@ sbatch \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
 
+# submit HG002 and HG005 CCS data
+sbatch \
+     --job-name=hprc-DeepPolisher-manuscript \
+     --array=[11,12]%2 \
+     --partition=long \
+     --cpus-per-task=32 \
+     --exclude=phoenix-[09,10,22,23,24] \
+     --mem=400gb \
+     --ntasks-per-node=2 \
+     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
+     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
+     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
+     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
+     
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
