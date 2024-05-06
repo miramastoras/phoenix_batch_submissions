@@ -11,7 +11,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=[7]%1
+#SBATCH --array=[25-27]%3
 
 set -ex
 
@@ -22,6 +22,7 @@ sample_file=$1
 # Skip first row to avoid the header
 sample_id=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $1}' "${sample_file}")
 sample=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $2}' "${sample_file}")
+bed_file=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $19}' "${sample_file}")
 
 
 # Ensure a sample ID is obtained
@@ -73,7 +74,7 @@ if [[ "${EXITCODE}" == "0" ]] ; then
     mkdir -p ./happy_outputs
     bash /private/home/mmastora/progs/scripts/GIAB_happy.sh \
     `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
-    `pwd`/applyPolish_dipcall_outputs/*.bed \
+    ${bed_file} \
     `pwd`/happy_outputs/${sample_id}_happy_out \
     ${sample}
 else
