@@ -11,7 +11,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=[25-27]%3
+#SBATCH --array=[28]%3
 
 set -ex
 
