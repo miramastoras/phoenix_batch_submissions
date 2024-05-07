@@ -94,6 +94,22 @@ sbatch \
      --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
      --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
 
+# run CCS and DCv1.1 without filters, and 20x dcv1.2 for HG002
+sbatch \
+     --job-name=hprc_polishing_QC_no_meryl_GIAB \
+     --array=[18,21,22,29,30,31]%6 \
+     --exclude=phoenix-[09,10,22,23,24] \
+     --partition=long \
+     --mail-type=FAIL,END \
+     --mail-user=mmastora@ucsc.edu \
+     --cpus-per-task=32 \
+     --mem=400gb \
+     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
+     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
+     --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
+     --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
+
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################

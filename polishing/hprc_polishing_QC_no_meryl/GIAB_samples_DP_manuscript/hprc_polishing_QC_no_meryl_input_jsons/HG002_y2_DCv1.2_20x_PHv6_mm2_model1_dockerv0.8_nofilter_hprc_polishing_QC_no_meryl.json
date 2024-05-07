@@ -1,6 +1,6 @@
 {
-  "hprc_polishing_QC.polishedHap1Fasta": NaN,
-  "hprc_polishing_QC.polishedHap2Fasta": NaN,
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_y2_DCv1.2_20x_PHv6_mm2_model1_dockerv0.8_nofilter/applyPolish_dipcall_outputs/HG002_y2_DCv1.2_20x_PHv6_mm2_model1_dockerv0.8_nofilter_hap1.polished.fasta",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_y2_DCv1.2_20x_PHv6_mm2_model1_dockerv0.8_nofilter/applyPolish_dipcall_outputs/HG002_y2_DCv1.2_20x_PHv6_mm2_model1_dockerv0.8_nofilter_hap2.polished.fasta",
   "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
   "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
   "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG002_y2_DCv1.2_20x_PHv6_DPmm2model1_dockerv0.0.8_12122023/DeepPolisher.outfiles/polisher_output.no_filters.vcf.gz",
