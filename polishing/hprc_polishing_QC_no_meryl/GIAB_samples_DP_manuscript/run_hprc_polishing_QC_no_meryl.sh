@@ -82,7 +82,7 @@ sbatch \
 # run CCS and Dcv1.1
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[26,27]%2 \
+     --array=[25]%2 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \
