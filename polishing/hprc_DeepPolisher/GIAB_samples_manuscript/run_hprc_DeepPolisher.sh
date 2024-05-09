@@ -75,10 +75,11 @@ sbatch \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
 
-# submit coverage titrations for HG002 and HG005 CCS. Submit 60x for DCv1.1 HG002
+# submit coverage titrations for HG002 and HG005 CCS and DCv1.1 HG002
+
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[14-22]%10 \
+     --array=[14-26]%10 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
@@ -89,7 +90,7 @@ sbatch \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
 
-     
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
