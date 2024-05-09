@@ -1,0 +1,16 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/groups/migalab/mcechova/Q27/km-tnt-hg06807-1.Q20.10kb.fastq.gz",
+    "/private/groups/migalab/mcechova/Q27/km-tnt-hg06807-2.Q20.10kb.fastq.gz"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210425_000914.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210426_185548.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210927_090130.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210925_220058.dc.q20.fastq.gz"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/PAN027.fully_phased.paternal.fixed.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/PAN027.fully_phased.maternal.fixed.fa",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz",
+  "hprc_DeepPolisher.sampleName": "PAN027_Q28"
+}
