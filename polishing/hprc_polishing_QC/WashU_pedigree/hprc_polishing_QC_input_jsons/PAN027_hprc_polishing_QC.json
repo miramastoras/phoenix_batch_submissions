@@ -1,0 +1,20 @@
+{
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/WashU_pedigree/hprc_DeepPolisher/PAN027/analysis/hprc_DeepPolisher_outputs/PAN027_Hap1.polished.fasta",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/WashU_pedigree/hprc_DeepPolisher/PAN027/analysis/hprc_DeepPolisher_outputs/PAN027_Hap2.polished.fasta",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/WashU_pedigree/hprc_DeepPolisher/PAN027/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
+  "hprc_polishing_QC.sampleReadsIlm": [
+    "sftp://phoenix.prism/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R1.fastq.gz",
+    "sftp://phoenix.prism/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R2.fastq.gz"
+  ],
+  "hprc_polishing_QC.maternalYak": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/merqury/cromwell-executions/standardQualityControl/a8a788a3-89a3-4ee9-960d-822a8099deb0/call-yak/runYakAssemblyStats/a120d851-711d-4f8c-ad11-2e14c7f649aa/call-yakCountMat/execution/mat.yak",
+  "hprc_polishing_QC.paternalYak": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/merqury/cromwell-executions/standardQualityControl/a8a788a3-89a3-4ee9-960d-822a8099deb0/call-yak/runYakAssemblyStats/a120d851-711d-4f8c-ad11-2e14c7f649aa/call-yakCountPat/execution/pat.yak",
+  "hprc_polishing_QC.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa",
+  "hprc_polishing_QC.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/PAN027.fully_phased.paternal.fixed.fa",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assemblies/unified/PAN027/phased/fixed/PAN027.fully_phased.maternal.fixed.fa",
+  "hprc_polishing_QC.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "hprc_polishing_QC.sampleID": "PAN027",
+  "hprc_polishing_QC.yakMerylKmerSize": 21,
+  "hprc_polishing_QC.enableYakTrioEval": true
+}
