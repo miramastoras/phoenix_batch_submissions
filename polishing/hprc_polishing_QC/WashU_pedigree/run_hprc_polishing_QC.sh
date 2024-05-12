@@ -29,7 +29,7 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
 ## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_DeepPolisher/WashU_pedigree/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC/WashU_pedigree/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
