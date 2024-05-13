@@ -6,7 +6,12 @@
     "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/R941_Guppy5/gt_100k/05_25_21_R941_GM24631_9X_Guppy_5.0.7_prom_sup.gt_100kb.fastq.gz"
   ],
   "hprc_DeepPolisher.HifiReads": [
-    "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/HiFi_DCv1.2_winnowmap/downsampled_bams/HG005.DCv1.2.50x.winnowmapv2.03.bam"
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64017_191126_155613.dc.q20.fastq.gz",
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64017_191120_193948.dc.q20.fastq.gz",
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64109_200304_195708.dc.q20.fastq.gz",
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64017_191205_225630.dc.q20.fastq.gz",
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64017_191214_070352.dc.q20.fastq.gz",
+    "https://storage.googleapis.com/brain-genomics/kishwar/share/deepconsensus/v1.2/m64017_200801_011415.dc.q20.fastq.gz"
   ],
   "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
   "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
