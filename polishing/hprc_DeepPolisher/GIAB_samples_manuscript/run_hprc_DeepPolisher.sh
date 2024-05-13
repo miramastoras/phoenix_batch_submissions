@@ -92,7 +92,7 @@ sbatch \
 
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[27-32]%6 \
+     --array=[18]%1 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
