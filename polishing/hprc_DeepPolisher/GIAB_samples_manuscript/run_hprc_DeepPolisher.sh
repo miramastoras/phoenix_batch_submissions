@@ -109,7 +109,7 @@ sbatch \
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript
 
 ## collect location of QC results
-python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
       --input_data_table ./GIAB_samples_hprc_deepPolisher_manuscript.csv  \
       --output_data_table ./GIAB_samples_hprc_deepPolisher_manuscript.polished.csv  \
       --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'
