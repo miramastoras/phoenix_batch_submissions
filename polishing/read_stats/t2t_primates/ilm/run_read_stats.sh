@@ -4,7 +4,7 @@
 
 ## on personal computer...
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/read_stats/t2t_primates/ont/read_stats_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/read_stats/t2t_primates/ilm/read_stats_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../T2T_primates_all_manuscript.csv \
@@ -18,7 +18,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ###############################################################################
 
 ## on HPC...
-cd /private/groups/patenlab/mira/t2t_primates_polishing/read_stats/ont
+cd /private/groups/patenlab/mira/t2t_primates_polishing/read_stats/ilm
 
 ## check that github repo is up to date
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
@@ -26,15 +26,15 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 ## check that github repo is up to date
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
-## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/read_stats/t2t_primates/ont/* ./
+## get files to run ilmasm in sandbox...
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/read_stats/t2t_primates/ilm/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit job
 sbatch \
-     --job-name=t2t_primates_read_stats_ont \
+     --job-name=t2t_primates_read_stats_ilm \
      --array=[1-6]%6 \
      --partition=long \
      --cpus-per-task=32 \

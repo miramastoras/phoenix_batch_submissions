@@ -42,5 +42,5 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/tasks/read_stats.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
+     --sample_csv T2T_primates_all_manuscript.csv \
      --input_json_path '../read_stats_input_jsons/${SAMPLE_ID}_read_stats.json'
