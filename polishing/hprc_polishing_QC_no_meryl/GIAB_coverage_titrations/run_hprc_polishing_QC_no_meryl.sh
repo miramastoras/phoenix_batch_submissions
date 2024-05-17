@@ -50,9 +50,9 @@ sbatch \
 # submit new titrations for alternate hifi techs - 18,27,28,29 still running through polisher pipeline
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[5,6,7,14-17,19-26,30-32]%30 \
+     --array=[18]%3 \
      --exclude=phoenix-[09,10,22,23,24] \
-     --partition=long \
+     --partition=high_priority \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      --cpus-per-task=32 \
