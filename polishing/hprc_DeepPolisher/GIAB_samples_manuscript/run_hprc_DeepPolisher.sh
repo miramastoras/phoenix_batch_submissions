@@ -103,10 +103,10 @@ sbatch \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
 
-# rerun HG005 60x and 50x DCv1.2 because i was using wrong coverage
+# rerun HG005 50x DCv1.2 because i was using wrong flow cells 
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[6,7]%2 \
+     --array=[7]%1 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
