@@ -53,10 +53,10 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/WashU_pedigree/hprc_DeepPolisher
+cd /private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher
 
 ## collect location of QC results
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table washu_pedigree_polishing_submissions.csv  \
-      --output_data_table washu_pedigree_polishing_submissions.polished.csv  \
+      --input_data_table T2T_primates_all_manuscript.csv  \
+      --output_data_table T2T_primates_all_manuscript.polished.csv  \
       --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'
