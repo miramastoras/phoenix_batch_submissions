@@ -22,8 +22,8 @@ sample_file=$1
 # Read the CSV file and extract the sample ID for the current job array task
 # Skip first row to avoid the header
 sample_id=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $1}' "${sample_file}")
-sample=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $15}' "${sample_file}")
-bed_file=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $14}' "${sample_file}")
+sample=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $2}' "${sample_file}")
+bed_file=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $3}' "${sample_file}")
 
 # Ensure a sample ID is obtained
 if [ -z "${sample_id}" ]; then
@@ -40,34 +40,34 @@ cd ${sample_id}
 mkdir -p toil_logs
 mkdir -p applyPolish_dipcall_outputs
 
-export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
-export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
-export TOIL_SLURM_ARGS="--time=12:00:00 --partition=medium"
-export TOIL_COORDINATION_DIR=/data/tmp
-
-toil clean "./jobstore"
-
-set -o pipefail
-set +e
-time toil-wdl-runner \
-    --jobStore ./jobstore \
-    --stats \
-    --clean=never \
-    --batchSystem single_machine \
-    --maxCores "${SLURM_CPUS_PER_TASK}" \
-    --batchLogsDir ./toil_logs \
-    /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/workflows/applyPolish_dipcall.wdl \
-    ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
-    --outputDirectory ./applyPolish_dipcall_outputs \
-    --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \
-    --runLocalJobsOnWorkers \
-    --retryCount 1 \
-    --disableProgress \
-    2>&1 | tee log.txt
-EXITCODE=$?
-set -e
-
-toil stats --outputFile stats.txt ./jobstore
+# export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
+# export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
+# export TOIL_SLURM_ARGS="--time=12:00:00 --partition=medium"
+# export TOIL_COORDINATION_DIR=/data/tmp
+#
+# toil clean "./jobstore"
+#
+# set -o pipefail
+# set +e
+# time toil-wdl-runner \
+#     --jobStore ./jobstore \
+#     --stats \
+#     --clean=never \
+#     --batchSystem single_machine \
+#     --maxCores "${SLURM_CPUS_PER_TASK}" \
+#     --batchLogsDir ./toil_logs \
+#     /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/workflows/applyPolish_dipcall.wdl \
+#     ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
+#     --outputDirectory ./applyPolish_dipcall_outputs \
+#     --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \
+#     --runLocalJobsOnWorkers \
+#     --retryCount 1 \
+#     --disableProgress \
+#     2>&1 | tee log.txt
+# EXITCODE=$?
+# set -e
+#
+# toil stats --outputFile stats.txt ./jobstore
 
 source /private/home/mmastora/progs/miniconda3/etc/profile.d/conda.sh
 conda activate analysis

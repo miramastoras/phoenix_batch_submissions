@@ -32,7 +32,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 
 # move to work dir
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/GIAB_coverage_titrations/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish_dipcall_happy/GIAB_dp_samples_manuscript/* ./
 
 mkdir -p applyPolish_dipcall_submit_logs
 
@@ -40,7 +40,7 @@ mkdir -p applyPolish_dipcall_submit_logs
 
 sbatch \
      launch_applyPolish_dipcall_happy.sh \
-     GIAB_samples_hprc_deepPolisher_manuscript.csv
+     GIAB_samples_deepPolisher_manuscript.csv
 
 ###############################################################################
 ##                             update table with outputs                     ##
@@ -55,9 +55,8 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --json_location '{sample_id}_applyPolish_dipcall_outputs.json'
 
 # combine output files
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_coverage_titrations/applyPolish_dipcall_happy
 
-cut -f 1 -d "," GIAB_samples_hprc_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
+cut -f 1 -d "," GIAB_samples_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
     do echo $line
     cat ${line}/happy_outputs/${line}_happy_out.summary.csv
   done > all_samples.csv
