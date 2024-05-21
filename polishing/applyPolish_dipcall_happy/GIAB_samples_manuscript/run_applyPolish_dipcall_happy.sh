@@ -79,3 +79,8 @@ cut -f 1 -d "," GIAB_samples_polisher_evaluation_manuscript.csv | grep -v "sampl
     do echo $line
     cat ${line}/happy_outputs/${line}_happy_out.summary.csv
   done
+
+  cut -f 1 -d "," GIAB_samples_polisher_evaluation_manuscript.csv | grep -v "sample_id" | while read line
+      do echo $line
+      cat ${line}/happy_chr20_out/${line}_happy_out.summary.csv
+    done >> all_samples_chr20.csv
