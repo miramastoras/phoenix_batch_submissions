@@ -43,7 +43,7 @@ conda activate analysis
 
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_chr20.sh \
-    `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
+    `pwd`/applyPolish_dipcall_outputs/*polished.dipcall.vcf.gz\
     ${bed_file} \
-    `pwd`/happy_outputs/${sample_id}_happy_out \
+    `pwd`/happy_chr20_out/${sample_id}_happy_out \
     ${sample}
