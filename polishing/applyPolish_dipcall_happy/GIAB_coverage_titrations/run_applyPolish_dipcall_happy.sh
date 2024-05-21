@@ -45,6 +45,9 @@ sbatch \
 sbatch launch_just_happy.sh \
     GIAB_samples_hprc_deepPolisher_manuscript.csv
 
+# run chr20 only for HG002
+sbatch launch_happy_chr20.sh \
+    GIAB_samples_hprc_deepPolisher_manuscript.csv
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
