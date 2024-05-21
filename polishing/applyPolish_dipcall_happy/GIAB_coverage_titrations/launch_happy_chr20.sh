@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=applyPolish_dipcall_happy_chr20
+#SBATCH --job-name=happy_chr20
 #SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
