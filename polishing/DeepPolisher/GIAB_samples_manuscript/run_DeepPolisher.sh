@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher-manuscript \
-     --array=[1-11]%11 \
+     --array=[1,2,7]%3 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
@@ -50,10 +50,10 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript
+cd /private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/phoenix_batch_submissions_manuscript
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./GIAB_samples_hprc_deepPolisher_manuscript.csv  \
-      --output_data_table ./GIAB_samples_hprc_deepPolisher_manuscript.polished.csv  \
-      --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'
+      --input_data_table ./GIAB_samples_deepPolisher_manuscript.csv  \
+      --output_data_table ./GIAB_samples_deepPolisher_manuscript.DP.csv  \
+      --json_location '{sample_id}_DeepPolisher_outputs.json'

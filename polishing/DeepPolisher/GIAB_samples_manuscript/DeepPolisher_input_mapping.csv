@@ -6,3 +6,5 @@ runDeepPolisher.Bam,scalar,$input.correct_bam
 runDeepPolisher.dockerImage,scalar,"google/deepconsensus:polisher_v0.0.8_12122023"
 runDeepPolisher.sampleName,scalar,$input.sample_id
 runDeepPolisher.Fasta,scalar,$input.dipFasta
+runDeepPolisher.DeepPolisher.diskSizeGB,scalar,600
+runDeepPolisher.DeepPolisher.memSizeGB,scalar,256
