@@ -55,6 +55,11 @@ bash /private/home/mmastora/progs/scripts/GIAB_happy.sh \
     /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/dipCallTar/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dipcall.GIAB_T2T_Q100_conf_beds_concordant_50bp.dipcall_z2k.bed \
     /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/happy_GIAB_Q100_concordant/happy_out \
     HG002
+
+# get just chr20 results for HG002
+sbatch \
+     launch_happy_chr20.sh \
+     GIAB_samples_polisher_evaluation_manuscript.csv
 ###############################################################################
 ##                             update table with outputs                     ##
 ###############################################################################
