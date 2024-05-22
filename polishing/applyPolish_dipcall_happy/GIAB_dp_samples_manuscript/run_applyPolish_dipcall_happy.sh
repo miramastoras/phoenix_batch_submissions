@@ -61,7 +61,7 @@ cut -f 1 -d "," GIAB_samples_deepPolisher_manuscript.csv | grep -v "sample_id" |
     cat ${line}/happy_outputs/${line}_happy_out.summary.csv
   done > all_samples.csv
 
-  cut -f 1 -d "," GIAB_samples_hprc_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
+  cut -f 1 -d "," GIAB_samples_deepPolisher_manuscript.csv | grep -v "sample_id" | while read line
       do echo $line
       cat ${line}/happy_chr20_out/${line}_happy_out.summary.csv
     done > all_samples.chr20.csv
