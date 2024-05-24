@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[5]%1 \
+     --array=[7]%1 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \
@@ -50,7 +50,7 @@ sbatch \
 # submit new titrations for alternate hifi techs - 18,27,28,29 still running through polisher pipeline
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[18]%3 \
+     --array=[27,28,29]%3 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=high_priority \
      --mail-type=FAIL,END \

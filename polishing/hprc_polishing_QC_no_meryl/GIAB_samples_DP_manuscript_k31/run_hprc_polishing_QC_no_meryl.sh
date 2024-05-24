@@ -4,7 +4,7 @@
 
 ## on personal computer...
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript/hprc_polishing_QC_no_meryl_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_k31/hprc_polishing_QC_no_meryl_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../GIAB_samples_polisher_evaluation_manuscript.csv \
@@ -18,7 +18,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ###############################################################################
 
 ## on HPC...
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl_k31
 
 ## check that github repo is up to date
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
@@ -27,7 +27,7 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
 ## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_k31/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[2-9,13,15,17-20,]%20 \
+     --array=[2-17,20,23,24,25,26-34]%10 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \
