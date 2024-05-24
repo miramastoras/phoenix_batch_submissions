@@ -3,7 +3,7 @@
   "hprc_polishing_QC.polishedHap2Fasta": NaN,
   "hprc_polishing_QC.polishingVcf": NaN,
   "hprc_polishing_QC.sampleReadsIlm": [
-    "s3://genomeark/species/Pan_paniscus/mPanPan1/assembly_verkko_1.4.1r/alignments/bwa.analysis-dip.illumina.dedup.bam"
+    "/private/groups/patenlab/mira/t2t_primates_polishing/reads/ilm/mPanPan1/bwa.analysis-dip.illumina.dedup.bam"
   ],
   "hprc_polishing_QC.maternalYak": NaN,
   "hprc_polishing_QC.paternalYak": NaN,

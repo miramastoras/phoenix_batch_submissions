@@ -37,8 +37,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit non-trio samples
 sbatch \
      --job-name=hprc-polishing_QC_t2t_primates \
-     --array=[3-6]%2 \
-     --partition=high_priority \
+     --array=[3-6]%4 \
+     --partition=long \
      --exclude=phoenix-[09,10,22,23,24] \
      --cpus-per-task=32 \
      --mem=400gb \

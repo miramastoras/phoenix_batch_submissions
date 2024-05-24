@@ -3,7 +3,7 @@
   "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mGorGor1/analysis/hprc_DeepPolisher_outputs/mGorGor1_Hap2.polished.fasta",
   "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mGorGor1/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
   "hprc_polishing_QC.sampleReadsIlm": [
-    "s3://genomeark/species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.4.1r/alignments/bwa.analysis-dip.illumina.dedup.bam"
+    "/private/groups/patenlab/mira/t2t_primates_polishing/reads/ilm/mGorGor1/bwa.analysis-dip.illumina.dedup.bam"
   ],
   "hprc_polishing_QC.maternalYak": NaN,
   "hprc_polishing_QC.paternalYak": NaN,
