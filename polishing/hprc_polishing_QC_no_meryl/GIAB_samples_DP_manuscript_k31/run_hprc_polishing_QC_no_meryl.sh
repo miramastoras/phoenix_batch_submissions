@@ -50,7 +50,7 @@ sbatch \
 # resubmit HG002 and HG005 t2t polish
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[6,7]%2 \
+     --array=[35,36]%2 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \

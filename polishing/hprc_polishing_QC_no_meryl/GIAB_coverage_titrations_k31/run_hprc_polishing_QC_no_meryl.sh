@@ -35,24 +35,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[7]%1 \
+     --array=[1-5,11-32]%20 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
-     --mail-type=FAIL,END \
-     --mail-user=mmastora@ucsc.edu \
-     --cpus-per-task=32 \
-     --mem=400gb \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
-
-# submit new titrations for alternate hifi techs - 18,27,28,29 still running through polisher pipeline
-sbatch \
-     --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[27,28,29]%3 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --partition=high_priority \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      --cpus-per-task=32 \
