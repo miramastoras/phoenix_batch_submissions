@@ -3,6 +3,6 @@ runDeepVariant.DeepVariant.inputReadsIdx,scalar,$input.finalPhasedDipBai
 runDeepVariant.DeepVariant.modelType,scalar,"PACBIO"
 runDeepVariant.DeepVariant.inputReads,scalar,$input.finalPhasedDipBam
 runDeepVariant.DeepVariant.sample,scalar,$input.sample_id
-runDeepVariant.DeepVariant.assembly,scalar,"google/deepconsensus:polisher_v0.0.8_12122023"
-runDeepVariant.DeepVariant.assemblyIndex,scalar,$input.sample_id
-runDeepVariant.DeepVariant.dockerImage,scalar,
+runDeepVariant.DeepVariant.assembly,scalar,$input.dipFasta
+runDeepVariant.DeepVariant.assemblyIndex,scalar,$input.dipFastaFai
+runDeepVariant.DeepVariant.dockerImage,scalar,"google/deepvariant:1.6.1"
