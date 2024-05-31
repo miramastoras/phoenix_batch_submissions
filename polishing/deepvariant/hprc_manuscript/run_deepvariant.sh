@@ -49,7 +49,7 @@ grep -v "sample_id" hprc_deepvariant.csv | cut -f1 -d"," | while read line; do
 # submit job
 sbatch \
      --job-name=hprc_DV-manuscript \
-     --array=[7-11]%5 \
+     --array=[1-10]%10 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
