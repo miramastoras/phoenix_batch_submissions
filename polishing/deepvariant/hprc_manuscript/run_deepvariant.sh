@@ -33,6 +33,10 @@ mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # combine hap1 and hap2 assemblies into one file, index with bgzip
+grep -v "sample_id" hprc_deepvariant.csv | cut -f1 -d"," | while read line
+    do grep $line hprc_deepvariant.csv | cut -f23 -d","
+  done 
+
 # submit job
 sbatch \
      --job-name=hprc_DV-manuscript \
