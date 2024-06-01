@@ -34,8 +34,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # combine hap1 and hap2 assemblies into one file, index with bgzip
 grep -v "sample_id" hprc_deepvariant.csv | cut -f1 -d"," | while read line; do
-    hap1=`grep $line hprc_deepvariant.csv | cut -f19 -d","`
-    hap2=`grep $line hprc_deepvariant.csv | cut -f18 -d","`
+    hap1=`grep $line hprc_deepvariant.csv | cut -f17 -d","`
+    hap2=`grep $line hprc_deepvariant.csv | cut -f16 -d","`
     cat $hap1 $hap2 > /private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/assembly/${line}_diploid.fasta.gz
     gunzip /private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/assembly/${line}_diploid.fasta.gz
     samtools faidx /private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/assembly/${line}_diploid.fasta
