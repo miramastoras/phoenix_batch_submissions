@@ -45,5 +45,5 @@ sbatch \
      --mail-user=mmastora@ucsc.edu \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC.wdl \
-     --sample_csv hprc_verkko_hprc_deepPolisher.csv \
+     --sample_csv hprc_deepvariant.csv \
      --input_json_path '../hprc_polishing_QC_input_jsons/${SAMPLE_ID}_hprc_polishing_QC.json'

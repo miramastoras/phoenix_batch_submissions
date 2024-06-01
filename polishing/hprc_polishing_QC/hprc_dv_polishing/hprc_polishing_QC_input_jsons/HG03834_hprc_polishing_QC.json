@@ -1,7 +1,7 @@
 {
-  "hprc_polishing_QC.polishedHap1Fasta": "HG03834/analysis/deepvariant_outputs/HG03834.deepvariant_polished.pat.fa",
-  "hprc_polishing_QC.polishedHap2Fasta": "HG03834/analysis/deepvariant_outputs/HG03834.deepvariant_polished.mat.fa",
-  "hprc_polishing_QC.polishingVcf": "HG03834/analysis/deepvariant_outputs/HG03834_deepvariant.PASS.vcf.gz",
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/HG03834/analysis/deepvariant_outputs/HG03834.deepvariant_polished.pat.fa",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/HG03834/analysis/deepvariant_outputs/HG03834.deepvariant_polished.mat.fa",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/HPRC_samples_DV/HG03834/analysis/deepvariant_outputs/HG03834_deepvariant.PASS.vcf.gz",
   "hprc_polishing_QC.sampleReadsIlm": [
     "s3://human-pangenomics/submissions/AD30A684-C7A8-4D24-89B2-040DFF021B0C--Y2_1000G_DATA/HG03834/Illumina/child/HG03834.final.cram"
   ],
