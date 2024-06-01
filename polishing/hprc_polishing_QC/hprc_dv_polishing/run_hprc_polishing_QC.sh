@@ -6,10 +6,10 @@
 
 # Remove top up data from data table
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC/HPRC_verkko/hprc_polishing_QC_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC/hprc_dv_polishing/hprc_polishing_QC_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
-     --data_table ../hprc_verkko_hprc_deepPolisher.csv \
+     --data_table ../hprc_deepvariant.csv \
      --field_mapping ../hprc_polishing_QC_input_mapping.csv \
      --workflow_name hprc_polishing_QC
 
@@ -20,7 +20,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ###############################################################################
 
 ## on HPC...
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/hprc_dv_polishing
 
 ## check that github repo is up to date
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
@@ -29,15 +29,14 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
 ## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC/HPRC_verkko/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC/hprc_dv_polishing/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
-# submit non-trio samples
 sbatch \
-     --job-name=hprc-polishing_QC_HPRC_verkko \
-     --array=[1-8]%8 \
+     --job-name=hprc-polishing_QC_HPRC_DV \
+     --array=[1-10]%10 \
      --partition=long \
      --exclude=phoenix-[09,10,22,23,24] \
      --cpus-per-task=32 \
