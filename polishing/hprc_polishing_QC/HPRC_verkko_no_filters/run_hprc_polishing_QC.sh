@@ -1,3 +1,36 @@
+mkdir /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters
+
+git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
+
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC/HPRC_verkko_no_filters/* ./
+
+# polish assemblies with unfiltered vcf
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/hprc_verkko/
+
+# filter files to pass only, polish raw assemblies
+ls | grep "^HG" | while read line; do
+    mat_fa=`grep ${line} /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters/hprc_verkko_hprc_deepPolisher.csv | cut -f14 -d","`
+    pat_fa=`grep ${line} /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters/hprc_verkko_hprc_deepPolisher.csv | cut -f13 -d","`
+    echo ${line}
+    tabix -p vcf ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz
+    bcftools consensus -H2 -f ${mat_fa} ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz \
+    > ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.mat.fa
+    bcftools consensus -H2 -f ${pat_fa} ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz\
+    > ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.pat.fa
+  done
+
+# list files to paste into csv
+cut -f1 -d"," /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters/hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
+  realpath ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.mat.fa
+done
+
+cut -f1 -d"," /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters/hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
+  realpath ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.pat.fa
+done
+
+# pasted into csv, run input mapping on personal computer
+
 ###############################################################################
 ##                             create input jsons                            ##
 ###############################################################################
@@ -6,7 +39,7 @@
 
 # Remove top up data from data table
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC/HPRC_verkko/hprc_polishing_QC_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC/HPRC_verkko_no_filters/hprc_polishing_QC_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../hprc_verkko_hprc_deepPolisher.csv \
@@ -19,34 +52,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ##                             create launch polishing                      ##
 ###############################################################################
 
-# polish assemblies with unfiltered vcf
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/hprc_verkko/
-
-# filter files to pass only, polish raw assemblies
-ls | grep "^HG" | while read line; do
-    mat_fa=`grep ${line} hprc_verkko_hprc_deepPolisher.csv | cut -f14 -d","`
-    pat_fa=`grep ${line} hprc_verkko_hprc_deepPolisher.csv | cut -f13 -d","`
-    echo ${line}
-    tabix -p vcf ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz
-    bcftools consensus -H1 -f ${mat_fa} ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz \
-    > ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.mat.fa
-    bcftools consensus -H1 -f ${pat_fa} ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz\
-    > ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.pat.fa
-  done
-
-# list files to paste into csv
-cut -f1 -d"," hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
-  realpath ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.mat.fa
-done
-
-cut -f1 -d"," hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
-  realpath ${line}/analysis/hprc_DeepPolisher_outputs/${line}.no_filters_polished.pat.fa
-done
-
-cut -f1 -d"," hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
-  realpath ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.no_filters.vcf.gz
-done
 
 ## on HPC...
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko

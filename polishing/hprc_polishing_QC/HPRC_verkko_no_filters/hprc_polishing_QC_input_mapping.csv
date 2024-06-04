@@ -1,7 +1,7 @@
 input,type,value
-hprc_polishing_QC.polishedHap1Fasta,scalar,$input.polishedAsmHap1
-hprc_polishing_QC.polishedHap2Fasta,scalar,$input.polishedAsmHap2
-hprc_polishing_QC.polishingVcf,scalar,$input.DeepPolisherVcf
+hprc_polishing_QC.polishedHap1Fasta,scalar,$input.polishedAsmHap1_unfiltered
+hprc_polishing_QC.polishedHap2Fasta,scalar,$input.polishedAsmHap2_unfiltered
+hprc_polishing_QC.polishingVcf,scalar,$input.DeepPolisherVcfUnfiltered
 hprc_polishing_QC.sampleReadsIlm,array,$input.child_ilmn
 hprc_polishing_QC.maternalYak,scalar,$input.mat_yak
 hprc_polishing_QC.paternalYak,scalar,$input.pat_yak
