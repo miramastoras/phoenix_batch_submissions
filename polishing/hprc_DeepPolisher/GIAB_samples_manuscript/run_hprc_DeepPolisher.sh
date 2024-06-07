@@ -35,87 +35,19 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[1-3,5-8,10]%10 \
-     --partition=long \
-     --cpus-per-task=32 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --mem=400gb \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-
-# resubmit samples which failed due to out of space
-sbatch \
-     --job-name=hprc-DeepPolisher-manuscript \
-     --array=[6,7]%2 \
-     --partition=long \
-     --cpus-per-task=64 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --mem=400gb \
-     --ntasks-per-node=2 \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-
-# submit HG002 and HG005 CCS data, HG002 DCv1.1 sequel data
-sbatch \
-     --job-name=hprc-DeepPolisher-manuscript \
-     --array=[11,12,13]%1 \
+     --array=[33]%1 \
      --partition=high_priority \
      --cpus-per-task=32 \
+     --mail-type=FAIL,END \
      --exclude=phoenix-[09,10,22,23,24] \
+     --mail-user=mmastora@ucsc.edu \
      --mem=400gb \
      --ntasks-per-node=2 \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-
-# submit coverage titrations for HG002 and HG005 CCS and DCv1.1 HG002
-
-sbatch \
-     --job-name=hprc-DeepPolisher-manuscript \
-     --array=[14-26]%4 \
-     --partition=high_priority \
-     --cpus-per-task=32 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --mem=400gb \
-     --ntasks-per-node=2 \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-
-# submit coverage titrations for Revio DCv1.1 HG002
-
-sbatch \
-     --job-name=hprc-DeepPolisher-manuscript \
-     --array=[18]%1 \
-     --partition=high_priority \
-     --cpus-per-task=32 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --mem=400gb \
-     --ntasks-per-node=2 \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-
-# rerun HG005 50x DCv1.2 because i was using wrong flow cells 
-sbatch \
-     --job-name=hprc-DeepPolisher-manuscript \
-     --array=[7]%1 \
-     --partition=high_priority \
-     --cpus-per-task=32 \
-     --exclude=phoenix-[09,10,22,23,24] \
-     --mem=400gb \
-     --ntasks-per-node=2 \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
+     
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
