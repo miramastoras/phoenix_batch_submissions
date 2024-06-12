@@ -35,9 +35,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[1-5,11-32]%20 \
+     --array=[6-10]%20 \
      --exclude=phoenix-[09,10,22,23,24] \
-     --partition=long \
+     --partition=high_priority \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      --cpus-per-task=32 \
@@ -51,7 +51,6 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_coverage_titrations/hprc_polishing_QC_no_meryl
 
 ## collect location of QC results
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
@@ -60,5 +59,6 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --json_location '{sample_id}_hprc_polishing_QC_no_meryl_outputs.json'
 
 
+# combine output files
 # combine output files
 ls | grep "HG" | while read line ; do echo $line ; cat $line/analysis/hprc_polishing_QC_no_meryl_outputs/${line}.polishing.QC.csv  ; done >> all_samples.csv
