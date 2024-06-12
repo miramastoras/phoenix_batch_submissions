@@ -11,7 +11,7 @@
 #SBATCH --threads-per-core=1
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
-#SBATCH --array=33,34]%2
+#SBATCH --array=[35,36]%2
 #SBATCH --exclude=phoenix-[09,10,22,23,24]
 
 set -ex
@@ -81,3 +81,11 @@ toil stats --outputFile stats.txt ./jobstore
   #  echo "Failed."
     #exit "${EXITCODE}"
 #fi
+
+echo "Succeeded.Running Happy"
+mkdir -p ./happy_chr20_out
+bash /private/home/mmastora/progs/scripts/GIAB_happy_chr20.sh \
+    `pwd`/applyPolish_dipcall_outputs/*polished.dipcall.vcf.gz\
+    ${bed_file} \
+    `pwd`/happy_chr20_out/${sample_id}_happy_out \
+    ${sample}
