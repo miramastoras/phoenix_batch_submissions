@@ -1,0 +1,11 @@
+{
+  "runDeepPolisher.useOptimalGQFilter": true,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-201.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/HG002_verkko2.0_DCv1.2_40x/analysis/hprc_DeepPolisher_outputs/HG002_verkko2.0_DCv1.2_40x_PHARAOH_alignments/HG002_verkko2.0_DCv1.2_40x.hifi.to.diploid.asm.PHARAOH.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/HG002_verkko2.0_DCv1.2_40x/analysis/hprc_DeepPolisher_outputs/HG002_verkko2.0_DCv1.2_40x_PHARAOH_alignments/HG002_verkko2.0_DCv1.2_40x.hifi.to.diploid.asm.PHARAOH.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
+  "runDeepPolisher.sampleName": "HG002_hifi_verkko_model_1",
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_dip_verkko_2.0_2024_06_05.fa",
+  "runDeepPolisher.DeepPolisher.diskSizeGB": 600,
+  "runDeepPolisher.DeepPolisher.memSizeGB": 256
+}
