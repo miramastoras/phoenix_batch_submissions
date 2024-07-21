@@ -1,6 +1,6 @@
 input,type,value
 runDeepPolisher.useOptimalGQFilter,scalar,true
-runDeepPolisher.ModelFilesTarGZ,scalar,"/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz"
+runDeepPolisher.ModelFilesTarGZ,scalar,$input.DeepPolisherModelFiles
 runDeepPolisher.Bai,scalar,$input.correct_bam_bai
 runDeepPolisher.Bam,scalar,$input.correct_bam
 runDeepPolisher.dockerImage,scalar,"google/deepconsensus:polisher_v0.0.8_12122023"
