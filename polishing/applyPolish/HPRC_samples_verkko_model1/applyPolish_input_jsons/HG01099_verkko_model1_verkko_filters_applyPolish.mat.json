@@ -1,0 +1,6 @@
+{
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/verkko/batch1/HG01099/verkko/hic_asm/HG01099_verkko_trio+hic.hap2.fasta.gz",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/hprc_verkko_model1/HG01099_verkko_model1/analysis/DeepPolisher_outputs/polisher_output.GQ16_INS1_GQ6_allelse.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
+  "runApplyPolish.applyPolish.outPrefix": "HG01099_verkko_model1_verkko_filters"
+}

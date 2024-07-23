@@ -41,8 +41,8 @@ mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 sbatch \
-     --job-name=hprc-verkko-model1-applyPolish \
-     --array=[1-16]%16 \
+     --job-name=hprc-verkko-model1-applyPolish-pat \
+     --array=[17-24]%8 \
      --partition=high_priority \
      --cpus-per-task=16 \
      --mail-type=FAIL,END \
@@ -51,8 +51,8 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../applyPolish_input_jsons/${sample_id}_applyPolish.pat.json'
+     --sample_csv hprc_verkko_deepPolisher_verkko_model1.csv \
+     --input_json_path '../applyPolish_input_jsons/${SAMPLE_ID}_applyPolish.pat.json'
 
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/applyPolish_mat
 
@@ -63,8 +63,8 @@ mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 sbatch \
-     --job-name=hprc-verkko-model1-applyPolish \
-     --array=[1-16]%16 \
+     --job-name=hprc-verkko-model1-applyPolish-mat \
+     --array=[17-24]%8 \
      --partition=high_priority \
      --cpus-per-task=16 \
      --mail-type=FAIL,END \
@@ -73,27 +73,28 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish.wdl \
-     --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
-     --input_json_path '../applyPolish_input_jsons/${sample_id}_applyPolish.mat.json'
+     --sample_csv hprc_verkko_deepPolisher_verkko_model1.csv \
+     --input_json_path '../applyPolish_input_jsons/${SAMPLE_ID}_applyPolish.mat.json'
 
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
 
-
 # on hprc after entire batch has finished
-cd /private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/applyPolish
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/applyPolish_pat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./HPRC_int_asm_GQfilters.samples.csv \
-      --output_data_table ./HPRC_int_asm_GQfilters.samples.mat.csv \
-      --json_location '{sample_id}_applyPolish_mat_outputs.json'
+      --input_data_table ./hprc_verkko_deepPolisher_verkko_model1.csv \
+      --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.pat_polished.csv \
+      --json_location '{sample_id}_applyPolish_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap2|g" ./HPRC_int_asm_GQfilters.samples.mat.csv
+sed -i "s|asmPolished|polishedAsmHap1|g" ./hprc_verkko_deepPolisher_verkko_model1.pat_polished.csv
+
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/applyPolish_mat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./HPRC_int_asm_GQfilters.samples.mat.csv \
-      --output_data_table ./HPRC_int_asm_GQfilters.samples.updated.csv \
-      --json_location '{sample_id}_applyPolish_pat_outputs.json'
+      --input_data_table ./hprc_verkko_deepPolisher_verkko_model1.csv \
+      --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv \
+      --json_location '{sample_id}_applyPolish_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap1|g" ./HPRC_int_asm_GQfilters.samples.updated.csv
+sed -i "s|asmPolished|polishedAsmHap2|g" ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv
