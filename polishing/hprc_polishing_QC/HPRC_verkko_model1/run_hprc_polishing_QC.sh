@@ -34,10 +34,9 @@ cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_pol
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
-# submit non-trio samples
 sbatch \
-     --job-name=hprc-polishing_QC_HPRC_verkko_nofilt \
-     --array=[1-16]%16 \
+     --job-name=hprc-polishing_QC_HPRC_verkko_model1 \
+     --array=[17-24]%8 \
      --partition=high_priority \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
@@ -50,13 +49,13 @@ sbatch \
      --input_json_path '../hprc_polishing_QC_input_jsons/${SAMPLE_ID}_hprc_polishing_QC.json'
 
 #
-ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.csv ; done
+ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.verkko_model1.csv ; done
 
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/hprc_polishing_QC
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table hprc_verkko_hprc_deepPolisher.csv  \
-      --output_data_table hprc_verkko_hprc_deepPolisher.polished.csv \
+      --input_data_table hprc_verkko_deepPolisher_verkko_model1.csv  \
+      --output_data_table hprc_verkko_deepPolisher_verkko_model1.QC_k31.csv \
       --json_location '{sample_id}_hprc_polishing_QC_outputs.json'
