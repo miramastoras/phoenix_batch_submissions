@@ -1,0 +1,11 @@
+{
+  "runDeepPolisher.useOptimalGQFilter": true,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-201.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mGorGor1/analysis/hprc_DeepPolisher_outputs/mGorGor1.hifi.to.diploid.asm.PHARAOH.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mGorGor1/analysis/hprc_DeepPolisher_outputs/mGorGor1.hifi.to.diploid.asm.PHARAOH.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
+  "runDeepPolisher.sampleName": "mGorGor1_verkko_model1",
+  "runDeepPolisher.Fasta": "s3://genomeark/species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.4.1r/mGorGor1.dip.20230906.fasta.gz",
+  "runDeepPolisher.DeepPolisher.diskSizeGB": 600,
+  "runDeepPolisher.DeepPolisher.memSizeGB": 256
+}

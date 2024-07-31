@@ -1,0 +1,10 @@
+input,type,value
+runDeepPolisher.useOptimalGQFilter,scalar,true
+runDeepPolisher.ModelFilesTarGZ,scalar,$input.DeepPolisherModelFiles
+runDeepPolisher.Bai,scalar,$input.finalPhasedDipBai
+runDeepPolisher.Bam,scalar,$input.finalPhasedDipBam
+runDeepPolisher.dockerImage,scalar,"google/deepconsensus:polisher_v0.0.8_12122023"
+runDeepPolisher.sampleName,scalar,$input.sample_id
+runDeepPolisher.Fasta,scalar,$input.dip_fasta
+runDeepPolisher.DeepPolisher.diskSizeGB,scalar,600
+runDeepPolisher.DeepPolisher.memSizeGB,scalar,256
