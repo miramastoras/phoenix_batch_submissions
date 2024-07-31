@@ -35,11 +35,11 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[33]%1 \
+     --array=[37]%1 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \
-     --exclude=phoenix-[09,10,22,23,24] \
+     --exclude=phoenix-[09,10,22,23,24,18] \
      --mail-user=mmastora@ucsc.edu \
      --mem=400gb \
      --ntasks-per-node=2 \
@@ -47,7 +47,7 @@ sbatch \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_DeepPolisher.wdl \
      --sample_csv GIAB_samples_hprc_deepPolisher_manuscript.csv \
      --input_json_path '../hprc_DeepPolisher_input_jsons/${SAMPLE_ID}_hprc_DeepPolisher.json'
-     
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
