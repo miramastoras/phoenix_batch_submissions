@@ -35,7 +35,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1_noTopOff/applyPolish_pat
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_samples_verkko_model1/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_verkko_model1_noTopOff/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
@@ -57,8 +57,7 @@ sbatch \
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1_noTopOff/applyPolish_mat
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_samples_verkko_model1/* ./
-
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_verkko_model1_noTopOff/* ./
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
