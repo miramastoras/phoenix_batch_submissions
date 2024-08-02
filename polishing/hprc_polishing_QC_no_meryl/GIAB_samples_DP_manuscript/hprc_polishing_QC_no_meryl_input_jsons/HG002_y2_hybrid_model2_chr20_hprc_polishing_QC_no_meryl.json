@@ -1,8 +1,8 @@
 {
   "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_y2_hybrid_model2_chr20/applyPolish_dipcall_outputs/HG002_y2_hybrid_model2_chr20_hap1.polished.fasta",
   "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_y2_hybrid_model2_chr20/applyPolish_dipcall_outputs/HG002_y2_hybrid_model2_chr20_hap2.polished.fasta",
-  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
-  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.chr20.full_contigs.fa",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.chr20.full_contigs.fa",
   "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hifi_ONT_combined_model/DeepPolisher/HG002_y2_mm2_DCv1.2_R10_Dorado_hybrid_model2_chr20/vcf/polisher_output.vcf.gz",
   "hprc_polishing_QC.sampleYak": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/yak_files/HG002.k21.yak",
   "hprc_polishing_QC.maternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/mat.HG004.yak",
