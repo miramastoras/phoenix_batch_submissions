@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit all
 sbatch \
      --job-name=hprc_polishing_QC_no_meryl_GIAB \
-     --array=[38-39]%2 \
+     --array=[40-41]%1 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
      --mail-type=FAIL,END \
