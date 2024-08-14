@@ -35,11 +35,11 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[37]%1 \
+     --array=[38-39]%1 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \
-     --exclude=phoenix-[09,10,22,23,24,18] \
+     --exclude=phoenix-[02,03,06,07,08,09,10,15,16,17,18,19,22,23,24] \
      --mail-user=mmastora@ucsc.edu \
      --mem=400gb \
      --ntasks-per-node=2 \
