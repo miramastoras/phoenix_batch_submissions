@@ -4,7 +4,7 @@
 
 ## on personal computer...
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_hybrid_k31/hprc_polishing_QC_no_meryl_input_jsons
+cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_hybrid_k21/hprc_polishing_QC_no_meryl_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../GIAB_samples_polisher_evaluation_manuscript.csv \
@@ -18,7 +18,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 ###############################################################################
 
 ## on HPC...
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_DP_manuscript_hybrid_k31/hprc_polishing_QC_no_meryl
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_DP_manuscript_hybrid_k21/hprc_polishing_QC_no_meryl
 
 ## check that github repo is up to date
 git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
@@ -27,14 +27,14 @@ git -C /private/groups/patenlab/mira/phoenix_batch_submissions pull
 git -C /private/groups/hprc/polishing/hpp_production_workflows/ pull
 
 ## get files to run hifiasm in sandbox...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_hybrid_k31/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/hprc_polishing_QC_no_meryl/GIAB_samples_DP_manuscript_hybrid_k21/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit all
 sbatch \
-     --job-name=hprc_polishing_QC_no_meryl_GIAB_hybridk31 \
+     --job-name=hprc_polishing_QC_no_meryl_GIAB_hybridk21 \
      --array=[3,5,7,10,11,13,15,17,24]%20 \
      --exclude=phoenix-[09,10,22,23,24] \
      --partition=long \
@@ -46,7 +46,7 @@ sbatch \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
      --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
      --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
-     
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################

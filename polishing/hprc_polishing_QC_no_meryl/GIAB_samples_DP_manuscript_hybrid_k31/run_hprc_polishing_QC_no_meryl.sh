@@ -46,12 +46,13 @@ sbatch \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC_no_meryl.wdl \
      --sample_csv GIAB_samples_polisher_evaluation_manuscript.csv \
      --input_json_path '../hprc_polishing_QC_no_meryl_input_jsons/${SAMPLE_ID}_hprc_polishing_QC_no_meryl.json'
-     
+
 ###############################################################################
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_DP_manuscript_hybrid_k31/hprc_polishing_QC_no_meryl
+ls | grep "HG" | while read line ; do echo $line ; cat $line/analysis/hprc_polishing_QC_no_meryl_outputs/${line}.polishing.QC.csv  ; done >> all_samples.csv
 
 ## collect location of QC results
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
