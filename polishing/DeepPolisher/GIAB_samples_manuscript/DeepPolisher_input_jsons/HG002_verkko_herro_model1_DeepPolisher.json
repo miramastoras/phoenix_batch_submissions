@@ -1,0 +1,11 @@
+{
+  "runDeepPolisher.useOptimalGQFilter": true,
+  "runDeepPolisher.ModelFilesTarGZ": NaN,
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/ONT_DeepPolisher/alignments/HG002_verkko_porec_herro_ONT/HG002_verkko_porec_herro_ONT.mm2.srt.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/ONT_DeepPolisher/alignments/HG002_verkko_porec_herro_ONT/HG002_verkko_porec_herro_ONT.mm2.srt.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
+  "runDeepPolisher.sampleName": "HG002_verkko_herro_model1",
+  "runDeepPolisher.Fasta": NaN,
+  "runDeepPolisher.DeepPolisher.diskSizeGB": 600,
+  "runDeepPolisher.DeepPolisher.memSizeGB": 256
+}

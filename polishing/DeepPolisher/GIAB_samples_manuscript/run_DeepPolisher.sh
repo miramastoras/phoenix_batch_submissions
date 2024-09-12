@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher-manuscript \
-     --array=[13]%1 \
+     --array=[15,16]%2 \
      --partition=long \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \
