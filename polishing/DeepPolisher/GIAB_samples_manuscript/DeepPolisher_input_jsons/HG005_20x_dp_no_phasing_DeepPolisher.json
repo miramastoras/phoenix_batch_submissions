@@ -6,6 +6,5 @@
   "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
   "runDeepPolisher.sampleName": "HG005_20x_dp_no_phasing",
   "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa",
-  "runDeepPolisher.DeepPolisher.diskSizeGB": 600,
   "runDeepPolisher.DeepPolisher.memSizeGB": 256
 }

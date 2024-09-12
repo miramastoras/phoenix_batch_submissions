@@ -6,6 +6,5 @@
   "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
   "runDeepPolisher.sampleName": "HG005_verkko_asm_hifiasm_model",
   "runDeepPolisher.Fasta": "/private/groups/migalab/juklucas/polishing/HG005/verkko/trio_asm/assembly.fasta",
-  "runDeepPolisher.DeepPolisher.diskSizeGB": 600,
   "runDeepPolisher.DeepPolisher.memSizeGB": 256
 }
