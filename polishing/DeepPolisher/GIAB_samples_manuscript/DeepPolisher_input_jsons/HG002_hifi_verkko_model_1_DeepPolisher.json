@@ -6,6 +6,6 @@
   "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
   "runDeepPolisher.sampleName": "HG002_hifi_verkko_model_1",
   "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_dip_verkko_2.0_2024_06_05.fa",
-  "runDeepPolisher.DeepPolisher.diskSize": 600,
-  "runDeepPolisher.DeepPolisher.memSize": 256
+  "runDeepPolisher.diskSize": 600,
+  "runDeepPolisher.memSize": 256
 }

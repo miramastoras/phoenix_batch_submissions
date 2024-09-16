@@ -6,6 +6,6 @@
   "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
   "runDeepPolisher.sampleName": "HG002_verkko_herro_model1",
   "runDeepPolisher.Fasta": NaN,
-  "runDeepPolisher.DeepPolisher.diskSize": 600,
-  "runDeepPolisher.DeepPolisher.memSize": 256
+  "runDeepPolisher.diskSize": 600,
+  "runDeepPolisher.memSize": 256
 }
