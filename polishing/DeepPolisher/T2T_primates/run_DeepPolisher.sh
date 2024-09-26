@@ -7,7 +7,7 @@
 cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/DeepPolisher/T2T_primates/DeepPolisher_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
-     --data_table ../T2T_primates_pharaoh.csv \
+     --data_table ../T2T_primates_deepPolisher.csv \
      --field_mapping ../DeepPolisher_input_mapping.csv \
      --workflow_name DeepPolisher
 
@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher-primates-verkko_m1 \
-     --array=[1-8]%8 \
+     --array=[7-13]%6 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \
@@ -51,10 +51,10 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/hprc_verkko_model1
+cd /private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./hprc_verkko_deepPolisher_verkko_model1.csv  \
-      --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.DP.csv  \
+      --input_data_table ./T2T_primates_pharaoh.csv   \
+      --output_data_table ./T2T_primates_pharaoh.DP.csv   \
       --json_location '{sample_id}_DeepPolisher_outputs.json'
