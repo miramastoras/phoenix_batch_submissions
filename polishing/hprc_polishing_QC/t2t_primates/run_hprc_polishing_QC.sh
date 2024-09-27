@@ -9,7 +9,7 @@
 cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/hprc_polishing_QC/t2t_primates/hprc_polishing_QC_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
-     --data_table ../T2T_primates_all_manuscript.csv \
+     --data_table ../T2T_primates_deepPolisher.csv \
      --field_mapping ../hprc_polishing_QC_input_mapping.csv \
      --workflow_name hprc_polishing_QC
 
@@ -37,9 +37,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit non-trio samples
 sbatch \
      --job-name=hprc-polishing_QC_t2t_primates \
-     --array=[3-6]%4 \
+     --array=[7-12]%6 \
      --partition=long \
-     --exclude=phoenix-[09,10,22,23,24] \
+     --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
      --mem=400gb \
      --mail-type=FAIL,END \
