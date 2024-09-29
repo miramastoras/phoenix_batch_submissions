@@ -46,7 +46,7 @@ sbatch \
      --mail-user=mmastora@ucsc.edu \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/workflows/hprc_polishing_QC.wdl \
-     --sample_csv T2T_primates_all_manuscript.csv \
+     --sample_csv T2T_primates_deepPolisher.csv \
      --input_json_path '../hprc_polishing_QC_input_jsons/${SAMPLE_ID}_hprc_polishing_QC.json'
 
 
@@ -64,6 +64,10 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
 
 
 # combine outputs into one file
+
+ls | grep "verkko_model2" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.verkko_model2.k31.csv ; done
+
+
 cd /private/groups/hprc/polishing/batch5/hprc_polishing_QC_k21
 ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k21.csv ; done
 ls | grep "NA" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k21.csv ; done
