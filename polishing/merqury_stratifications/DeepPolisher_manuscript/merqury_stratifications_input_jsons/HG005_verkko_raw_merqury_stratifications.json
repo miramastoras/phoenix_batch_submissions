@@ -1,0 +1,8 @@
+{
+  "merqury_stratifications.Hap1Fasta": "/private/groups/migalab/juklucas/polishing/HG005/verkko/trio_asm/assembly.haplotype1.fasta",
+  "merqury_stratifications.Hap2Fasta": "/private/groups/migalab/juklucas/polishing/HG005/verkko/trio_asm/assembly.haplotype2.fasta",
+  "merqury_stratifications.sampleID": "HG005_verkko_raw",
+  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/HG005_verkko_raw_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
+  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz",
+  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_dip_verkko_2.0_2024_06_05.fa.fai"
+}

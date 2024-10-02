@@ -1,0 +1,8 @@
+{
+  "merqury_stratifications.Hap1Fasta": "s3://genomeark/species/Pan_paniscus/mPanPan1/assembly_verkko_1.4.1r/mPanPan1.pat.20230906.fasta.gz",
+  "merqury_stratifications.Hap2Fasta": "s3://genomeark/species/Pan_paniscus/mPanPan1/assembly_verkko_1.4.1r/mPanPan1.mat.20230906.fasta.gz",
+  "merqury_stratifications.sampleID": "mPanPan1_raw",
+  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/mPanPan1_raw_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
+  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPanPan1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPanPan1_verkko_model2.meryl.tar",
+  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/diploid/mPanPan1.dip.20230906.fasta.fai"
+}
