@@ -11,7 +11,7 @@ cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/ali
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../Merqury_stratifications.csv \
      --field_mapping ../align_asm_project_blocks_input_mapping.csv \
-     --workflow_name annotate_edit_with_fp_kmers
+     --workflow_name align_asm_project_blocks
 
 ## add/commit/push to github (hprc_intermediate_assembly)
 
@@ -26,14 +26,14 @@ cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stra
 git -C  /private/groups/patenlab/mira/phoenix_batch_submissions pull
 
 ## get files
-cp -r /private/groups/patenlab/mira/polishing/align_asm_project_blocks/DP_manuscript_merqury_stratifications/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/align_asm_project_blocks/DP_manuscript_merqury_stratifications/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit job
 sbatch \
-     --job-name=annotate_fp_kmers_primates \
+     --job-name=align_asm_project_blocks \
      --array=[1-22]%22 \
      --partition=long \
      --cpus-per-task=32 \
