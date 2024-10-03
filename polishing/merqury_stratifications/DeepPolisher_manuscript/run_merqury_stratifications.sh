@@ -54,7 +54,8 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/merqury_stratifications_wdl
+
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
@@ -65,13 +66,8 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
 
 # combine outputs into one file
 
-ls | grep "verkko_model2" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.verkko_model2.k31.csv ; done
-
-
-cd /private/groups/hprc/polishing/batch5/hprc_polishing_QC_k21
-ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k21.csv ; done
-ls | grep "NA" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k21.csv ; done
-
-cd /private/groups/hprc/polishing/batch5/hprc_polishing_QC_k31
-ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k31.csv ; done
-ls | grep "NA" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.batch5.k31.csv ; done
+ls | grep "^m" | while read line ; do
+    echo $line
+    cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv
+    cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv
+  done
