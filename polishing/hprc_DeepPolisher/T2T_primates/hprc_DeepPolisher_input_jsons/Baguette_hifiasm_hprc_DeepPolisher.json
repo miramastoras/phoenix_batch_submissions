@@ -1,0 +1,17 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/ont_Baguette/01_09_24_R1041_UL_Marmoset_Baguette_1_dorado0.5.3_sup4.3.0_5mCG_5hmCG.bam",
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/ont_Baguette/12_05_23_R1041_UL_Marmoset_Baguette_1_dorado0.5.3_sup4.3.0_5mCG_5hmCG.bam",
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/ont_Baguette/12_05_23_R1041_UL_Marmoset_Baguette_2_dorado0.5.3_sup4.3.0_5mCG_5hmCG.bam",
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/ont_Baguette/12_05_23_R1041_UL_Marmoset_Baguette_3_dorado0.5.3_sup4.3.0_5mCG_5hmCG.bam"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240209_155715_s4.hifi_reads.bc2014.bam",
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_112408_s3.hifi_reads.bc2014.bam",
+    "/private/nanopore/basecalled/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_132334_s4.hifi_reads.bc2014.bam"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/cgl/pnhebbar/marmoset/Baguette/hifiasm_primary_deeppolisher/baguette_hifiasm_hic_phased.asm.hic.hap1.p_ctg.formatted.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/cgl/pnhebbar/marmoset/Baguette/hifiasm_primary_deeppolisher/baguette_hifiasm_hic_phased.asm.hic.hap2.p_ctg.formatted.fa",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz",
+  "hprc_DeepPolisher.sampleName": "Baguette_hifiasm"
+}
