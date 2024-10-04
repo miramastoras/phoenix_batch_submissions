@@ -1,0 +1,12 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/alignments/winnowmap.analysis-dip.ONT.bam"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/groups/patenlab/mira/t2t_primates_polishing/reads/hifi/mPanTro3/winnowmap.analysis-dip.HiFi.bam.60x.bam"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/mPanTro3.hap1.20230906.fasta.gz",
+  "hprc_DeepPolisher.Hap2RawFasta": "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/mPanTro3.hap2.20230906.fasta.gz",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz",
+  "hprc_DeepPolisher.sampleName": "mPanTro3_60x"
+}
