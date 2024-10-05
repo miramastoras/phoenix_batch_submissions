@@ -67,8 +67,15 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
 
 # combine outputs into one file
 
-ls | grep "^m" | while read line ; do
-    echo $line
-    cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv
-    cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv
-  done
+ls | grep "verkko" | while read line ; do
+    inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+    outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+    echo ${line},${inside},${outside}
+  done > all_diploid_results.csv
+
+
+ls | grep "raw" | while read line ; do
+    inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+    outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+    echo ${line},${inside},${outside}
+  done >> all_diploid_results.csv
