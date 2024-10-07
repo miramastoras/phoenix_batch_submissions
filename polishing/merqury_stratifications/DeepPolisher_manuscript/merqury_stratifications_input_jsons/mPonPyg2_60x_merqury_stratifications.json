@@ -1,0 +1,8 @@
+{
+  "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPonPyg2_60x/analysis/hprc_DeepPolisher_outputs/mPonPyg2_60x_Hap1.polished.fasta",
+  "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPonPyg2_60x/analysis/hprc_DeepPolisher_outputs/mPonPyg2_60x_Hap2.polished.fasta",
+  "merqury_stratifications.sampleID": "mPonPyg2_60x",
+  "merqury_stratifications.bedFile": NaN,
+  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonPyg2_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonPyg2_verkko_model2.meryl.tar",
+  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPonPyg2_60x/analysis/hprc_DeepPolisher_outputs/mPonPyg2_60x.dip.polished.fasta.fai"
+}
