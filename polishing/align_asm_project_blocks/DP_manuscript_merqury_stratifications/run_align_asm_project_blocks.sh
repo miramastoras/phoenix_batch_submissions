@@ -34,7 +34,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=align_asm_project_blocks \
-     --array=[35-39]%6 \
+     --array=[40,42-45]%6 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
@@ -54,7 +54,9 @@ sbatch \
 
 cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/align_asm_project_blocks
 
+cut -f1-9 -d"," Merqury_stratifications.csv > Merqury_stratifications.sub.csv
+
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table Merqury_stratifications.csv  \
+      --input_data_table Merqury_stratifications.sub.csv  \
       --output_data_table Merqury_stratifications.projections.csv  \
       --json_location '{sample_id}_align_asm_project_blocks_outputs.json'
