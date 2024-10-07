@@ -2,7 +2,7 @@
   "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPanTro3_60x/analysis/hprc_DeepPolisher_outputs/mPanTro3_60x_Hap1.polished.fasta",
   "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPanTro3_60x/analysis/hprc_DeepPolisher_outputs/mPanTro3_60x_Hap2.polished.fasta",
   "merqury_stratifications.sampleID": "mPanTro3_60x",
-  "merqury_stratifications.bedFile": NaN,
+  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/mPanTro3_60x.GIAB_conf_projection.gtMAPQ1_5x.bed",
   "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPanTro3_verkko_model2/analysis/hprc_polishing_QC_outputs/mPanTro3_verkko_model2.meryl.tar",
   "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPanTro3_60x/analysis/hprc_DeepPolisher_outputs/mPanTro3_60x.dip.polished.fasta.fai"
 }

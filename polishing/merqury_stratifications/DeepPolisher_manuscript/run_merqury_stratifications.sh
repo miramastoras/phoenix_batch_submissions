@@ -36,8 +36,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit non-trio samples
 sbatch \
-     --job-name=merqury_stratifications_hprc \
-     --array=[46-50]%6 \
+     --job-name=merqury_stratifications \
+     --array=[5-10,35-39,40,42,46-50]%20 \
      --partition=medium \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
@@ -67,11 +67,11 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
 
 # combine outputs into one file
 
-ls | grep "HG" | grep "verkko_model2_GQ34" | while read line ; do
+ls | grep "HG" | grep "raw" | while read line ; do
     inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     echo ${line},${inside},${outside}
-  done > HPRC_verkko_model2_GQ34.csv
+  done > HPRC_verkko_raw.csv
 
 
 ls | grep "raw" | while read line ; do
