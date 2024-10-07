@@ -67,11 +67,11 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
 
 # combine outputs into one file
 
-ls | grep "verkko" | while read line ; do
+ls | grep "HG" | grep "verkko_model2_GQ34" | while read line ; do
     inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     echo ${line},${inside},${outside}
-  done > all_diploid_results.csv
+  done > HPRC_verkko_model2_GQ34.csv
 
 
 ls | grep "raw" | while read line ; do
