@@ -37,8 +37,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit non-trio samples
 sbatch \
      --job-name=merqury_stratifications \
-     --array=[43,44,45]%20 \
-     --partition=medium \
+     --array=[37-40,42-50]%20 \
+     --partition=high_priority \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
@@ -60,9 +60,9 @@ cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stra
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table T2T_primates_deepPolisher.csv  \
-      --output_data_table T2T_primates_deepPolisher.k31_QC.csv  \
-      --json_location '{sample_id}_hprc_polishing_QC_outputs.json'
+      --input_data_table Merqury_stratifications.csv \
+      --output_data_table Merqury_stratifications.done.csv  \
+      --json_location '{sample_id}_merqury_stratifications_outputs.json'
 
 
 # combine outputs into one file
@@ -79,3 +79,9 @@ ls | grep "raw" | while read line ; do
     outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     echo ${line},${inside},${outside}
   done >> all_diploid_results.csv
+
+cut -f1 -d"," Merqury_stratifications.csv | grep -v "sample_id" | while read line; do
+  inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+  outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
+  echo ${line},${inside},${outside}
+done >> all_results.csv
