@@ -37,7 +37,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit non-trio samples
 sbatch \
      --job-name=merqury_wg \
-     --array=[19-23]%5 \
+     --array=[19-24]%6 \
      --partition=medium \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
@@ -65,17 +65,7 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
       --json_location '{sample_id}_hprc_polishing_QC_outputs.json'
 
 
-# combine outputs into one file
-
-ls | grep "verkko" | while read line ; do
-    inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
-    outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
-    echo ${line},${inside},${outside}
-  done > all_diploid_results.csv
-
-
-ls | grep "raw" | while read line ; do
-    inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
-    outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
-    echo ${line},${inside},${outside}
-  done >> all_diploid_results.csv
+for sample in HG00738 HG01099 HG01255 HG01884 HG01981 ; do
+    qv=`cat ${sample}_verkko_model2_GQ34/analysis/merqury_outputs/${sample}_verkko_model2.GQ34_DP_polished.merqury.qv | cut -f4 | tail -n 1`
+    echo ${sample},${qv}
+  done > HPRC_verkko_model2_GQ34.whole_genome.csv
