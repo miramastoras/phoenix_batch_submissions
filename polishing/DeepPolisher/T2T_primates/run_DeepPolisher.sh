@@ -34,9 +34,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit job
 sbatch \
-     --job-name=DeepPolisher-primates-verkko_m1 \
-     --array=[7-13]%6 \
-     --partition=high_priority \
+     --job-name=DeepPolisher-primates-verkko_m2 \
+     --array=[25,27-30]%6 \
+     --partition=long \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
@@ -44,7 +44,7 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/groups/hprc/polishing/hpp_production_workflows/QC/wdl/tasks/DeepPolisher.wdl \
-     --sample_csv T2T_primates_pharaoh.csv \
+     --sample_csv T2T_primates_deepPolisher.csv \
      --input_json_path '../DeepPolisher_input_jsons/${SAMPLE_ID}_DeepPolisher.json'
 
 ###############################################################################
@@ -55,6 +55,6 @@ cd /private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./T2T_primates_pharaoh.csv   \
-      --output_data_table ./T2T_primates_pharaoh.DP.csv   \
+      --input_data_table ./T2T_primates_deepPolisher.csv   \
+      --output_data_table ./T2T_primates_deepPolisher.polished.csv  \
       --json_location '{sample_id}_DeepPolisher_outputs.json'
