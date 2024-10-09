@@ -81,4 +81,4 @@ cut -f1 -d"," Merqury_stratifications.csv | grep -v "sample_id" | while read lin
   inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
   outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
   echo ${line},${inside},${outside}
-done >> all_results.csv
+done > all_results.csv
