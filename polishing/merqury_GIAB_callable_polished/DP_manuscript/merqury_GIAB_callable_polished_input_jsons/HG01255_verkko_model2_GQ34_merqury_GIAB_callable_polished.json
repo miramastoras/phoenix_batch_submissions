@@ -1,0 +1,13 @@
+{
+  "merqury_GIAB_callable.sampleID": "HG01255_verkko_model2_GQ34",
+  "merqury_GIAB_callable.stratificationLabel": "GIAB_conf_gt5x_MAPQ1",
+  "merqury_GIAB_callable.refFasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "merqury_GIAB_callable.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01255_verkko_model2.GQ34_DP_polished.Hap1.fasta",
+  "merqury_GIAB_callable.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01255_verkko_model2.GQ34_DP_polished.Hap2.fasta",
+  "merqury_GIAB_callable.rawHap1Fasta": "/private/groups/hprc/verkko/batch1/HG01255/verkko/hic_asm/HG01255_verkko_trio+hic.hap1.fasta.gz",
+  "merqury_GIAB_callable.rawHap2Fasta": "/private/groups/hprc/verkko/batch1/HG01255/verkko/hic_asm/HG01255_verkko_trio+hic.hap2.fasta.gz",
+  "merqury_GIAB_callable.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/hprc_polishing_QC/HG01255_verkko_model2/analysis/hprc_polishing_QC_outputs/HG01255_verkko_model2.meryl.tar",
+  "merqury_GIAB_callable.mosdepthBed": "/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/mosdepth/HG01255_mosdepth_quantized.quant.lt5x_cov.gt100bp.MAPQ1.bed",
+  "merqury_GIAB_callable.dipFai": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01255_verkko_model2.GQ34_DP_polished.dip.fasta.fai",
+  "merqury_GIAB_callable.GIABConfBed": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed"
+}
