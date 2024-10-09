@@ -57,13 +57,11 @@ sbatch \
 
 cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/merqury_stratifications_wdl
 
-
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
       --input_data_table Merqury_stratifications.csv \
       --output_data_table Merqury_stratifications.done.csv  \
       --json_location '{sample_id}_merqury_stratifications_outputs.json'
-
 
 # combine outputs into one file
 
@@ -72,7 +70,6 @@ ls | grep "HG" | grep "raw" | while read line ; do
     outside=`cat $line/analysis/merqury_stratifications_outputs/${line}.outsideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
     echo ${line},${inside},${outside}
   done > HPRC_verkko_raw.csv
-
 
 ls | grep "raw" | while read line ; do
     inside=`cat $line/analysis/merqury_stratifications_outputs/${line}.insideBed.subBed.merqury.qv | cut -f4 | tail -n 1`
