@@ -42,7 +42,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 sbatch \
      --job-name=hprc-verkko-model1-applyPolish-pat \
-     --array=[13-24]%20 \
+     --array=[25-36]%21 \
      --partition=short \
      --time=1:00:00 \
      --cpus-per-task=16 \
@@ -52,13 +52,14 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish.wdl \
-     --sample_csv T2T_primates_deepPolisher.polished.csv \
+     --sample_csv T2T_primates_deepPolisher.csv \
      --input_json_path '../applyPolish_input_jsons/${SAMPLE_ID}_applyPolish.pat.json'
 
 sbatch \
      --job-name=hprc-verkko-model1-applyPolish-mat \
-     --array=[7-12]%6 \
-     --partition=high_priority \
+     --array=[25-36]%21 \
+     --partition=short \
+     --time=1:00:00 \
      --cpus-per-task=16 \
      --mail-type=FAIL,END \
      --exclude=phoenix-[09,10,22,23,24,18] \
@@ -66,7 +67,7 @@ sbatch \
      --mem=400gb \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
      --wdl /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish.wdl \
-     --sample_csv T2T_primates_deepPolisher.polished.csv \
+     --sample_csv T2T_primates_deepPolisher.csv \
      --input_json_path '../applyPolish_input_jsons/${SAMPLE_ID}_applyPolish.mat.json'
 
 ###############################################################################
@@ -77,7 +78,7 @@ sbatch \
 cd /private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./T2T_primates_deepPolisher.polished.csv \
+      --input_data_table ./T2T_primates_deepPolisher.csv \
       --output_data_table ./T2T_primates_deepPolisher.polished.applied.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 
