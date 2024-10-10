@@ -37,7 +37,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit non-trio samples
 sbatch \
      --job-name=hprc-polishing_QC_t2t_primates \
-     --array=[7-12]%6 \
+     --array=[37]%1 \
      --partition=long \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
@@ -54,12 +54,12 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/hprc/polishing/batch5/hprc_polishing_QC_k21
+cd /private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table HPRC_Intermediate_Assembly_s3Locs_Batch4_w_hifiasm_w_QC.polished.csv  \
-      --output_data_table HPRC_Intermediate_Assembly_s3Locs_Batch4_w_hifiasm_w_QC.polished.QC_k21.csv  \
+      --input_data_table T2T_primates_deepPolisher.csv  \
+      --output_data_table T2T_primates_deepPolisher.k31_QC.csv  \
       --json_location '{sample_id}_hprc_polishing_QC_outputs.json'
 
 
