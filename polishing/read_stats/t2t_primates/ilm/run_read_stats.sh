@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=t2t_primates_read_stats_ilm \
-     --array=[1-6]%6 \
+     --array=[7]%1 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24] \
