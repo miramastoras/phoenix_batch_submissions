@@ -34,7 +34,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=align_asm_project_blocks \
-     --array=[40,42-45]%6 \
+     --array=[69,70]%2 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
