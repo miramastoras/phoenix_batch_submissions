@@ -38,7 +38,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit samples
 sbatch \
      --job-name=merqury_stratifications \
-     --array=[1,4-7,9-17]%20 \
+     --array=[20-21]%2 \
      --partition=medium \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
