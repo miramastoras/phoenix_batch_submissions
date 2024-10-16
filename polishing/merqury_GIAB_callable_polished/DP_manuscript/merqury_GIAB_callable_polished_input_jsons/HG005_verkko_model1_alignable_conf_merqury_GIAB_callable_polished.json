@@ -7,7 +7,7 @@
   "merqury_GIAB_callable.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/HG005_verkko_paternal.fasta",
   "merqury_GIAB_callable.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/HG005_verkko_maternal.fasta",
   "merqury_GIAB_callable.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz",
-  "merqury_GIAB_callable.mosdepthBed": "/private/groups/patenlab/mira/hprc_polishing/investigate_variants/HG005_verkko_model1/align_hifiasm_verkko/qv_only_alignable_regions/HG005_verkko_raw_alignable.bed",
+  "merqury_GIAB_callable.mosdepthBed": "/private/groups/patenlab/mira/hprc_polishing/investigate_variants/HG005_verkko_model1/align_hifiasm_verkko/qv_only_alignable_regions/HG005_verkko_raw_alignable.srt.mrg.bed",
   "merqury_GIAB_callable.dipFai": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_verkko_model1_hprc_filters/applyPolish_dipcall_outputs/HG005_verkko_model1_hprc_filters.dip.polished.fasta.fai",
   "merqury_GIAB_callable.GIABConfBed": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed"
 }

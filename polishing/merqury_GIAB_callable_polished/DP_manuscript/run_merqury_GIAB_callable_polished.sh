@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 sbatch \
      --job-name=merqury_stratifications \
      --array=[20-21]%2 \
-     --partition=medium \
+     --partition=high_priority \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
