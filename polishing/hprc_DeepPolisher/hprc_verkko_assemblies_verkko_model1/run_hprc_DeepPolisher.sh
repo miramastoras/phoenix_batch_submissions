@@ -49,10 +49,10 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/hprc_verkko
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/hprc_verkko_assemblies_verkko_model1
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./hprc_verkko_hprc_deepPolisher.csv  \
-      --output_data_table ./hprc_verkko_hprc_deepPolisher.polished.csv  \
+      --input_data_table ./hprc_verkko_samples_verkko_model1.csv  \
+      --output_data_table ./hprc_verkko_samples_verkko_model1.polished.csv  \
       --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'

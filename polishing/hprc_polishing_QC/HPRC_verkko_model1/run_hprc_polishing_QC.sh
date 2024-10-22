@@ -49,7 +49,7 @@ sbatch \
      --input_json_path '../hprc_polishing_QC_input_jsons/${SAMPLE_ID}_hprc_polishing_QC.json'
 
 #
-ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.verkko_model1.csv ; done
+ls | grep "HG" | grep verkko_filters | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.verkko_model1.verkko_filters.csv ; done
 
 
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/hprc_polishing_QC

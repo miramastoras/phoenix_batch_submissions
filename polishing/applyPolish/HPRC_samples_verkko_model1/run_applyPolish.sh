@@ -84,7 +84,7 @@ sbatch \
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/applyPolish_pat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./hprc_verkko_deepPolisher_verkko_model1.csv \
+      --input_data_table ./test.csv \
       --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.pat_polished.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 
@@ -93,7 +93,7 @@ sed -i "s|asmPolished|polishedAsmHap1|g" ./hprc_verkko_deepPolisher_verkko_model
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/applyPolish_mat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./hprc_verkko_deepPolisher_verkko_model1.csv \
+      --input_data_table ./test.csv \
       --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 

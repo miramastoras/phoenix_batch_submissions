@@ -49,13 +49,13 @@ sbatch \
      --input_json_path '../hprc_polishing_QC_input_jsons/${SAMPLE_ID}_hprc_polishing_QC.json'
 
 #
-ls | grep "HG" | grep verkko_filters | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.verkko_model1.verkko_filters.csv ; done
+ls | grep "HG" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.k31.verkko_model1.no_filters.noTopOff.csv ; done
 
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1/hprc_polishing_QC
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1_noTopOff/hprc_polishing_QC
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table hprc_verkko_deepPolisher_verkko_model1.csv  \
-      --output_data_table hprc_verkko_deepPolisher_verkko_model1.QC_k31.csv \
+      --input_data_table hprc_verkko_samples_verkko_model1.csv  \
+      --output_data_table hprc_verkko_samples_verkko_model1.QC.k31.csv \
       --json_location '{sample_id}_hprc_polishing_QC_outputs.json'

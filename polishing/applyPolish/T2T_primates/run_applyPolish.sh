@@ -77,8 +77,10 @@ sbatch \
 # on hprc after entire batch has finished
 cd /private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish
 
+cut -f1-5 T2T_primates_deepPolisher.csv > T2T_primates_deepPolisher.tmp.csv
+
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./T2T_primates_deepPolisher.csv \
+      --input_data_table ./T2T_primates_deepPolisher.tmp.csv \
       --output_data_table ./T2T_primates_deepPolisher.polished.applied.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 

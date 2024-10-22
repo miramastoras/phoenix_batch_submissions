@@ -21,3 +21,37 @@ ls | grep "HG" | while read line
     | grep -v "D16_PLUS" | grep -v "D6_15" | grep -v "I1_5" | grep -v "I16_PLUS" | grep -v "I6_15" \
     | cut -d"," -f 1,3,8,9,11,12,13,17,24,31,38,52
   done > all_samples.stratifications.csv
+
+ls | grep "HG" | while read line
+    do echo $line
+    cat ${line}/happy_stratifications_outputs/${line}_happy_out.summary.csv
+  done > all_samples_summary.csv
+
+# for CHR20 only HG002
+
+# combine outputs files
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/
+
+ls | grep "HG" | while read line
+    do echo $line
+    cat ${line}/happy_chr20_out/${line}_happy_out.extended.csv \
+    | grep -v "PASS" | grep -v "C1_5" | grep -v "C16_PLUS" | grep -v "C6_15" | grep -v "D1_5" \
+    | grep -v "D16_PLUS" | grep -v "D6_15" | grep -v "I1_5" | grep -v "I16_PLUS" | grep -v "I6_15" \
+    | cut -d"," -f 1,3,8,9,11,12,13,17,24,31,38,52
+  done > all_samples.chr20.stratifications.csv
+
+
+
+ls | grep "HG" | while read line
+    do echo $line
+    cat ${line}/happy_stratifications_outputs/${line}_happy_out.summary.csv
+  done > all_samples_summary.csv
+
+#
+for line in HG002_y2_unpolished HG002_nextPolish2
+    do echo $line
+    cat ${line}/happy_chr20_out/happy.extended.csv \
+    | grep -v "PASS" | grep -v "C1_5" | grep -v "C16_PLUS" | grep -v "C6_15" | grep -v "D1_5" \
+    | grep -v "D16_PLUS" | grep -v "D6_15" | grep -v "I1_5" | grep -v "I16_PLUS" | grep -v "I6_15" \
+    | cut -d"," -f 1,3,8,9,11,12,13,17,24,31,38,52
+  done > all_samples.2.chr20.stratifications.csv

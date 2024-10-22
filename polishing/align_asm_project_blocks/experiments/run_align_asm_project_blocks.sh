@@ -52,7 +52,7 @@ sbatch \
 ##                             write output files                   ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/align_asm_project_blocks
+cd /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/align_asm_project_blocks/
 
 cut -f1-9 -d"," Merqury_stratifications.csv > Merqury_stratifications.sub.csv
 

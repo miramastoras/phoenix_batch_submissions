@@ -48,7 +48,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 sbatch \
      --job-name=annotate_fp_kmers_HPRC_verkko \
      --array=[1-8]%8 \
-     --partition=long \
+     --partition=high_priority \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --mem=400gb \

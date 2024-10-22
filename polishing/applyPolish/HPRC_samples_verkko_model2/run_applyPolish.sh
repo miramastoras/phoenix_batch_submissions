@@ -34,7 +34,7 @@ git -C /private/home/mmastora/progs/hpp_production_workflows pull
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/applyPolish_pat
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_verkko_model2/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_samples_verkko_model2/* ./
 
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
@@ -56,7 +56,7 @@ sbatch \
 cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/applyPolish_mat
 
 ## get files to run in polishing folder ...
-cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_verkko_model2/* ./
+cp -r /private/groups/patenlab/mira/phoenix_batch_submissions/polishing/applyPolish/HPRC_samples_verkko_model2/* ./
 mkdir -p slurm_logs
 export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
@@ -79,20 +79,20 @@ sbatch \
 ###############################################################################
 
 # on hprc after entire batch has finished
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1_noTopOff/applyPolish_mat
+cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/applyPolish_mat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./test.csv \
-      --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv \
+      --input_data_table ./hprc_samples_deepPolisher.csv \
+      --output_data_table ./hprc_samples_deepPolisher.csv.mat_polished.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap1|g" ./hprc_verkko_deepPolisher_verkko_model1.pat_polished.csv
+sed -i "s|asmPolished|polishedAsmHap2|g" hprc_samples_deepPolisher.csv.mat_polished.csv
 
-cd /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model1_noTopOff/applyPolish_mat
+cd  /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/applyPolish_pat
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./test.csv \
-      --output_data_table ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv \
+      --input_data_table ./hprc_samples_deepPolisher.csv \
+      --output_data_table ./hprc_samples_deepPolisher.csv.pat_polished.csv \
       --json_location '{sample_id}_applyPolish_outputs.json'
 
-sed -i "s|asmPolished|polishedAsmHap2|g" ./hprc_verkko_deepPolisher_verkko_model1.mat_polished.csv
+sed -i "s|asmPolished|polishedAsmHap1|g" ./hprc_samples_deepPolisher.csv.pat_polished.csv

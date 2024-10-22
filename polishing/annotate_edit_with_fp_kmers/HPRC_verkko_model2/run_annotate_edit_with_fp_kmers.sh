@@ -47,7 +47,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=annotate_fp_kmers_HPRC_verkko \
-     --array=[10]%1 \
+     --array=[9]%1 \
      --partition=short \
      --time=1:00:00 \
      --cpus-per-task=8 \

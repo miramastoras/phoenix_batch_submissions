@@ -35,7 +35,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc-DeepPolisher-manuscript \
-     --array=[38-39]%1 \
+     --array=[38-39]%2 \
      --partition=high_priority \
      --cpus-per-task=32 \
      --mail-type=FAIL,END \

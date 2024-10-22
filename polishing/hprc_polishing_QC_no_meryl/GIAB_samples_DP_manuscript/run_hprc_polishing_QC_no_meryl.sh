@@ -120,3 +120,6 @@ python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_ou
       --input_data_table GIAB_samples_polisher_evaluation_manuscript.csv  \
       --output_data_table GIAB_samples_polisher_evaluation_manuscript.kmer_QC_complete.csv  \
       --json_location '{sample_id}_hprc_polishing_QC_no_meryl_outputs.json'
+
+
+meryl count threads=32 k=31 /private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/illumina/HG002_HiSeq30x_subsampled_R1.fastq.gz /private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/illumina/HG002_HiSeq30x_subsampled_R2.fastq.gz output /private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.redownload.meryl

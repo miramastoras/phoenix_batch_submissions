@@ -53,8 +53,9 @@ sbatch \
 
 cd /private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher
 
+cut -f1-6 -d"," T2T_primates_deepPolisher.csv > T2T_primates_deepPolisher.temp.csv
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table ./T2T_primates_deepPolisher.csv   \
+      --input_data_table ./T2T_primates_deepPolisher.temp.csv   \
       --output_data_table ./T2T_primates_deepPolisher.polished.csv  \
       --json_location '{sample_id}_DeepPolisher_outputs.json'

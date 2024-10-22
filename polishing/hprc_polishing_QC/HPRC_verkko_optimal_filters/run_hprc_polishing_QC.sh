@@ -49,7 +49,7 @@ done
 
 #
 cut -f1 -d"," /private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_no_filters/hprc_verkko_hprc_deepPolisher.csv | grep -v "sample_id" | while read line; do
-  realpath ${line}/analysis/hprc_DeepPolisher_outputs/${line}.verkko_filters_polished.pat.fa
+  realpath ${line}/analysis/hprc_DeepPolisher_outputs/polisher_output.verkko_optimized_GQ.vcf.gz
 done
 # pasted into csv, run input mapping on personal computer
 

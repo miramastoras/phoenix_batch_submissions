@@ -37,7 +37,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=correct_bam \
-     --array=[1-7,9-11]%11 \
+     --array=[7]%4 \
      --partition=long \
      --exclude=phoenix-[09,10,22,23,24] \
      --cpus-per-task=32 \
@@ -54,7 +54,7 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-cd /private/groups/patenlab/mira/hprc_polishing/data/alignments/correct_bam
+cd /private/groups/patenlab/mira/hprc_polishing/data/phoenix_batch_submissions/correct_bam
 
 ## collect location of QC results
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \

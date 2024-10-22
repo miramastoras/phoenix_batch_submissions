@@ -1,6 +1,0 @@
-input,type,value
-runDipcall.dipcall.referenceFai,scalar,/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.fai
-runDipcall.dipcall.referenceFasta,scalar,/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
-runDipcall.dipcall.assemblyFastaMat,scalar,$input.maternalFastaGz
-runDipcall.dipcall.isMaleSample,scalar,true
-runDipcall.dipcall.assemblyFastaPat,scalar,$input.paternalFastaGz

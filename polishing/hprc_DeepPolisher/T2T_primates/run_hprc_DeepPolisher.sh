@@ -35,11 +35,11 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 
 # submit job
 sbatch \
-     --job-name=T2T_primates_hprc-DeepPolisher_marmoset \
+     --job-name=T2T_primates_hprc-DeepPolisher \
      --array=[7]%1 \
      --partition=long \
      --cpus-per-task=32 \
-     --node-list= \
+     --nodelist=phoenix-20 \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      --mem=400gb \
@@ -54,8 +54,9 @@ sbatch \
 
 cd /private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher
 
+cut -f1-11 -d"," T2T_primates_all_manuscript.csv > T2T_primates_all_manuscript.1.csv
 ## collect location of results
 python3 /private/groups/hprc/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
-      --input_data_table T2T_primates_all_manuscript.csv  \
+      --input_data_table T2T_primates_all_manuscript.1.csv  \
       --output_data_table T2T_primates_all_manuscript.polished.csv  \
       --json_location '{sample_id}_hprc_DeepPolisher_outputs.json'

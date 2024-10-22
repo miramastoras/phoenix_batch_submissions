@@ -62,7 +62,6 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
       --output_data_table T2T_primates_deepPolisher.k31_QC.csv  \
       --json_location '{sample_id}_hprc_polishing_QC_outputs.json'
 
-
 # combine outputs into one file
 
 ls | grep "verkko_model2" | while read line ; do cat $line/analysis/hprc_polishing_QC_outputs/$line.polishing.QC.csv >> all_samples_QC.verkko_model2.k31.csv ; done

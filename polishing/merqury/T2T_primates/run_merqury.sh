@@ -71,6 +71,6 @@ for sample in HG00738 HG01099 HG01255 HG01884 HG01981 ; do
   done > HPRC_verkko_model2_GQ34.whole_genome.csv
 
 for sample in mGorGor1 mPanPan1 mPanTro3 mPonAbe1 mPonPyg2 mSymSyn1; do
-      qv=`cat ${sample}_60x/analysis/merqury_outputs/${sample}_60x.polished.merqury.qv | cut -f4 | tail -n 1`
+      qv=`cat ${sample}_60x_verkko_model2_hprc_filters/analysis/merqury_outputs/${sample}_60x_verkko_model2_hprc_filters.polished.merqury.qv | cut -f4 | tail -n 1`
       echo ${sample},${qv}
-    done > T2T_primates_60x_hifiasm_model_hprcGQ.whole_genome.csv
+    done > T2T_primates_60x_verkko_model2_hprc_filters_hprcGQ.whole_genome.csv
