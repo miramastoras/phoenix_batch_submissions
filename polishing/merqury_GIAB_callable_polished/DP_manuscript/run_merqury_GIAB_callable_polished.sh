@@ -38,8 +38,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit samples
 sbatch \
      --job-name=merqury_stratifications \
-     --array=[30,31]%2 \
-     --partition=high_priority \
+     --array=[32,33]%2 \
+     --partition=medium \
      --time=12:00:00 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --cpus-per-task=32 \
