@@ -1,6 +1,0 @@
-{
-  "runReadStats.dockerImage": "mobinasri/fai_read_stats:latest",
-  "runReadStats.reads": [
-    "/private/groups/patenlab/mira/t2t_primates_polishing/reads/ilm/mPonPyg2/bwa.analysis-dip.illumina.dedup.bam"
-  ]
-}

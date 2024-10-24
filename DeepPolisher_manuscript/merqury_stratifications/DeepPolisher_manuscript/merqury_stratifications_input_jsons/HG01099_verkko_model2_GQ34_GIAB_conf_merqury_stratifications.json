@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01099_verkko_model2.GQ34_DP_polished.Hap1.fasta",
-  "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01099_verkko_model2.GQ34_DP_polished.Hap2.fasta",
-  "merqury_stratifications.sampleID": "HG01099_verkko_model2_GQ34_GIAB_conf",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/align_asm_project_blocks/HG01099_verkko_model2_GQ34/analysis/align_asm_project_blocks_outputs/HG01099_verkko_model2.GQ34_DP_polished.dip.asmToRef_HG002_intersect_HG005_GIAB_v4.2.1.projection.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/hprc_polishing_QC/HG01099_verkko_model2/analysis/hprc_polishing_QC_outputs/HG01099_verkko_model2.meryl.tar",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01099_verkko_model2.GQ34_DP_polished.dip.fasta.fai"
-}

@@ -1,9 +1,0 @@
-{
-  "runDeepVariant.DeepVariant.inputReadsIdx": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_debug/run_without_PHARAOH/HG01981_verkko/aln/outfiles/HG01981.hifi.to.diploid.asm.bam.bai",
-  "runDeepVariant.DeepVariant.modelType": "PACBIO",
-  "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_debug/run_without_PHARAOH/HG01981_verkko/aln/outfiles/HG01981.hifi.to.diploid.asm.bam",
-  "runDeepVariant.DeepVariant.sample": "HG01981_verkko_noPharaoh",
-  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko/HG01981_verkko_trio+hic.dip.fasta",
-  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko/HG01981_verkko_trio+hic.dip.fasta.fai",
-  "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
-}

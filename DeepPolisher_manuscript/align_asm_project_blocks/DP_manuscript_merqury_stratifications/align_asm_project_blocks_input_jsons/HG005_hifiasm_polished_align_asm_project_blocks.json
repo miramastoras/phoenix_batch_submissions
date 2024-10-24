@@ -1,9 +1,0 @@
-{
-  "align_asm_project_blocks.sampleID": "HG005_hifiasm_polished",
-  "align_asm_project_blocks.asmHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GIAB/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else/applyPolish_dipcall_outputs/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else_hap1.polished.fasta",
-  "align_asm_project_blocks.asmHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GIAB/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else/applyPolish_dipcall_outputs/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else_hap2.polished.fasta",
-  "align_asm_project_blocks.bedFile": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
-  "align_asm_project_blocks.refHap2Fasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
-  "align_asm_project_blocks.refHap1Fasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
-  "align_asm_project_blocks.projectionDirection": "ref2asm"
-}

@@ -1,8 +1,0 @@
-{
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/hprc_polishing_QC/HG01975/hprc_polishing_QC_outputs/HG01975.merqury.tar.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/hprc_polishing_QC/HG01975/hprc_polishing_QC_outputs/HG01975_hap2.hap2PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/hprc_polishing_QC/HG01975/hprc_polishing_QC_outputs/HG01975_hap1.hap1PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/HG01975/./DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "HG01975",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/hprc_polishing_QC/HG01975/hprc_polishing_QC_outputs/HG01975.polished.merqury.tar.gz"
-}

@@ -1,7 +1,0 @@
-input,type,value
-merqury_stratifications.Hap1Fasta,scalar,$input.Hap1Fasta
-merqury_stratifications.Hap2Fasta,scalar,$input.Hap2Fasta
-merqury_stratifications.sampleID,scalar,$input.sample_id
-merqury_stratifications.bedFile,scalar,$input.bedFile_QV
-merqury_stratifications.ilmMerylDBTarGz,scalar,$input.ilmMerylDBTarGz
-merqury_stratifications.dipFai,scalar,$input.dipFai

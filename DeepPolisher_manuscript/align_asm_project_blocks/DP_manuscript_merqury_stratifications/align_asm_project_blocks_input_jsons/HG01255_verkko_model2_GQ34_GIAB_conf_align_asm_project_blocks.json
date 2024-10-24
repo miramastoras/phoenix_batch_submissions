@@ -1,9 +1,0 @@
-{
-  "align_asm_project_blocks.sampleID": "HG01255_verkko_model2_GQ34_GIAB_conf",
-  "align_asm_project_blocks.asmHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01255_verkko_model2.GQ34_DP_polished.Hap1.fasta",
-  "align_asm_project_blocks.asmHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko_model2_GQ34_polished/HG01255_verkko_model2.GQ34_DP_polished.Hap2.fasta",
-  "align_asm_project_blocks.bedFile": NaN,
-  "align_asm_project_blocks.refHap2Fasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
-  "align_asm_project_blocks.refHap1Fasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
-  "align_asm_project_blocks.projectionDirection": "ref2asm"
-}

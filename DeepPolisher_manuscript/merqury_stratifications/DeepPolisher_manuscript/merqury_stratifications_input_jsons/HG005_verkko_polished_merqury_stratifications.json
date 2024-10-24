@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_hifi_verkko_model_2_hprc_filters/applyPolish_dipcall_outputs/HG005_hifi_verkko_model_2_hprc_filters_hap1.polished.fasta",
-  "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_hifi_verkko_model_2_hprc_filters/applyPolish_dipcall_outputs/HG005_hifi_verkko_model_2_hprc_filters_hap2.polished.fasta",
-  "merqury_stratifications.sampleID": "HG005_verkko_polished",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/HG005_verkko_polished_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_hifi_verkko_model_2_hprc_filters/applyPolish_dipcall_outputs/HG005_hifi_verkko_model_2_hprc_filters.dip.polished.fasta.fai"
-}

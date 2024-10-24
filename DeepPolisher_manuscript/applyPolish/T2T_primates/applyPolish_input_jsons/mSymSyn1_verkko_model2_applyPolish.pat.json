@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "s3://genomeark/species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.4.1r/mSymSyn1.hap1.20230906.fasta.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher/mSymSyn1_verkko_model2/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap1",
-  "runApplyPolish.applyPolish.outPrefix": "mSymSyn1_verkko_model2"
-}

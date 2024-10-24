@@ -1,8 +1,0 @@
-{
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG2_HG5_mm2_k31_k21_hprc_polishing_QC/HG005_raw_k31/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.merqury.k31.tar.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG2_HG5_mm2_k31_k21_hprc_polishing_QC/HG005_k21_dockerv0.0.8_12122023/hprc_polishing_QC_no_meryl_outputs/HG005_hap2.hap2PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG2_HG5_mm2_k31_k21_hprc_polishing_QC/HG005_k21_dockerv0.0.8_12122023/hprc_polishing_QC_no_meryl_outputs/HG005_hap1.hap1PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG005_y2_DCv1.2_PHv6_DPmm2model1_docker_v0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "HG005_mm2_model1_k31",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/HG2_HG5_mm2_k31_k21_hprc_polishing_QC/HG005_k31_dockerv0.0.8_12122023/hprc_polishing_QC_no_meryl_outputs/HG005_k31_dockerv0.0.8_mm2_model1.merqury.tar.gz"
-}

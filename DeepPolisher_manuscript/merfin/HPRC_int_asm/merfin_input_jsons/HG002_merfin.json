@@ -1,6 +1,0 @@
-{
-  "runMerfin.readmerDBTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y1_terra_tables/meryl_dbs/ilm.k21.meryl.tar",
-  "runMerfin.Merfin.mode": "-loose",
-  "runMerfin.Merfin.vcfFile": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG002_y2_DCv1.2_PHv6_DPmm2model1_dockerv0.0.8_12122023/DeepPolisher_outfiles/polisher_output.vcf.gz",
-  "runMerfin.Merfin.refFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa"
-}

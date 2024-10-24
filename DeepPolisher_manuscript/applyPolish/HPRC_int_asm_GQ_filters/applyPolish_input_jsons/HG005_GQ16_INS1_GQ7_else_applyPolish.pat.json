@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ16_INS1_GQ7_else/HG005.polisher_output.GQ16_INS1_GQ7_else.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap1",
-  "runApplyPolish.applyPolish.outPrefix": "HG005_GQ16_INS1_GQ7_else"
-}

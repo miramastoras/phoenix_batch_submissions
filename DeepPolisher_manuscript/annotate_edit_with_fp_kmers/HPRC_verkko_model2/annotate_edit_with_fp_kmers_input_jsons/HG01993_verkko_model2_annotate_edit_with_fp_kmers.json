@@ -1,8 +1,0 @@
-{
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": NaN,
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": NaN,
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": NaN,
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": NaN,
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "HG01993_verkko_model2",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": NaN
-}

@@ -1,3 +1,0 @@
-input,type,value
-runReadStats.dockerImage,scalar,"mobinasri/fai_read_stats:latest"
-runReadStats.reads,array,$input.hifi_reads_all

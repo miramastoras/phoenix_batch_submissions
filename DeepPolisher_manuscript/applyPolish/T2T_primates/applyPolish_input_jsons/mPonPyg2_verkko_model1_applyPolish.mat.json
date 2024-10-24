@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "s3://genomeark/species/Pongo_pygmaeus/mPonPyg2/assembly_verkko_1.4.1r/mPonPyg2.hap2.20230906.fasta.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher/mPonPyg2_verkko_model1/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.outPrefix": "mPonPyg2_verkko_model1"
-}

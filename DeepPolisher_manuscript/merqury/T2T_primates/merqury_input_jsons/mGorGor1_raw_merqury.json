@@ -1,5 +1,0 @@
-{
-  "runMerqury.merqury.assemblyFasta": "s3://genomeark/species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.4.1r/mGorGor1.pat.20230906.fasta.gz",
-  "runMerqury.merqury.altHapFasta": "s3://genomeark/species/Gorilla_gorilla/mGorGor1/assembly_verkko_1.4.1r/mGorGor1.mat.20230906.fasta.gz",
-  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mGorGor1_verkko_model2/analysis/hprc_polishing_QC_outputs/mGorGor1_verkko_model2.meryl.tar"
-}

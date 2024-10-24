@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/masri/hprc/polishing/HG002/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/HG002/./DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap1",
-  "runApplyPolish.applyPolish.outPrefix": "HG002"
-}

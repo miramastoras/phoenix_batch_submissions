@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GIAB/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else/applyPolish_dipcall_outputs/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else_hap1.polished.fasta",
-  "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GIAB/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else/applyPolish_dipcall_outputs/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else_hap2.polished.fasta",
-  "merqury_stratifications.sampleID": "HG005_hifiasm_polished",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/HG005_hifiasm_polished_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GIAB/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else/applyPolish_dipcall_outputs/HG005_GQ20_INS1_GQ12_DEL1_GQ5_else_dip.polished.fasta.fai"
-}

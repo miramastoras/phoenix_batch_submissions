@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "s3://genomeark/species/Pan_paniscus/mPanPan1/assembly_verkko_1.4.1r/mPanPan1.mat.20230906.fasta.gz",
-  "runApplyPolish.applyPolish.polishingVcf": NaN,
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.outPrefix": "mPanPan1_60x_verkko_model2"
-}

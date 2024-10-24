@@ -1,5 +1,0 @@
-{
-  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_debug/HG005_DV/HG005.hifiasm.PHARAOH.DV_polished.pat.fa",
-  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_debug/HG005_DV/HG005.hifiasm.PHARAOH.DV_polished.mat.fa",
-  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz"
-}

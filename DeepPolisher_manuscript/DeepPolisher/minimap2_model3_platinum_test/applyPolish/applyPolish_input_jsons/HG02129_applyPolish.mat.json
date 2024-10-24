@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/assembly/batch1/HG02129/analysis/assembly/HG02129.mat.fa.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/minimap2_model3_platinum_test/HG02129/./DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.outPrefix": "HG02129"
-}

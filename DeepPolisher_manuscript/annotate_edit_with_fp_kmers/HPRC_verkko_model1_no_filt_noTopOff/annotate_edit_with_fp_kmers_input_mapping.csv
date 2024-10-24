@@ -1,7 +1,0 @@
-input,type,value
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz,scalar,$input.RawWGMerquryTarBall
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf,scalar,$input.hap2ToRawPaf
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf,scalar,$input.hap1ToRawPaf
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz,scalar,$input.DeepPolisherNoFiltersVcf
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample,scalar,$input.sample_id
-runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz,scalar,$input.PolishedWGMerquryTarBall

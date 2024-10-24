@@ -1,8 +1,0 @@
-{
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/optimize_GQ_filters/HG01975_k31/hprc_polishing_QC_outputs/HG01975.merqury.tar.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/optimize_GQ_filters/HG01975_k31/hprc_polishing_QC_outputs/HG01975_Hap2.hap2PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/optimize_GQ_filters/HG01975_k31/hprc_polishing_QC_outputs/HG01975_Hap1.hap1PolToRaw.paf",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": "/private/groups/hprc/polishing/batch2/HG01975/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "HG01975_k31",
-  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/optimize_GQ_filters/HG01975_k31/hprc_polishing_QC_outputs/HG01975.polished.merqury.tar.gz"
-}

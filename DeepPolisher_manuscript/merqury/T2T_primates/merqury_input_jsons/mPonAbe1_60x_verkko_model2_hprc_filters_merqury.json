@@ -1,5 +1,0 @@
-{
-  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish/mPonAbe1_60x_verkko_model2_hprc_filters/analysis/applyPolish_outputs/mPonAbe1_60x_verkko_model2_hprc_filters_hap1.polished.fasta",
-  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish/mPonAbe1_60x_verkko_model2_hprc_filters/analysis/applyPolish_outputs/mPonAbe1_60x_verkko_model2_hprc_filters_hap2.polished.fasta",
-  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2.meryl.tar"
-}

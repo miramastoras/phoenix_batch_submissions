@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "s3://genomeark/species/Pongo_abelii/mPonAbe1/assembly_verkko_1.4.1r/mPonAbe1.hap1.20230906.fasta.gz",
-  "merqury_stratifications.Hap2Fasta": "s3://genomeark/species/Pongo_abelii/mPonAbe1/assembly_verkko_1.4.1r/mPonAbe1.hap2.20230906.fasta.gz",
-  "merqury_stratifications.sampleID": "mPonAbe1_raw",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/mPonAbe1_raw_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2.meryl.tar",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/diploid/mPonAbe1.dip.20230906.fasta.fai"
-}

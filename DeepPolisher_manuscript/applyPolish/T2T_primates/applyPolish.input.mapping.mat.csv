@@ -1,5 +1,0 @@
-input,type,value
-runApplyPolish.applyPolish.asmRaw,scalar,$input.hap2_fasta
-runApplyPolish.applyPolish.polishingVcf,scalar,$input.PolisherVcfNoFilter
-runApplyPolish.applyPolish.HaplotypeLabel,scalar,hap2
-runApplyPolish.applyPolish.outPrefix,scalar,$input.sample_id

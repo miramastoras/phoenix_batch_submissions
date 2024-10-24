@@ -1,8 +1,0 @@
-input,type,value
-runDeepVariant.DeepVariant.inputReadsIdx,scalar,$input.finalPhasedDipBai
-runDeepVariant.DeepVariant.modelType,scalar,"PACBIO"
-runDeepVariant.DeepVariant.inputReads,scalar,$input.finalPhasedDipBam
-runDeepVariant.DeepVariant.sample,scalar,$input.sample_id
-runDeepVariant.DeepVariant.assembly,scalar,$input.dipFasta
-runDeepVariant.DeepVariant.assemblyIndex,scalar,$input.dipFastaFai
-runDeepVariant.DeepVariant.dockerImage,scalar,"google/deepvariant:1.6.1"

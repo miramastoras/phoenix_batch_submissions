@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/mPanTro3.hap2.20230906.fasta.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher/mPanTro3_60x_verkko_model2/analysis/DeepPolisher_outputs/polisher_output.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.outPrefix": "mPanTro3_60x_verkko_model2_hprc_filters"
-}

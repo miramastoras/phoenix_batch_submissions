@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "/private/groups/hprc/verkko/batch1/HG00738/verkko/hic_asm/HG00738_verkko_trio+hic.hap1.fasta.gz",
-  "merqury_stratifications.Hap2Fasta": "/private/groups/hprc/verkko/batch1/HG00738/verkko/hic_asm/HG00738_verkko_trio+hic.hap2.fasta.gz",
-  "merqury_stratifications.sampleID": "HG00738_verkko_raw",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/HG00738_verkko_raw.GIAB_conf_projection.gtMAPQ1_5x.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/hprc_polishing_QC/HG00738_verkko_model2/analysis/hprc_polishing_QC_outputs/HG00738_verkko_model2.meryl.tar",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko/HG00738_verkko_trio+hic.dip.fasta.fai"
-}

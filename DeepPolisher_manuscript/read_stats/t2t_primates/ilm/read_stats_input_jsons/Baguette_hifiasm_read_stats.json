@@ -1,9 +1,0 @@
-{
-  "runReadStats.dockerImage": "mobinasri/fai_read_stats:latest",
-  "runReadStats.reads": [
-    "/private/nanopore/basecalled/marmoset/Illumina_WGS/240_GT24-00124_GTTACGCANNNNNNNNN-ATGGCGAT_S113_L006_R1_001.fastq.gz",
-    "/private/nanopore/basecalled/marmoset/Illumina_WGS/240_GT24-00124_GTTACGCANNNNNNNNN-ATGGCGAT_S113_L006_R2_001.fastq.gz",
-    "/private/nanopore/basecalled/marmoset/Illumina_WGS/240_GT24-00124_GTTACGCANNNNNNNNN-ATGGCGAT_S113_L007_R1_001.fastq.gz",
-    "/private/nanopore/basecalled/marmoset/Illumina_WGS/240_GT24-00124_GTTACGCANNNNNNNNN-ATGGCGAT_S113_L007_R2_001.fastq.gz"
-  ]
-}

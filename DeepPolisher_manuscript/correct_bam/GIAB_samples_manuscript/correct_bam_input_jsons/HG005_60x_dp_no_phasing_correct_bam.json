@@ -1,6 +1,0 @@
-{
-  "runCorrectBam.correctBam.dockerImage": "mobinasri/secphase:dev-v0.2.0-hom",
-  "runCorrectBam.correctBam.Bam": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/HiFi_DCv1.2_minimap2/60x_bam/long_read_aligner_scattered_outfiles/HG005.DCv1.2_60x.minimap2v2.26.bam",
-  "runCorrectBam.correctBam.options": "--maxDiv 0.02 --minReadLen 0 --minAlignmentLen 0",
-  "runCorrectBam.correctBam.suffix": "maxDiv.02"
-}

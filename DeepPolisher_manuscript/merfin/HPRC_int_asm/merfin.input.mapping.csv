@@ -1,5 +1,0 @@
-input,type,value
-runMerfin.readmerDBTarball,scalar,$input.meryl_db
-runMerfin.Merfin.mode,scalar,-loose
-runMerfin.Merfin.vcfFile,scalar,$input.polishing_vcf
-runMerfin.Merfin.refFasta,scalar,$input.dip_raw_fasta

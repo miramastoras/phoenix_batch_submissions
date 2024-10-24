@@ -1,8 +1,0 @@
-{
-  "merqury_stratifications.Hap1Fasta": "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/mPanTro3.hap1.20230906.fasta.gz",
-  "merqury_stratifications.Hap2Fasta": "s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_verkko_1.4.1r/mPanTro3.hap2.20230906.fasta.gz",
-  "merqury_stratifications.sampleID": "mPanTro3_raw",
-  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_stratifications/subtract_dropout_from_GIAB/QV_beds/mPanTro3_raw_dip.GIAB_conf_projection.gtMAPQ1_5x.bed",
-  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPanTro3_verkko_model2/analysis/hprc_polishing_QC_outputs/mPanTro3_verkko_model2.meryl.tar",
-  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/diploid/mPanTro3.dip.20230906.fasta.fai"
-}

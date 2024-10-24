@@ -1,6 +1,0 @@
-{
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/assembly/batch1/HG02129/analysis/assembly/HG02129.mat.fa.gz",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/GQ_filters/GQ16_INS1_GQ7_else/HG02129.polisher_output.GQ16_INS1_GQ7_else.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.outPrefix": "HG02129_GQ16_INS1_GQ7_else"
-}
