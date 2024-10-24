@@ -1,0 +1,12 @@
+{
+  "applyPolish_dipcall.referenceFasta": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "applyPolish_dipcall.referenceFastaFai": "/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta.fai",
+  "applyPolish_dipcall.hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
+  "applyPolish_dipcall.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
+  "applyPolish_dipcall.sampleID": "HG005_DV_hybrid_no_filter",
+  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/data/HG005_GRCh38_1_22_v4.2.1_benchmark.bed",
+  "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/t2t_polish/HG005_y2/variant_calling_manually/HG005_y2_hybrid.variants.vcf.gz",
+  "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/t2t_polish/HG005_y2/variant_calling_manually/HG005_y2_hybrid.variants.vcf.gz",
+  "applyPolish_dipcall.dipcall_t.isMaleSample": true,
+  "applyPolish_dipcall.GenotypeToPolish": "1"
+}

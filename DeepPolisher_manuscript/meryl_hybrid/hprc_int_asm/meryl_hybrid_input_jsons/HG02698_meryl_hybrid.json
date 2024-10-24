@@ -1,0 +1,12 @@
+{
+  "runMeryl.identifier": "HG02698",
+  "runMeryl.sampleReadsILM": [
+    "s3://human-pangenomics/submissions/325b4b1c-9f20-49be-b03a-596da89c466e--1000G_CHILDREN/HG02698/1000G_data/HG02698.final.cram"
+  ],
+  "runMeryl.sampleReadsHiFi": [
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02698/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02698.m64043_210519_013026.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02698/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02698.m64136_210514_184433.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02698/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02698.m64136_210517_184202.dc.q20.fastq.gz"
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
+}

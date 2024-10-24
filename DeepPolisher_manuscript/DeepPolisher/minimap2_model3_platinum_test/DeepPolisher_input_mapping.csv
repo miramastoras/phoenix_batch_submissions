@@ -1,0 +1,8 @@
+input,type,value
+runDeepPolisher.DPPostProcess.useOptimalGQFilter,scalar,false
+runDeepPolisher.ModelFilesTarGZ,scalar,$input.model_files
+runDeepPolisher.Bai,scalar,$input.bai
+runDeepPolisher.Bam,scalar,$input.bam
+runDeepPolisher.dockerImage,scalar,"google/deepconsensus:polisher_v0.0.8_12122023"
+runDeepPolisher.sampleName,scalar,$input.sample_id
+runDeepPolisher.Fasta,scalar,$input.raw_fasta

@@ -1,0 +1,15 @@
+input,type,value
+hprc_polishing_QC.polishedHap1Fasta,scalar,$input.polished_pat_fa
+hprc_polishing_QC.polishedHap2Fasta,scalar,$input.polished_mat_fa
+hprc_polishing_QC.rawHap1Fasta,scalar,$input.raw_pat_fa
+hprc_polishing_QC.rawHap2Fasta,scalar,$input.raw_mat_fa
+hprc_polishing_QC.polishingVcf,scalar,$input.polishing_vcf_dip
+hprc_polishing_QC.sampleYak,scalar,$input.yak_element_k31
+hprc_polishing_QC.maternalYak,scalar,$input.maternalYak
+hprc_polishing_QC.paternalYak,scalar,$input.paternalYak
+hprc_polishing_QC.ilmMerylDBTarGz,scalar,$input.element_k31_meryl
+hprc_polishing_QC.grch38Fasta,scalar,/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
+hprc_polishing_QC.grch38InsideConfRegions,scalar,/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed
+hprc_polishing_QC.grch38OutsideConfRegions,scalar,/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed
+hprc_polishing_QC.sampleID,scalar,$input.sample_id
+hprc_polishing_QC.toilRunLog,scalar,/private/groups/hprc/polishing/batch1/hprc_DeepPolisher_submit_logs/hprcDeepPolisher_submit_HPRC-DeepPolisher-batch1_relaunch_1501469_1501469_1.log

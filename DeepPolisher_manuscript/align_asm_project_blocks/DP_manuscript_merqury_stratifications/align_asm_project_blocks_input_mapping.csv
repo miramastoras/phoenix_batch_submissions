@@ -1,0 +1,8 @@
+input,type,value
+align_asm_project_blocks.sampleID,scalar,$input.sample_id
+align_asm_project_blocks.asmHap1Fasta,scalar,$input.Hap1Fasta
+align_asm_project_blocks.asmHap2Fasta,scalar,$input.Hap2Fasta
+align_asm_project_blocks.bedFile,scalar,$input.grch38_confidence
+align_asm_project_blocks.refHap2Fasta,scalar,"/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+align_asm_project_blocks.refHap1Fasta,scalar,"/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+align_asm_project_blocks.projectionDirection,scalar,"ref2asm"

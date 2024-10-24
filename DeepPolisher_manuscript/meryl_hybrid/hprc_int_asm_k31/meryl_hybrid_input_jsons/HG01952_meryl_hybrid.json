@@ -1,0 +1,18 @@
+{
+  "runMeryl.identifier": "HG01952",
+  "runMeryl.sampleReadsILM": [
+    "s3://human-pangenomics/working/HPRC/HG01952/raw_data/Illumina/child/HG01952.final.cram"
+  ],
+  "runMeryl.sampleReadsHiFi": [
+    "s3://human-pangenomics/submissions/3A25CF8A-1F36-42EE-BC9F-D29CECAA2A99--HPRC_DEEPCONSENSUS_v1pt2_2023_12_q20/HG01952/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01952.m64136_200612_201033.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/3A25CF8A-1F36-42EE-BC9F-D29CECAA2A99--HPRC_DEEPCONSENSUS_v1pt2_2023_12_q20/HG01952/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01952.m64136_200614_192134.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/3A25CF8A-1F36-42EE-BC9F-D29CECAA2A99--HPRC_DEEPCONSENSUS_v1pt2_2023_12_q20/HG01952/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01952.m64136_200616_013426.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/3A25CF8A-1F36-42EE-BC9F-D29CECAA2A99--HPRC_DEEPCONSENSUS_v1pt2_2023_12_q20/HG01952/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01952.m64136_200617_080019.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_081401_s1.hifi_reads.bc2029.bam",
+    "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_101332_s2.hifi_reads.bc2029.bam",
+    "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_121301_s3.hifi_reads.bc2029.bam",
+    "s3://human-pangenomics/submissions/7acad60d-3d90-4dcf-9291-e2c679724df3--WUSTL_HPRC_HiFi_Year1_TopUp/HG01952/PacBio_HiFi/m84081_231222_141231_s4.hifi_reads.bc2029.bam"
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa",
+  "runMeryl.kmerSize": 31
+}

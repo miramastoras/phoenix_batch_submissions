@@ -1,0 +1,6 @@
+{
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/verkko/batch1/HG01496/verkko/hic_asm/HG01496_verkko_trio+hic.hap2.fasta.gz",
+  "runApplyPolish.applyPolish.polishingVcf": NaN,
+  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
+  "runApplyPolish.applyPolish.outPrefix": "HG01496_verkko_model2"
+}

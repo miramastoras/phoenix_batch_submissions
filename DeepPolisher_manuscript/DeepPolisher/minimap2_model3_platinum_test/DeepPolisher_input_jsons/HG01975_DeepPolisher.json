@@ -1,0 +1,9 @@
+{
+  "runDeepPolisher.DPPostProcess.useOptimalGQFilter": false,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-128.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/hprc/polishing/batch2/HG01975/hprc_DeepPolisher_outputs/HG01975.hifi.to.diploid.asm.PHARAOH.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/hprc/polishing/batch2/HG01975/hprc_DeepPolisher_outputs/HG01975.hifi.to.diploid.asm.PHARAOH.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.0.8_12122023",
+  "runDeepPolisher.sampleName": "HG01975",
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/HG01975.dip.fa"
+}

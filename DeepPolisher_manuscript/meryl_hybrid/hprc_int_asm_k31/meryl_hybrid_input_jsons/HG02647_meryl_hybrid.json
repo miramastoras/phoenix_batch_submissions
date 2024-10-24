@@ -1,0 +1,14 @@
+{
+  "runMeryl.identifier": "HG02647",
+  "runMeryl.sampleReadsILM": [
+    "s3://human-pangenomics/submissions/AD30A684-C7A8-4D24-89B2-040DFF021B0C--Y2_1000G_DATA/HG02647/Illumina/child/HG02647.final.cram"
+  ],
+  "runMeryl.sampleReadsHiFi": [
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02647/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02647.m54329U_210604_200442.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02647/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02647.m64076_210527_231639.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02647/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02647.m64076_210530_192034.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG02647/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG02647.m64076_210601_061523.dc.q20.fastq.gz"
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa",
+  "runMeryl.kmerSize": 31
+}

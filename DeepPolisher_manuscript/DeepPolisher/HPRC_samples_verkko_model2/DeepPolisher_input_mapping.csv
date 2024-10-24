@@ -1,0 +1,10 @@
+input,type,value
+runDeepPolisher.useOptimalGQFilter,scalar,true
+runDeepPolisher.ModelFilesTarGZ,scalar,$input.DeepPolisherModelFiles
+runDeepPolisher.Bai,scalar,$input.finalPhasedDipBai
+runDeepPolisher.Bam,scalar,$input.finalPhasedDipBam
+runDeepPolisher.dockerImage,scalar,$input.DeepPolisherDocker
+runDeepPolisher.sampleName,scalar,$input.sample_id
+runDeepPolisher.Fasta,scalar,$input.dipFasta
+runDeepPolisher.diskSize,scalar,600
+runDeepPolisher.memSize,scalar,256

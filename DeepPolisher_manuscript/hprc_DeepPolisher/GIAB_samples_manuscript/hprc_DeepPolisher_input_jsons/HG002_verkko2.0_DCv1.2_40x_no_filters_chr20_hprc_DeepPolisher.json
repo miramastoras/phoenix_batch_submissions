@@ -1,0 +1,8 @@
+{
+  "hprc_DeepPolisher.ONTReads": NaN,
+  "hprc_DeepPolisher.HifiReads": NaN,
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_pat_verkko_2.0_2024_06_05.chr20.full_contigs.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_mat_verkko_2.0_2024_06_05.chr20.full_contigs.fa",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz",
+  "hprc_DeepPolisher.sampleName": "HG002_verkko2.0_DCv1.2_40x_no_filters_chr20"
+}

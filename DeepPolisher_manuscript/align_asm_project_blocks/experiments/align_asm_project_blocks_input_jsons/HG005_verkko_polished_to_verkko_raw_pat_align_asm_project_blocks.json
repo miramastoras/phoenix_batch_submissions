@@ -1,0 +1,9 @@
+{
+  "align_asm_project_blocks.sampleID": "HG005_verkko_polished_to_verkko_raw_pat",
+  "align_asm_project_blocks.asmHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_hifi_verkko_model_2_hprc_filters/applyPolish_dipcall_outputs/HG005_hifi_verkko_model_2_hprc_filters_hap1.polished.fasta",
+  "align_asm_project_blocks.asmHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG005_hifi_verkko_model_2_hprc_filters/applyPolish_dipcall_outputs/HG005_hifi_verkko_model_2_hprc_filters_hap2.polished.fasta",
+  "align_asm_project_blocks.bedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl_k31/HG005_hifi_verkko_model_2_hprc_filters/analysis/hprc_polishing_QC_no_meryl_outputs/HG005_verkko_model2_hprc_filters.bed",
+  "align_asm_project_blocks.refHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/HG005_verkko_paternal.fasta",
+  "align_asm_project_blocks.refHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/HG005_verkko_paternal.fasta",
+  "align_asm_project_blocks.projectionDirection": "asm2ref"
+}

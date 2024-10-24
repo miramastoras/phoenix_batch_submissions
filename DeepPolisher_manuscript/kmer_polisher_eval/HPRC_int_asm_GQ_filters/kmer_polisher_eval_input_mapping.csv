@@ -1,0 +1,11 @@
+input,type,value
+kmerPolishingEval.sampleID,scalar,$input.sample_id
+kmerPolishingEval.paternalYak,scalar,$input.paternalYak
+kmerPolishingEval.maternalYak,scalar,$input.maternalYak
+kmerPolishingEval.sampleYak,scalar,$input.sampleYak
+kmerPolishingEval.hap2Fasta,scalar,$input.polishedAsmHap2
+kmerPolishingEval.hap1Fasta,scalar,$input.polishedAsmHap1
+kmerPolishingEval.grch38InsideConfRegions,scalar,/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed
+kmerPolishingEval.ilmMerylDBTarGz,scalar,$input.ilmMerylDb
+kmerPolishingEval.grch38OutsideConfRegions,scalar,/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed
+kmerPolishingEval.grch38Fasta,scalar,/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta

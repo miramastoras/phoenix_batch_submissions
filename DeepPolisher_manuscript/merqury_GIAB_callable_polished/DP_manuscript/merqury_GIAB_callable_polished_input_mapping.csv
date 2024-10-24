@@ -1,0 +1,12 @@
+input,type,value
+merqury_GIAB_callable.sampleID,scalar,$input.sample_id
+merqury_GIAB_callable.stratificationLabel,scalar,$input.label
+merqury_GIAB_callable.refFasta,scalar,"/private/groups/patenlab/mira/data/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta"
+merqury_GIAB_callable.polishedHap1Fasta,scalar,$input.polishedHap1Fasta
+merqury_GIAB_callable.polishedHap2Fasta,scalar,$input.polishedHap2Fasta
+merqury_GIAB_callable.rawHap1Fasta,scalar,$input.rawHap1Fasta
+merqury_GIAB_callable.rawHap2Fasta,scalar,$input.rawHap2Fasta
+merqury_GIAB_callable.ilmMerylDBTarGz,scalar,$input.ilmMerylDBTarGz
+merqury_GIAB_callable.mosdepthBed,scalar,$input.mosdepth_bed
+merqury_GIAB_callable.dipFai,scalar,$input.dipFai
+merqury_GIAB_callable.GIABConfBed,scalar,$input.grch38_confidence

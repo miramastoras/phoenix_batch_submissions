@@ -1,0 +1,9 @@
+{
+  "runDeepPolisher.DPPostProcess.useOptimalGQFilter": false,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-128.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG005_y2_DCv1.2_PHv6_DPmm2model1/toil_hprc_deepPolisher_out/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.PHARAOHv6.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/HG005_y2_DCv1.2_PHv6_DPmm2model1/toil_hprc_deepPolisher_out/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.PHARAOHv6.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.1.0_platinum",
+  "runDeepPolisher.sampleName": "HG005",
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa.gz"
+}

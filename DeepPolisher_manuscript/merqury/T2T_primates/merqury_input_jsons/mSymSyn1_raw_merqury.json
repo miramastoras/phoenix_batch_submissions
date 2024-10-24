@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "s3://genomeark/species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.4.1r/mSymSyn1.hap1.20230906.fasta.gz",
+  "runMerqury.merqury.altHapFasta": "s3://genomeark/species/Symphalangus_syndactylus/mSymSyn1/assembly_verkko_1.4.1r/mSymSyn1.hap2.20230906.fasta.gz",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mSymSyn1_verkko_model2/analysis/hprc_polishing_QC_outputs/mSymSyn1_verkko_model2.meryl.tar"
+}

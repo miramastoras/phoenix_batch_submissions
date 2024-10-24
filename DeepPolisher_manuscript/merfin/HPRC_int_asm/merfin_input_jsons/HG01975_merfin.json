@@ -1,0 +1,6 @@
+{
+  "runMerfin.readmerDBTarball": "/private/groups/hprc/polishing/batch2/hprc_polishing_QC/HG01975/hprc_polishing_QC_outputs/HG01975.meryl.tar",
+  "runMerfin.Merfin.mode": "-loose",
+  "runMerfin.Merfin.vcfFile": "/private/groups/hprc/polishing/batch2/HG01975/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
+  "runMerfin.Merfin.refFasta": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/dip_fastas/HG01975.dip.fa.gz"
+}

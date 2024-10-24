@@ -1,0 +1,4 @@
+input,type,value
+runMerqury.merqury.assemblyFasta,scalar,$input.Hap1Fasta
+runMerqury.merqury.altHapFasta,scalar,$input.Hap2Fasta
+runMerqury.merqury.kmerTarball,scalar,$input.ilmMerylDBTarGz

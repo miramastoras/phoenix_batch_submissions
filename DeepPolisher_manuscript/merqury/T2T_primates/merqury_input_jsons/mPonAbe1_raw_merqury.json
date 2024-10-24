@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "s3://genomeark/species/Pongo_abelii/mPonAbe1/assembly_verkko_1.4.1r/mPonAbe1.hap1.20230906.fasta.gz",
+  "runMerqury.merqury.altHapFasta": "s3://genomeark/species/Pongo_abelii/mPonAbe1/assembly_verkko_1.4.1r/mPonAbe1.hap2.20230906.fasta.gz",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2.meryl.tar"
+}

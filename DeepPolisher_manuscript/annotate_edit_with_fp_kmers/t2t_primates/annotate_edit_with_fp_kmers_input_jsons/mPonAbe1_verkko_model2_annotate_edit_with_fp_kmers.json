@@ -1,0 +1,8 @@
+{
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1.20230906.merqury.tar.gz",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2_hap2.hap2PolToRaw.paf",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2_hap1.hap1PolToRaw.paf",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": "/private/groups/patenlab/mira/t2t_primates_polishing/DeepPolisher/mPonAbe1_verkko_model2/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "mPonAbe1_verkko_model2",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPonAbe1_verkko_model2/analysis/hprc_polishing_QC_outputs/mPonAbe1_verkko_model2.polished.merqury.tar.gz"
+}

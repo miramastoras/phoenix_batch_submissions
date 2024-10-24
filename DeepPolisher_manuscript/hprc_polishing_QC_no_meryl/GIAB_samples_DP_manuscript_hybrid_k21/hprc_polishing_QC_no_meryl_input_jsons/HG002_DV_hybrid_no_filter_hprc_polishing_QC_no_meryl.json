@@ -1,0 +1,16 @@
+{
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/DV_hybrid_only/HG002/HG002_y2_DV_hybrid_polished.pat.fa",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/DV_hybrid_only/HG002/HG002_y2_DV_hybrid_polished.mat.fa",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/y2_alt_polishers/t2t_polish/HG002_y2_rerun_without_pharaoh_04052024/snv_indel_assembly.outfiles/HG002_deepvariant.vcf.gz",
+  "hprc_polishing_QC.sampleYak": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/yak_files/HG002.k21.yak",
+  "hprc_polishing_QC.maternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/mat.HG004.yak",
+  "hprc_polishing_QC.paternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/pat.HG003.yak",
+  "hprc_polishing_QC.ilmMerylDBTarGz": NaN,
+  "hprc_polishing_QC.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "hprc_polishing_QC.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.sampleID": "HG002_DV_hybrid_no_filter",
+  "hprc_polishing_QC.toilRunLog": "/private/groups/hprc/polishing/batch1/hprc_DeepPolisher_submit_logs/hprcDeepPolisher_submit_HPRC-DeepPolisher-batch1_relaunch_1501469_1501469_1.log"
+}

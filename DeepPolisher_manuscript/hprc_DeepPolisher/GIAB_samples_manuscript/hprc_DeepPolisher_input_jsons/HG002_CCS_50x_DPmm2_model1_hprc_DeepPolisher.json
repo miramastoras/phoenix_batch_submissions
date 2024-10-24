@@ -1,0 +1,19 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_1_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_4_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_3_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64011_190830_220126.Q20.fastq",
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64011_190901_095311.Q20.fastq",
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64012_190920_173625.Q20.fastq",
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64012_190921_234837.Q20.fastq",
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64015_190920_185703.Q20.fastq",
+    "/private/groups/patenlab/mira/hprc_polishing/data/reads/HG002/HiFi_Sequel2_CCS/m64015_190922_010918.Q20.fastq"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa.gz",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-665.tar.gz",
+  "hprc_DeepPolisher.sampleName": "HG002_CCS_50x_DPmm2_model1"
+}

@@ -1,0 +1,6 @@
+{
+  "runReadStats.dockerImage": "mobinasri/fai_read_stats:latest",
+  "runReadStats.reads": [
+    "s3://genomeark/species/Pongo_abelii/mPonAbe1/assembly_verkko_1.4.1r/alignments/winnowmap.analysis-dip.HiFi.bam"
+  ]
+}

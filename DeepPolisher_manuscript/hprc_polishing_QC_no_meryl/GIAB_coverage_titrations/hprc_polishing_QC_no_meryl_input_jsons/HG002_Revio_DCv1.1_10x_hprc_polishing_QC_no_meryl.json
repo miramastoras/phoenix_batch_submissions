@@ -1,0 +1,16 @@
+{
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/HG002_Revio_DCv1.1_10x/analysis/hprc_DeepPolisher_outputs/HG002_Revio_DCv1.1_10x_Hap1.polished.fasta",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/HG002_Revio_DCv1.1_10x/analysis/hprc_DeepPolisher_outputs/HG002_Revio_DCv1.1_10x_Hap2.polished.fasta",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa.gz",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/hprc_deepPolisher_wf_runs/phoenix_batch_submissions_manuscript/HG002_Revio_DCv1.1_10x/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
+  "hprc_polishing_QC.sampleYak": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/yak_files/HG002.k21.yak",
+  "hprc_polishing_QC.maternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/mat.HG004.yak",
+  "hprc_polishing_QC.paternalYak": "/private/groups/patenlab/masri/hprc/polishing/HG002/parents/pat.HG003.yak",
+  "hprc_polishing_QC.ilmMerylDBTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y1_terra_tables/meryl_dbs/ilm.k21.meryl.tar.gz",
+  "hprc_polishing_QC.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "hprc_polishing_QC.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.sampleID": "HG002_Revio_DCv1.1_10x",
+  "hprc_polishing_QC.toilRunLog": "/private/groups/hprc/polishing/batch1/hprc_DeepPolisher_submit_logs/hprcDeepPolisher_submit_HPRC-DeepPolisher-batch1_relaunch_1501469_1501469_1.log"
+}

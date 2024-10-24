@@ -1,0 +1,17 @@
+{
+  "hprc_polishing_QC.polishedHap1Fasta": NaN,
+  "hprc_polishing_QC.polishedHap2Fasta": NaN,
+  "hprc_polishing_QC.polishingVcf": NaN,
+  "hprc_polishing_QC.sampleReadsIlm": NaN,
+  "hprc_polishing_QC.maternalYak": NaN,
+  "hprc_polishing_QC.paternalYak": NaN,
+  "hprc_polishing_QC.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa",
+  "hprc_polishing_QC.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.toilRunLog": "/private/groups/patenlab/mira/hprc_polishing/qv_problems/HPRC_intermediate_asm/merfin/applyPolish/applyPolish_submit_logs/applyPolish_submit_HPRC-merfin-applyPolish_1949640_1949633_8.log",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.gz",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa.gz",
+  "hprc_polishing_QC.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "hprc_polishing_QC.sampleID": "HG005",
+  "hprc_polishing_QC.yakMerylKmerSize": 21
+}
