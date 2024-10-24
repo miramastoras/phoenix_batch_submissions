@@ -10,14 +10,14 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --partition=high_priority
+#SBATCH --partition=medium
 #SBATCH --mail-user=mmastora@ucsc.edu
 #SBATCH --mail-type=FAIL,END
 #SBATCH --mem=600gb
 #SBATCH --threads-per-core=1
 #SBATCH --output=meryl_hybrid_submit_logs/meryl_hybrid_submit_%x_%j_%A_%a.log
-#SBATCH --time=24:00:00
-#SBATCH --array=1-10%10
+#SBATCH --time=12:00:00
+#SBATCH --array=29%1
 
 set -ex
 

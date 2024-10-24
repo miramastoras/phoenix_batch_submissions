@@ -6,7 +6,7 @@
 
 # Generate toil json files from csv sample table
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/meryl_hybrid/hprc_int_asm_k31/meryl_hybrid_input_jsons
+cd ~/Desktop/github_repos/phoenix_batch_submissions/polishing/meryl_hybrid/hprc_int_asm_k31/meryl_hybrid_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../HPRC_int_asm_batch2_3_4.samples.csv \
