@@ -1,0 +1,6 @@
+{
+  "runMerfin.readmerDBTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005_hybrid_dbs/HG005_hybrid_k31/meryl_hybrid_outputs/HG005_hybrid_k31.hybrid.meryl.tar.gz",
+  "runMerfin.Merfin.mode": "-loose",
+  "runMerfin.Merfin.vcfFile": "/private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/phoenix_batch_submissions_manuscript/HG005_hifi_verkko_model_2/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
+  "runMerfin.Merfin.refFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/assembly.fasta"
+}

@@ -1,0 +1,5 @@
+input,type,value
+runMerfin.readmerDBTarball,scalar,$input.readmerDBTarball
+runMerfin.Merfin.mode,scalar,$input.mode
+runMerfin.Merfin.vcfFile,scalar,$input.vcfFile
+runMerfin.Merfin.refFasta,scalar,$input.dipFasta
