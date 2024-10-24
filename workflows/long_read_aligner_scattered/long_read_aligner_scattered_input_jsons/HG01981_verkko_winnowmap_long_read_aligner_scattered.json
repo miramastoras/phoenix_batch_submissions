@@ -1,0 +1,18 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 0.02",
+  "longReadAlignmentScattered.preset": "map-pb",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko/HG01981_verkko_trio+hic.dip.fasta",
+  "longReadAlignmentScattered.secphaseOptions": "--hifi",
+  "longReadAlignmentScattered.enableRunningSecphase": true,
+  "longReadAlignmentScattered.aligner": "winnowmap",
+  "longReadAlignmentScattered.alignerOptions": "--cs --eqx -Y -L",
+  "longReadAlignmentScattered.kmerSize": 15,
+  "longReadAlignmentScattered.sampleName": "HG01981_verkko_winnowmap",
+  "longReadAlignmentScattered.suffix": "winnowmap",
+  "longReadAlignmentScattered.readFiles": [
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG01981/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01981.m64136_210625_184731.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG01981/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01981.m64136_210627_054246.dc.q20.fastq.gz",
+    "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG01981/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01981.m64136_210628_163953.dc.q20.fastq.gz"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.3.3"
+}

@@ -1,0 +1,13 @@
+input,type,value
+longReadAlignmentScattered.correctBamOptions,scalar,$input.correctBamOptions
+longReadAlignmentScattered.preset,scalar,$input.preset
+longReadAlignmentScattered.assemblyFasta,scalar,$input.assemblyFasta
+longReadAlignmentScattered.secphaseOptions,scalar,$input.secphaseOptions
+longReadAlignmentScattered.enableRunningSecphase,scalar,$input.enableRunningSecphase
+longReadAlignmentScattered.aligner,scalar,$input.aligner
+longReadAlignmentScattered.alignerOptions,scalar,$input.alignerOptions
+longReadAlignmentScattered.kmerSize,scalar,$input.kmerSize
+longReadAlignmentScattered.sampleName,scalar,$input.sample_id
+longReadAlignmentScattered.suffix,scalar,$input.suffix
+longReadAlignmentScattered.readFiles,array,$input.readFiles
+longReadAlignmentScattered.alignerDockerImage,scalar,$input.alignerDockerImage

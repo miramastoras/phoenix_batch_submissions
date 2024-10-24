@@ -1,0 +1,20 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 0.02",
+  "longReadAlignmentScattered.preset": "lr:hqae",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/assembly.fasta",
+  "longReadAlignmentScattered.secphaseOptions": "--hifi",
+  "longReadAlignmentScattered.enableRunningSecphase": true,
+  "longReadAlignmentScattered.aligner": "minimap2",
+  "longReadAlignmentScattered.alignerOptions": "--cs --eqx -Y -L",
+  "longReadAlignmentScattered.kmerSize": 19,
+  "longReadAlignmentScattered.sampleName": "HG005_verkko_minimap2_2.28-r1209",
+  "longReadAlignmentScattered.suffix": "minimap2_2.28-r1209",
+  "longReadAlignmentScattered.readFiles": [
+    "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64017_200723_190224.dc.q20.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64017_200801_011415.dc.q20.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64017_200802_073944.dc.q20.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64109_200304_195708.dc.q20.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64109_200309_192110.dc.q20.fastq.gz"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v1.1.0"
+}
