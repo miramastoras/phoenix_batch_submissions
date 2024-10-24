@@ -6,7 +6,7 @@
 
 # Remove top up data from data table
 
-cd /Users/miramastoras/Desktop/Paten_lab/phoenix_batch_submissions/polishing/align_asm_project_blocks/experiments/align_asm_project_blocks_input_jsons
+cd ~/Desktop/github_repos/phoenix_batch_submissions/polishing/align_asm_project_blocks/experiments/align_asm_project_blocks_input_jsons
 
 python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/launch_from_table.py \
      --data_table ../align_asm_project_blocks.csv \
@@ -34,7 +34,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=align_asm_project_blocks \
-     --array=[1-4]%4 \
+     --array=[5]%1 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
