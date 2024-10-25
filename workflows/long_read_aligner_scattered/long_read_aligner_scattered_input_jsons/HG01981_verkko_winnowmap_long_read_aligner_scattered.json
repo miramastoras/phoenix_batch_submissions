@@ -5,7 +5,7 @@
   "longReadAlignmentScattered.secphaseOptions": "--hifi",
   "longReadAlignmentScattered.enableRunningSecphase": true,
   "longReadAlignmentScattered.aligner": "winnowmap",
-  "longReadAlignmentScattered.alignerOptions": "--eqx --cs -Y -L -y",
+  "longReadAlignmentScattered.alignerOptions": "--eqx --cs -Y -L -y --split-prefix",
   "longReadAlignmentScattered.kmerSize": 15,
   "longReadAlignmentScattered.sampleName": "HG01981_verkko_winnowmap",
   "longReadAlignmentScattered.suffix": "winnowmap",
