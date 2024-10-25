@@ -14,5 +14,5 @@
     "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG01981/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01981.m64136_210627_054246.dc.q20.fastq.gz",
     "s3://human-pangenomics/submissions/02355F32-E75A-4279-A7B8-FCCEA70FB6CD--DEEPCONSENSUS_v1pt2/HG01981/raw_data/PacBio_HiFi/deepconsensus/v1pt2/HG01981.m64136_210628_163953.dc.q20.fastq.gz"
   ],
-  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.3.3"
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.4.0"
 }

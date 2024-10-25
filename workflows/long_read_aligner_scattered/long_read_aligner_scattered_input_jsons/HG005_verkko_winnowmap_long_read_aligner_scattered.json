@@ -16,5 +16,5 @@
     "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64109_200304_195708.dc.q20.fastq.gz",
     "/private/groups/patenlab/masri/hprc/polishing/HG005/reads/HiFi_DC_v1.2/downsampled_40x/m64109_200309_192110.dc.q20.fastq.gz"
   ],
-  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.3.3"
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.4.0"
 }
