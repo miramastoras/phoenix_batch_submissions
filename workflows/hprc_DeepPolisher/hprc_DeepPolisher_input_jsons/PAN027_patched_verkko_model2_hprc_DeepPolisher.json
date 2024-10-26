@@ -1,7 +1,11 @@
 {
   "hprc_DeepPolisher.ONTReads": [
-    "/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R1.fastq.gz",
-    "/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R2.fastq.gz"
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_1.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_2.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_3.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_4.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_5.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN027.basecalled_03_15_22_R941_HG06807_6.pass.fastq.gz"
   ],
   "hprc_DeepPolisher.HifiReads": [
     "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210925_220058.dc.q20.fastq.gz",
