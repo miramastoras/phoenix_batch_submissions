@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "HG01981_verkko_model2_merfin_hybrid_k31_hap2",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/verkko/batch1/HG01981/verkko/hic_asm/HG01981_verkko_trio+hic.hap2.fasta.gz",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/HG01981_verkko_model2/analysis/merfin_outputs/polisher_output.no_filters.merfin.filter.vcf",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
+}
