@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/HG01981_verkko_model2_merfin_hybrid_k31_hap1/analysis/applyPolish_outputs/HG01981_verkko_model2_merfin_hybrid_k31_hap1_hap1.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/HG01981_verkko_model2_merfin_hybrid_k31_hap2/analysis/applyPolish_outputs/HG01981_verkko_model2_merfin_hybrid_k31_hap2_hap2.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/hprc_int_asm/HPRC_verkko_model2/hprc_polishing_QC/HG01981_verkko_model2/analysis/hprc_polishing_QC_outputs/HG01981_verkko_model2.meryl.tar"
+}
