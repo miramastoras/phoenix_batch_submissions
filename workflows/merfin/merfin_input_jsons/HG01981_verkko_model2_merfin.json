@@ -1,5 +1,5 @@
 {
-  "runMerfin.readmerDBTarball": NaN,
+  "runMerfin.readmerDBTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG01981_hifi_DCv1.2.26x.ilm.30x.k31.hybrid.meryl.tar",
   "runMerfin.Merfin.mode": "-loose",
   "runMerfin.Merfin.vcfFile": "/private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/hprc_verkko_model2/HG01981_verkko_model2/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
   "runMerfin.Merfin.refFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HPRC_int_asm/dip_fastas/verkko/HG01981_verkko_trio+hic.dip.fasta"
