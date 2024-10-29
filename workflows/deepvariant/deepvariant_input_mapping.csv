@@ -1,0 +1,8 @@
+input,type,value
+runDeepVariant.DeepVariant.inputReadsIdx,scalar,$input.Bai
+runDeepVariant.DeepVariant.modelType,scalar,$input.modelType
+runDeepVariant.DeepVariant.inputReads,scalar,$input.Bam
+runDeepVariant.DeepVariant.sample,scalar,$input.sample_id
+runDeepVariant.DeepVariant.assembly,scalar,$input.Fasta
+runDeepVariant.DeepVariant.assemblyIndex,scalar,$input.Fai
+runDeepVariant.DeepVariant.dockerImage,scalar,$input.dockerImage
