@@ -54,3 +54,15 @@ sbatch \
      --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/applyPolish.wdl \
      --sample_csv applyPolish.csv \
      --input_json_path '../applyPolish_input_jsons/${SAMPLE_ID}_applyPolish.json'
+
+###############################################################################
+##                             write output files to csv                     ##
+###############################################################################
+
+# on hprc after entire batch has finished
+cd /private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish
+
+python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+      --input_data_table ./applyPolish.csv \
+      --output_data_table ./applyPolish.results.csv \
+      --json_location '{sample_id}_applyPolish_outputs.json'
