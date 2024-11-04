@@ -1,0 +1,11 @@
+{
+  "get_low_coverage_FP_kmers.Hap2PolFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish/mPanTro3_60x_verkko_model2_hprc_filters/analysis/applyPolish_outputs/mPanTro3_60x_verkko_model2_hprc_filters_hap2.polished.fasta",
+  "get_low_coverage_FP_kmers.Hap1PolFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/applyPolish/mPanTro3_60x_verkko_model2_hprc_filters/analysis/applyPolish_outputs/mPanTro3_60x_verkko_model2_hprc_filters_hap1.polished.fasta",
+  "get_low_coverage_FP_kmers.Hap2RawFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/mPanTro3/mPanTro3.hap2.20230906.fasta.gz",
+  "get_low_coverage_FP_kmers.Hap1RawFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/mPanTro3/mPanTro3.hap1.20230906.fasta.gz",
+  "get_low_coverage_FP_kmers.rawMerquryTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_polishing_QC/mPanTro3/analysis/hprc_polishing_QC_outputs/mPanTro3.20230906.merqury.tar.gz",
+  "get_low_coverage_FP_kmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/Merqury_whole_genome/T2T_primates/mPanTro3_60x_verkko_model2_hprc_filters/analysis/merqury_outputs/mPanTro3_60x_verkko_model2_hprc_filters.polished.merqury.tar.gz",
+  "get_low_coverage_FP_kmers.polishingVcf": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mPanTro3_60x/analysis/hprc_DeepPolisher_outputs/polisher_output.vcf.gz",
+  "get_low_coverage_FP_kmers.lowCoverageBed": "/private/groups/patenlab/mira/t2t_primates_polishing/hprc_DeepPolisher/mosdepth_60x/mPanTro3_mosdepth_quantized.quant.lt5x_cov.gt100bp.MAPQ1.bed",
+  "get_low_coverage_FP_kmers.sampleID": "mPanTro3_DP"
+}

@@ -1,0 +1,11 @@
+{
+  "get_low_coverage_FP_kmers.Hap2PolFasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_hifi_verkko_model_2_no_filters/applyPolish_dipcall_outputs/HG002_hifi_verkko_model_2_no_filters_hap2.polished.fasta",
+  "get_low_coverage_FP_kmers.Hap1PolFasta": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/applyPolish_dipcall_happy/HG002_hifi_verkko_model_2_no_filters/applyPolish_dipcall_outputs/HG002_hifi_verkko_model_2_no_filters_hap1.polished.fasta",
+  "get_low_coverage_FP_kmers.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_mat_verkko_2.0_2024_06_05.fa",
+  "get_low_coverage_FP_kmers.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_verkko_2.0/HG002_pat_verkko_2.0_2024_06_05.fa",
+  "get_low_coverage_FP_kmers.rawMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl_k31/HG002_hifi_verkko_model_2_no_filters/analysis/hprc_polishing_QC_no_meryl_outputs/HG002_verkko_2.0_2024_06_05.merqury.tar.gz",
+  "get_low_coverage_FP_kmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/GIAB_samples_manuscript/hprc_polishing_QC_no_meryl_k31/HG002_hifi_verkko_model_2_no_filters/analysis/hprc_polishing_QC_no_meryl_outputs/HG002_hifi_verkko_model_2_no_filters.polished.merqury.tar.gz",
+  "get_low_coverage_FP_kmers.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/deepPolisher_runs/phoenix_batch_submissions_manuscript/HG002_hifi_verkko_model_2/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
+  "get_low_coverage_FP_kmers.lowCoverageBed": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_debug/low_coverage_mapq/mosdepth/HG002_verkko_quantized_mapQ1.quant.lt5x_cov.gt100bp.bed",
+  "get_low_coverage_FP_kmers.sampleID": "HG002_verkko"
+}

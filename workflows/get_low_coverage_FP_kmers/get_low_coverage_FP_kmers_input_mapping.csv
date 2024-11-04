@@ -1,0 +1,10 @@
+input,type,value
+get_low_coverage_FP_kmers.Hap2PolFasta,scalar,$input.hap2_polished
+get_low_coverage_FP_kmers.Hap1PolFasta,scalar,$input.hap1_polished
+get_low_coverage_FP_kmers.Hap2RawFasta,scalar,$input.hap2_raw
+get_low_coverage_FP_kmers.Hap1RawFasta,scalar,$input.hap1_raw
+get_low_coverage_FP_kmers.rawMerquryTarGz,scalar,$input.rawMerquryTarGz
+get_low_coverage_FP_kmers.polishedMerquryTarGz,scalar,$input.polishedMerquryTarGz
+get_low_coverage_FP_kmers.polishingVcf,scalar,$input.polishingVcf
+get_low_coverage_FP_kmers.lowCoverageBed,scalar,$input.lowCoverageBed
+get_low_coverage_FP_kmers.sampleID,scalar,$input.sample_id
