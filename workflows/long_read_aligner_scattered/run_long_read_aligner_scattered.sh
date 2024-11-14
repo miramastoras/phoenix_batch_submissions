@@ -15,6 +15,8 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
      --field_mapping ../long_read_aligner_input_mapping.csv \
      --workflow_name long_read_aligner_scattered
 
+#
+# ls | grep "PAN027" | while read line ; do grep -v "maxDiv" $line > $line.tmp ; mv $line.tmp $line; done
 ## add/commit/push to github (hprc_intermediate_assembly)
 
 ###############################################################################
@@ -39,7 +41,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=long_read_aligner_scattered \
-     --array=[1-2]%2 \
+     --array=[5-10]%5 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \

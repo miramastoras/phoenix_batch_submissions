@@ -1,0 +1,17 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 1",
+  "longReadAlignmentScattered.preset": "sr",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_pat_DV_pass/analysis/applyPolish_outputs/PAN027_patched_pat_DV_pass_pat.polished.fasta",
+  "longReadAlignmentScattered.secphaseOptions": "--hifi",
+  "longReadAlignmentScattered.enableRunningSecphase": false,
+  "longReadAlignmentScattered.aligner": "minimap2",
+  "longReadAlignmentScattered.alignerOptions": "--cs --eqx",
+  "longReadAlignmentScattered.kmerSize": 21,
+  "longReadAlignmentScattered.sampleName": "PAN010_ele_to_PAN027_patched_DV_pat",
+  "longReadAlignmentScattered.suffix": "minimap2_2.27-r1193",
+  "longReadAlignmentScattered.readFiles": [
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0872__dc8df09cedb341d19649fd46048aee5d/Samples/6803/6803_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0872__dc8df09cedb341d19649fd46048aee5d/Samples/6803/6803_R2.fastq.gz"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.4.0"
+}
