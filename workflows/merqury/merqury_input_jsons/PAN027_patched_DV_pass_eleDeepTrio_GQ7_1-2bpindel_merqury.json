@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_pat_DV_pass_eleDeepTrio_GQ7_1-2bpindel/analysis/applyPolish_outputs/PAN027_patched_pat_DV_pass_eleDeepTrio_GQ7_1-2bpindel_pat.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_mat_DV_pass_eleDeepTrio_GQ7_1-2bpindel/analysis/applyPolish_outputs/PAN027_patched_mat_DV_pass_eleDeepTrio_GQ7_1-2bpindel_mat.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027_patched_DV_PASS.meryl.tar"
+}
