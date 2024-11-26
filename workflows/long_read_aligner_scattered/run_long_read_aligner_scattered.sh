@@ -41,9 +41,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=long_read_aligner_scattered \
-     --array=[5-10]%5 \
-     --partition=medium \
-     --time=12:00:00 \
+     --array=[11-16]%6 \
+     --partition=long \
+     --time=72:00:00 \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --mem=400gb \
