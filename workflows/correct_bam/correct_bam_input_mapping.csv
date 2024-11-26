@@ -1,0 +1,4 @@
+input,type,value
+runCorrectBam.correctBam.Bam,scalar,$input.bam
+runCorrectBam.correctBam.options,scalar,$input.options
+runCorrectBam.correctBam.suffix,scalar,$input.suffix

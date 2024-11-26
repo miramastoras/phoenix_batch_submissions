@@ -1,0 +1,5 @@
+{
+  "runCorrectBam.correctBam.Bam": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/long_read_aligner_scattered/PAN010_ele_to_PAN027_patched_DV_mat/analysis/long_read_aligner_scattered_outputs/PAN010_ele_to_PAN027_patched_DV_mat.minimap2_2.27-r1193.bam",
+  "runCorrectBam.correctBam.options": "--maxDiv 0.04",
+  "runCorrectBam.correctBam.suffix": "maxDiv.04"
+}
