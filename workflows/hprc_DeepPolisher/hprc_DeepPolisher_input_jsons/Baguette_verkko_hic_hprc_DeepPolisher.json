@@ -1,0 +1,17 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/ont_data/01_09_24_R1041_UL_Marmoset_Baguette_1_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/ont_data/12_05_23_R1041_UL_Marmoset_Baguette_2_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/ont_data/12_05_23_R1041_UL_Marmoset_Baguette_3_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240209_155715_s4.hifi_reads.bc2014_trimmed.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_112408_s3.hifi_reads.bc2014_trimmed.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_132334_s4.hifi_reads.bc2014_trimmed.fastq.gz"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/cgl/pnhebbar/marmoset/assemblies/baguette/verkko_hic/hap1.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/cgl/pnhebbar/marmoset/assemblies/baguette/verkko_hic/hap2.fa",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-72.tar.gz",
+  "hprc_DeepPolisher.sampleName": "Baguette_verkko_hic",
+  "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.1.0_06202024"
+}
