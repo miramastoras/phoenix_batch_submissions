@@ -1,5 +1,5 @@
 {
-  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 1",
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 0.04",
   "longReadAlignmentScattered.preset": "sr",
   "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_pat_DV_pass/analysis/applyPolish_outputs/PAN027_patched_pat_DV_pass_pat.polished.fasta",
   "longReadAlignmentScattered.secphaseOptions": "--hifi",
