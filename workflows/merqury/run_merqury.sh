@@ -39,8 +39,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=merqury \
-     --array=[1]%1 \
-     --partition=high_priority \
+     --array=[3-4]%2 \
+     --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \

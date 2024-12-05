@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Maisie_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Maisie_hifiasm_hic_Hap1.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Maisie_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Maisie_hifiasm_hic_Hap2.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Maisie_ilm_k31.meryl.tar.gz"
+}
