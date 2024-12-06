@@ -1,0 +1,17 @@
+{
+  "runMeryl.identifier": "PAN027",
+  "runMeryl.sampleReadsILM": [
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R2.fastq.gz"
+  ],
+  "runMeryl.sampleReadsHiFi": [
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210925_220058.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210927_090130.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210423_181015.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210425_000914.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210426_185548.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64136_210428_005505.dc.q20.fastq.gz"
+  ],
+  "runMeryl.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa",
+  "runMeryl.kmerSize": 31
+}
