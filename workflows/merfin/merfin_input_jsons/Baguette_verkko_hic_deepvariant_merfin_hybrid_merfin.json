@@ -1,0 +1,6 @@
+{
+  "runMerfin.readmerDBTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Baguette_hybrid_k31.meryl.tar.gz",
+  "runMerfin.Merfin.mode": "-loose",
+  "runMerfin.Merfin.vcfFile": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/Baguette_verkko_hic/analysis/deepvariant_outputs/Baguette_verkko_hic_deepvariant.PASS.vcf.gz",
+  "runMerfin.Merfin.refFasta": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/Baguette/Baguette_verkko_hic_diploid.fa"
+}

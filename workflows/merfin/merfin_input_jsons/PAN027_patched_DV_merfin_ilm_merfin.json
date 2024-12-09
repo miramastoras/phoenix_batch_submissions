@@ -1,0 +1,6 @@
+{
+  "runMerfin.readmerDBTarball": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027_patched_DV_PASS.meryl.tar",
+  "runMerfin.Merfin.mode": "-loose",
+  "runMerfin.Merfin.vcfFile": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/PAN027_patched/analysis/deepvariant_outputs/PAN027_patched_deepvariant.PASS.vcf.gz",
+  "runMerfin.Merfin.refFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.diploid.fa"
+}
