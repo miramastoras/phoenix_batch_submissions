@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/cgl/pnhebbar/marmoset/assemblies/maisie/verkko_hic/hap1.fa",
+  "runMerqury.merqury.altHapFasta": "/private/groups/cgl/pnhebbar/marmoset/assemblies/maisie/verkko_hic/hap2.fa",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Maisie_ilm_k31.meryl.tar.gz"
+}
