@@ -42,7 +42,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=applyPolish \
-     --array=[7-10]%4 \
+     --array=[15-18]%4 \
      --partition=short \
      --time=1:00:00 \
      --cpus-per-task=32 \
