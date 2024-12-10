@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/Baguette_verkko_hic_deepvariant_hap1_merfin_hybrid/analysis/applyPolish_outputs/Baguette_verkko_hic_deepvariant_hap1_merfin_hybrid_hap1.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/Baguette_verkko_hic_deepvariant_hap2_merfin_hybrid/analysis/applyPolish_outputs/Baguette_verkko_hic_deepvariant_hap2_merfin_hybrid_hap2.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Baguette_ilm_k31.meryl.tar.gz"
+}
