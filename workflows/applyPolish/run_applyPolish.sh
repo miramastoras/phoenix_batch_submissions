@@ -16,8 +16,8 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
      --workflow_name applyPolish
 
 # change genotype formatting - hack
-ls | while read line ; do sed 's|genotype2|2|g' $line > $line.tmp ; mv $line.tmp $line; done
-ls | while read line ; do sed 's|genotype1|1|g' $line > $line.tmp ; mv $line.tmp $line; done
+ls | while read line ; do sed 's|2|2|g' $line > $line.tmp ; mv $line.tmp $line; done
+ls | while read line ; do sed 's|1|1|g' $line > $line.tmp ; mv $line.tmp $line; done
 
 ## add/commit/push to github (hprc_intermediate_assembly)
 ###############################################################################

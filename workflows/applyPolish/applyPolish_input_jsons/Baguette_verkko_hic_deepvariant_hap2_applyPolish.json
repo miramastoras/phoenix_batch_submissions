@@ -3,5 +3,5 @@
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/cgl/pnhebbar/marmoset/assemblies/baguette/verkko_hic/hap2.fa",
   "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/Baguette_verkko_hic/analysis/deepvariant_outputs/Baguette_verkko_hic_deepvariant.PASS.vcf.gz",
   "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
+  "runApplyPolish.applyPolish.GenotypeToPolish": 1
 }

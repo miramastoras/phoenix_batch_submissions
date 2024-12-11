@@ -3,5 +3,5 @@
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_verkko/HG005_verkko_maternal.fasta",
   "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/HG005_verkko_model2/analysis/merfin_outputs/polisher_output.no_filters.merfin.filter.vcf",
   "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
+  "runApplyPolish.applyPolish.GenotypeToPolish": 2
 }

@@ -3,5 +3,5 @@
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_pat_DV_pass/analysis/applyPolish_outputs/PAN027_patched_pat_DV_pass_pat.polished.fasta",
   "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/rtg_phased/PAN027-PAN010-PAN011.PAN027_patched_DV_pat.element_deeptrio_1.6.1.glnexus.phased.GQ7.DP20.indel1-2bp.vcf.gz",
   "runApplyPolish.applyPolish.HaplotypeLabel": "pat",
-  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
+  "runApplyPolish.applyPolish.GenotypeToPolish": 1
 }
