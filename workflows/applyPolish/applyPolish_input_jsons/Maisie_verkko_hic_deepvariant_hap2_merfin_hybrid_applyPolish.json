@@ -1,7 +1,7 @@
 {
   "runApplyPolish.applyPolish.outPrefix": "Maisie_verkko_hic_deepvariant_hap2_merfin_hybrid",
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Maisie_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Maisie_hifiasm_hic_Hap2.polished.fasta",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/Maisie_verkko_hic_deepvariant_merfin_hybrid/analysis/merfin_outputs/Maisie_verkko_hic_deepvariant.PASS.merfin.filter.vcf",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/Maisie_verkko_hic_deepvariant_merfin_hybrid/analysis/merfin_outputs/Maisie_verkko_hic_deepvariant.PASS.merfin.filter.vcf.gz",
   "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
   "runApplyPolish.applyPolish.GenotypeToPolish": "1"
 }
