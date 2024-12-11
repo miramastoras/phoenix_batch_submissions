@@ -1,0 +1,9 @@
+{
+  "runDeepVariant.DeepVariant.inputReadsIdx": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/long_read_aligner_scattered/PAN027_ele_to_PAN027_raw_pat/analysis/long_read_aligner_scattered_outputs/PAN027_ele_to_PAN027_raw_pat.minimap2_2.27-r1193.bam.bai",
+  "runDeepVariant.DeepVariant.modelType": "WGS",
+  "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/long_read_aligner_scattered/PAN027_ele_to_PAN027_raw_pat/analysis/long_read_aligner_scattered_outputs/PAN027_ele_to_PAN027_raw_pat.minimap2_2.27-r1193.bam",
+  "runDeepVariant.DeepVariant.sample": "PAN027_patched_raw_element_pat",
+  "runDeepVariant.DeepVariant.assembly": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.paternal.fa",
+  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.paternal.fa.fai",
+  "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
+}

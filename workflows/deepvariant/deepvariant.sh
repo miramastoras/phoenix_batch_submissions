@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=deepvariant \
-     --array=[1]%1 \
+     --array=[4-7]%4 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
@@ -51,3 +51,15 @@ sbatch \
      --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/deepvariant.wdl \
      --sample_csv deepvariant.csv \
      --input_json_path '../deepvariant_input_jsons/${SAMPLE_ID}_deepvariant.json'
+
+###############################################################################
+##                             write output files to csv                     ##
+###############################################################################
+
+# on hprc after entire batch has finished
+cd /private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant
+
+python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
+      --input_data_table ./deepvariant.csv \
+      --output_data_table ./deepvariant.results.csv \
+      --json_location '{sample_id}_deepvariant_outputs.json'

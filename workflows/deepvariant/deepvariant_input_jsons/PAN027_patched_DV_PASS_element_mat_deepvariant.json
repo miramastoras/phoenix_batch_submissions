@@ -1,0 +1,9 @@
+{
+  "runDeepVariant.DeepVariant.inputReadsIdx": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/long_read_aligner_scattered/PAN027_ele_to_PAN027_patched_DV_mat/analysis/long_read_aligner_scattered_outputs/PAN027_ele_to_PAN027_patched_DV_mat.minimap2_2.27-r1193.bam.bai",
+  "runDeepVariant.DeepVariant.modelType": "WGS",
+  "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/long_read_aligner_scattered/PAN027_ele_to_PAN027_patched_DV_mat/analysis/long_read_aligner_scattered_outputs/PAN027_ele_to_PAN027_patched_DV_mat.minimap2_2.27-r1193.bam",
+  "runDeepVariant.DeepVariant.sample": "PAN027_patched_DV_PASS_element_mat",
+  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_mat_DV_pass/analysis/applyPolish_outputs/PAN027_patched_mat_DV_pass_mat.polished.fasta",
+  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_patched_mat_DV_pass/analysis/applyPolish_outputs/PAN027_patched_mat_DV_pass_mat.polished.fasta.fai",
+  "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
+}
