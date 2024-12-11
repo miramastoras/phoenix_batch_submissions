@@ -3,5 +3,5 @@
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/cgl/pnhebbar/marmoset/assemblies/maisie/verkko_hic/hap2.fa",
   "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/Maisie_verkko_hic_deepvariant_merfin_hybrid/analysis/merfin_outputs/Maisie_verkko_hic_deepvariant.PASS.merfin.filter.vcf.gz",
   "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
-  "runApplyPolish.applyPolish.GenotypeToPolish": 1
+  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
 }

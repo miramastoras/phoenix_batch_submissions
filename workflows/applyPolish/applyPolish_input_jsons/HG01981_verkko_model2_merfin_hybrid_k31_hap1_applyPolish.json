@@ -3,5 +3,5 @@
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/hprc/verkko/batch1/HG01981/verkko/hic_asm/HG01981_verkko_trio+hic.hap1.fasta.gz",
   "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/merfin/HG01981_verkko_model2/analysis/merfin_outputs/polisher_output.no_filters.merfin.filter.vcf",
   "runApplyPolish.applyPolish.HaplotypeLabel": "hap1",
-  "runApplyPolish.applyPolish.GenotypeToPolish": 2
+  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
 }
