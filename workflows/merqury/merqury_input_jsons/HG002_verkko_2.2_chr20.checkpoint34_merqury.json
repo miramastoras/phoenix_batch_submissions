@@ -1,5 +1,5 @@
 {
   "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/test_chr20_checkpoint34/HG002_verkko_2.2_chr20.checkpoint34.hap1.fasta",
   "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/test_chr20_checkpoint34/HG002_verkko_2.2_chr20.checkpoint34.hap2.fasta",
-  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.meryl.tar.gz"
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.redownload.meryl.tar.gz"
 }
