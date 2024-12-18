@@ -1,0 +1,9 @@
+{
+  "bwaAlignment.readFiles": [
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0841__c22b964ca76a4e40b297dff6b3b37007/Samples/6807/6807_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0841__c22b964ca76a4e40b297dff6b3b37007/Samples/6807/6807_R2.fastq.gz"
+  ],
+  "bwaAlignment.sampleName": "PAN027_ele_to_PAN027_raw_mat",
+  "bwaAlignment.suffix": "bwa_0.7.17-r1188",
+  "bwaAlignment.assembly": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.maternal.fa"
+}

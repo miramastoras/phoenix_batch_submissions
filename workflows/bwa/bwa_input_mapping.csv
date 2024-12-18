@@ -1,0 +1,5 @@
+input,type,value
+bwaAlignment.readFiles,array,$input.reads
+bwaAlignment.sampleName,scalar,$input.sample_id
+bwaAlignment.suffix,scalar,$input.suffix
+bwaAlignment.assembly,scalar,$input.assembly
