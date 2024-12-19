@@ -1,0 +1,11 @@
+{
+  "runDeepPolisher.useOptimalGQFilter": true,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-505.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/verkko_assembly.chr20.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/verkko_assembly.chr20.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.1.0_09062024",
+  "runDeepPolisher.sampleName": "HG002_verkko_graph_alignment_chr20_checkpoint505",
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/verkko_graph_alignments_Q100v1.1_truthset/HG002_verkko_2.2_chr20.fasta",
+  "runDeepPolisher.diskSize": 600,
+  "runDeepPolisher.memSize": 256
+}
