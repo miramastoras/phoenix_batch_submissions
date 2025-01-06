@@ -1,0 +1,6 @@
+input,type,value
+runpepperMarginDeepVariant.pepperMarginDeepVariant.inputReadsIdx,scalar,$input.inputReadsIdx
+runpepperMarginDeepVariant.pepperMarginDeepVariant.inputReads,scalar,$input.inputReads
+runpepperMarginDeepVariant.pepperMarginDeepVariant.assembly,scalar,$input.assembly
+runpepperMarginDeepVariant.pepperMarginDeepVariant.assemblyIndex,scalar,$input.assemblyIndex
+runpepperMarginDeepVariant.pepperMarginDeepVariant.sample,scalar,$input.sample_id

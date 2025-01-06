@@ -1,0 +1,7 @@
+{
+  "runpepperMarginDeepVariant.pepperMarginDeepVariant.inputReadsIdx": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/UL_R941_Guppy6/all_to_diploid/long_read_aligner_scattered_outfiles/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.R941_Guppy5.winnowmap.bam.bai",
+  "runpepperMarginDeepVariant.pepperMarginDeepVariant.inputReads": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/UL_R941_Guppy6/all_to_diploid/long_read_aligner_scattered_outfiles/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.R941_Guppy5.winnowmap.bam",
+  "runpepperMarginDeepVariant.pepperMarginDeepVariant.assembly": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa",
+  "runpepperMarginDeepVariant.pepperMarginDeepVariant.assemblyIndex": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa.fai",
+  "runpepperMarginDeepVariant.pepperMarginDeepVariant.sample": "HG005_manuscript"
+}
