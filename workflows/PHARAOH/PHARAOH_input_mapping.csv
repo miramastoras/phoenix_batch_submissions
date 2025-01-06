@@ -1,0 +1,13 @@
+input,type,value
+PHARAOH.sampleName,scalar,$input.sample_id
+PHARAOH.allHifiToDiploidBai,scalar,$input.allHifiToDiploidBai
+PHARAOH.allHifiToDiploidBam,scalar,$input.allHifiToDiploidBam
+PHARAOH.diploidFaGz,scalar,$input.diploidFaGz
+PHARAOH.Hap1Fasta,scalar,$input.Hap1Fasta
+PHARAOH.Hap1FastaIndex,scalar,$input.Hap1FastaIndex
+PHARAOH.Hap2Fasta,scalar,$input.Hap2Fasta
+PHARAOH.Hap2FastaIndex,scalar,$input.Hap2FastaIndex
+PHARAOH.allONTToHap2Bam,scalar,$input.allONTToHap2Bam
+PHARAOH.allONTToHap1Bam,scalar,$input.allONTToHap1Bam
+PHARAOH.allONTToHap1Bai,scalar,$input.allONTToHap1Bai
+PHARAOH.allONTToHap2Bai,scalar,$input.allONTToHap2Bai

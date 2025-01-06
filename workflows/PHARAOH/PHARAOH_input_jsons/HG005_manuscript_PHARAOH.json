@@ -1,0 +1,14 @@
+{
+  "PHARAOH.sampleName": "HG005_manuscript",
+  "PHARAOH.allHifiToDiploidBai": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/HiFi_DCv1.2_minimap2/long_read_aligner_scattered_outfiles/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.minimap2v2.26.bam.bai",
+  "PHARAOH.allHifiToDiploidBam": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/alignments/HiFi_DCv1.2_minimap2/long_read_aligner_scattered_outfiles/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.minimap2v2.26.bam",
+  "PHARAOH.diploidFaGz": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/assembly/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa.gz",
+  "PHARAOH.Hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
+  "PHARAOH.Hap1FastaIndex": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa.fai",
+  "PHARAOH.Hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
+  "PHARAOH.Hap2FastaIndex": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa.fai",
+  "PHARAOH.allONTToHap2Bam": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/UL_alignments/mat/slurm_run/HG005.mat.trio_hifiasm_0.19.5.DC_1.2.winnowmap_2.03.UL_R941_Guppy5_40x.bam",
+  "PHARAOH.allONTToHap1Bam": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/UL_alignments/pat/slurm_run/HG005.pat.trio_hifiasm_0.19.5.DC_1.2.winnowmap_2.03.UL_R941_Guppy5_40x.bam",
+  "PHARAOH.allONTToHap1Bai": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/UL_alignments/pat/slurm_run/HG005.pat.trio_hifiasm_0.19.5.DC_1.2.winnowmap_2.03.UL_R941_Guppy5_40x.bam.bai",
+  "PHARAOH.allONTToHap2Bai": "/private/groups/patenlab/masri/hprc/polishing/HG005/HPRC_Y2/trio_hifiasm_0.19.5_DC_1.2/UL_alignments/mat/slurm_run/HG005.mat.trio_hifiasm_0.19.5.DC_1.2.winnowmap_2.03.UL_R941_Guppy5_40x.bam.bai"
+}
