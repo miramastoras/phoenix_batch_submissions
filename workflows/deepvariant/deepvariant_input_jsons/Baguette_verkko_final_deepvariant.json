@@ -3,7 +3,7 @@
   "runDeepVariant.DeepVariant.modelType": "PACBIO",
   "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Baguette_verkko_final/analysis/hprc_DeepPolisher_outputs/Baguette_verkko_final.hifi.to.diploid.asm.PHARAOH.bam",
   "runDeepVariant.DeepVariant.sample": "Baguette_verkko_final",
-  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/Baguette/baguette_final.fasta",
-  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/Baguette/baguette_final.fasta.fai",
+  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/Baguette/baguette_final.oriented.fa",
+  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/Baguette/baguette_final.oriented.fa.fai",
   "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
 }
