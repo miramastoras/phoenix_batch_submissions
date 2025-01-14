@@ -1,0 +1,18 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 1",
+  "longReadAlignmentScattered.preset": "map-ont",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa",
+  "longReadAlignmentScattered.secphaseOptions": "--ont",
+  "longReadAlignmentScattered.enableRunningSecphase": true,
+  "longReadAlignmentScattered.aligner": "minimap2",
+  "longReadAlignmentScattered.alignerOptions": "--eqx -Y -L",
+  "longReadAlignmentScattered.kmerSize": 15,
+  "longReadAlignmentScattered.sampleName": "HG005_hifiasm_R10",
+  "longReadAlignmentScattered.suffix": "minimap2_2.27-r1193",
+  "longReadAlignmentScattered.readFiles": [
+    "/private/nanopore/basecalled/HG005/05_17_22_R1041_HG005_UL_NEB_1_dorado0.8.1_sup4.1.0_5mCG_5hmCG.bam",
+    "/private/nanopore/basecalled/HG005/05_17_22_R1041_HG005_UL_NEB_2_dorado0.8.1_sup4.1.0_5mCG_5hmCG.bam",
+    "/private/nanopore/basecalled/HG005/05_17_22_R1041_HG005_UL_NEB_3_dorado0.8.1_sup4.1.0_5mCG_5hmCG.bam"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.4.0"
+}
