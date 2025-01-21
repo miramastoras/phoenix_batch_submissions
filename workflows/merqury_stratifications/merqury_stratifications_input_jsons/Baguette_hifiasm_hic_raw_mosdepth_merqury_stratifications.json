@@ -1,0 +1,8 @@
+{
+  "merqury_stratifications.Hap1Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Baguette_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Baguette_hifiasm_hic_Hap1.polished.fasta",
+  "merqury_stratifications.Hap2Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Baguette_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Baguette_hifiasm_hic_Hap2.polished.fasta",
+  "merqury_stratifications.sampleID": "Baguette_hifiasm_hic_raw_mosdepth",
+  "merqury_stratifications.bedFile": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Baguette_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/mosdepth/Baguette_hic_hifiasm_dip.quantized_mapQ1.quant.lt5x_cov.gt100bp.bed",
+  "merqury_stratifications.ilmMerylDBTarGz": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Baguette_ilm_k31.meryl.tar.gz",
+  "merqury_stratifications.dipFai": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/Baguette_hifiasm_hic/analysis/hprc_DeepPolisher_outputs/Baguette_hifiasm_hic_dip.polished.fasta.fai"
+}
