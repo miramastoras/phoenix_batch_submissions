@@ -25,6 +25,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
 
 ## check that github repo is up to date
 git -C  /private/groups/patenlab/mira/phoenix_batch_submissions pull
+git -C   ~/progs/hpp_production_workflows/QC/ pull
 
 # move to working dir
 mkdir -p /private/groups/patenlab/mira/phoenix_batch_executions/workflows/merqury_stratifications
@@ -39,7 +40,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=merqury_stratifications \
-     --array=[17,18]%4 \
+     --array=[3-4]%6 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
@@ -48,6 +49,6 @@ sbatch \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/merqury_stratifications.wdl \
+     --wdl ~/progs/hpp_production_workflows/QC/wdl/workflows/merqury_stratifications.wdl \
      --sample_csv merqury_stratifications.csv \
      --input_json_path '../merqury_stratifications_input_jsons/${SAMPLE_ID}_merqury_stratifications.json'
