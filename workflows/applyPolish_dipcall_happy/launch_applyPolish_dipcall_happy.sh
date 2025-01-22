@@ -23,7 +23,7 @@ sample_file=$1
 # Skip first row to avoid the header
 sample_id=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $1}' "${sample_file}")
 sample=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $2}' "${sample_file}")
-bed_file=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $19}' "${sample_file}")
+bed_file=$(awk -F ',' -v task_id=${SLURM_ARRAY_TASK_ID} 'NR>1 && NR==task_id+1 {print $3}' "${sample_file}")
 
 
 # Ensure a sample ID is obtained
@@ -39,7 +39,7 @@ mkdir -p ${sample_id}
 cd ${sample_id}
 
 mkdir -p toil_logs
-mkdir -p applyPolish_dipcall_outputs
+mkdir -p applyPolish_dipcall_happy_outputs
 
 export SINGULARITY_CACHEDIR=`pwd`/../cache/.singularity/cache
 export MINIWDL__SINGULARITY__IMAGE_CACHE=`pwd`/../cache/.cache/miniwdl
@@ -58,9 +58,9 @@ time toil-wdl-runner \
     --maxCores "${SLURM_CPUS_PER_TASK}" \
     --batchLogsDir ./toil_logs \
     /private/home/mmastora/progs/hpp_production_workflows/QC/wdl/workflows/applyPolish_dipcall.wdl \
-    ../applyPolish_dipcall_input_jsons/${sample_id}_applyPolish_dipcall.json \
-    --outputDirectory ./applyPolish_dipcall_outputs \
-    --outputFile ${sample_id}_applyPolish_dipcall_outputs.json \
+    ../applyPolish_dipcall_happy_input_jsons/${sample_id}_applyPolish_dipcall_happy.json \
+    --outputDirectory ./applyPolish_dipcall_happy_outputs \
+    --outputFile ${sample_id}_applyPolish_dipcall_happy_outputs.json \
     --runLocalJobsOnWorkers \
     --retryCount 1 \
     --disableProgress \
@@ -74,7 +74,7 @@ if [[ "${EXITCODE}" == "0" ]] ; then
     echo "Succeeded.Running Happy"
     mkdir -p ./happy_outputs
     bash /private/home/mmastora/progs/scripts/GIAB_happy.sh \
-    `pwd`/applyPolish_dipcall_outputs/*vcf.gz \
+    `pwd`/applyPolish_dipcall_happy_outputs/*vcf.gz \
     ${bed_file} \
     `pwd`/happy_outputs/${sample_id}_happy_out \
     ${sample}
@@ -88,7 +88,7 @@ mkdir -p happy_chr20_out
 
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_chr20.sh \
-    `pwd`/applyPolish_dipcall_outputs/*polished.dipcall.vcf.gz\
+    `pwd`/applyPolish_dipcall_happy_outputs/*polished.dipcall.vcf.gz\
     ${bed_file} \
     `pwd`/happy_chr20_out/${sample_id}_happy_out \
     ${sample}
@@ -98,7 +98,7 @@ mkdir -p happy_chr20_22_out
 
 # run happy
 bash /private/home/mmastora/progs/scripts/GIAB_happy_chr20_21_22.sh \
-    `pwd`/applyPolish_dipcall_outputs/*polished.dipcall.vcf.gz\
+    `pwd`/applyPolish_dipcall_happy_outputs/*polished.dipcall.vcf.gz\
     ${bed_file} \
     `pwd`/happy_chr20_22_out/${sample_id}_happy_out \
     ${sample}
