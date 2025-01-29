@@ -12,7 +12,7 @@
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
 #SBATCH --exclude=phoenix-[09,10,22,23,24,18]
-#SBATCH --array=[1-2]%2
+#SBATCH --array=[3]%2
 
 set -ex
 
@@ -69,6 +69,8 @@ EXITCODE=$?
 set -e
 
 toil stats --outputFile stats.txt ./jobstore
+
+mkdir -p `pwd`/happy_outputs/
 
 if [[ "${EXITCODE}" == "0" ]] ; then
     echo "Succeeded.Running Happy"
