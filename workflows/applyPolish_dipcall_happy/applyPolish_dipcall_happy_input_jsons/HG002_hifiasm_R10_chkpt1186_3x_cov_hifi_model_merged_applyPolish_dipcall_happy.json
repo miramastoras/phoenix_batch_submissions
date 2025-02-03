@@ -4,7 +4,7 @@
   "applyPolish_dipcall.hap1Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
   "applyPolish_dipcall.hap2Fasta": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.mat.fa",
   "applyPolish_dipcall.sampleID": "HG002_hifiasm_R10_chkpt1186_3x_cov_hifi_model_merged",
-  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/hprc_polishing/GIAB_T2T_truthset_testing/GIAB_T2T_Q100_conf_beds_concordant_50bp.dipcall_z2k.bed",
+  "applyPolish_dipcall.confidenceBedFile": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/y2_terra_tables/y2_polisher_evaluation/HG002_y2_raw/dipCallTar/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dipcall.GIAB_T2T_Q100_conf_beds_concordant_50bp.dipcall_z2k.bed",
   "applyPolish_dipcall.hap1PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/R10_model_testing/checkpoint1186_coverage_dropouts/HG002_hifiasm_ONT_model_1186_3x_hifi.hifi_model_merged.vcf.gz",
   "applyPolish_dipcall.hap2PolishingVcf": "/private/groups/patenlab/mira/hprc_polishing/R10_model_testing/checkpoint1186_coverage_dropouts/HG002_hifiasm_ONT_model_1186_3x_hifi.hifi_model_merged.vcf.gz",
   "applyPolish_dipcall.dipcall_t.isMaleSample": true,
