@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/hprc_polishing/R10_model_testing/checkpoint1186_coverage_dropouts/polished/HG005_hifiasm_ONT_model_1186_GQ3_3x_hifi_model_merged.GQ3.pat.fa",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/hprc_polishing/R10_model_testing/checkpoint1186_coverage_dropouts/polished/HG005_hifiasm_ONT_model_1186_GQ3_3x_hifi_model_merged.mat.fa",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz"
+}
