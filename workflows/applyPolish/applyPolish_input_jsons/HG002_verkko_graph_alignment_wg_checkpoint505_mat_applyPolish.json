@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "HG002_verkko_graph_alignment_wg_checkpoint505_mat",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/HG002_verkko2.2.haplotype1.maternal.fasta",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/DeepPolisher/HG002_verkko_graph_alignment_wg_checkpoint505/analysis/DeepPolisher_outputs/polisher_output.no_filters.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "mat",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
+}
