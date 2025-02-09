@@ -12,7 +12,7 @@
 #SBATCH --output=applyPolish_dipcall_submit_logs/applyPolish_dipcall_submit_%x_%j_%A_%a.log
 #SBATCH --time=12:00:00
 #SBATCH --exclude=phoenix-[09,10,22,23,24,18]
-#SBATCH --array=[4]%2
+#SBATCH --array=[5]%2
 
 set -ex
 
