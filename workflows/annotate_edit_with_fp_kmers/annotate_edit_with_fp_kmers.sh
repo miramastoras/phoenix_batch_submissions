@@ -39,9 +39,9 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=annotate_edit_with_fp_kmers \
-     --array=[8-9]%2 \
-     --partition=medium \
-     --time=12:00:00 \
+     --array=[3]%2 \
+     --partition=short \
+     --time=1:00:00 \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --mem=400gb \
