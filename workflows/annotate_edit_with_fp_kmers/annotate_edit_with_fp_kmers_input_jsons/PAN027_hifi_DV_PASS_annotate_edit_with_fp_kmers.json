@@ -1,0 +1,8 @@
+{
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.rawMerquryTarGz": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/assembly.v1.0.PAN027.merqury.tar.gz",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap2PolishedToRawPaf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027_patched_mat_DV_pass_mat.hap2PolToRaw.paf",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.hap1PolishedToRawPaf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027_patched_pat_DV_pass_pat.hap1PolToRaw.paf",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.deeppolisherVcfGz": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/PAN027_patched/analysis/deepvariant_outputs/PAN027_patched_deepvariant.PASS.vcf.gz",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.sample": "PAN027_hifi_DV_PASS",
+  "runAnnotateVcfWithFPKmers.annotateVCFwithFPKmers.polishedMerquryTarGz": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027ched_pat_DV_pass_pat.polished.merqury.tar.gz"
+}
