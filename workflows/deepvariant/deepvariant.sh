@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=deepvariant \
-     --array=[12-15]%4 \
+     --array=[16-17]%6 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
