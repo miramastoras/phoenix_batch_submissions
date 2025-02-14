@@ -1,7 +1,0 @@
-{
-  "runApplyPolish.applyPolish.outPrefix": "PAN027_patched_pat_element_DV_trio",
-  "runApplyPolish.applyPolish.asmRaw": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.paternal.fa",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/glnexus/PAN027_raw_DeepVariant_bwa_element_unfiltered/PAN027_raw_pat.element_deepvariant_1.6.1.Q100_trio_filtered.final.vcf.gz",
-  "runApplyPolish.applyPolish.HaplotypeLabel": "pat",
-  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
-}

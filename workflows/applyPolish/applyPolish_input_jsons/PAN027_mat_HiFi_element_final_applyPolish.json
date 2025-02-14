@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "PAN027_mat_HiFi_element_final",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.maternal.fa",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/analysis/intersect_hifi_element_PAN027/PAN027_HiFi_DV_GQ5_element_DV_trio_Q100filt.final.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "mat",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
+}
