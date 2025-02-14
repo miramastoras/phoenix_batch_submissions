@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "PAN027_patched_mat_DV_GQ5",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.maternal.fa",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/PAN027_patched/analysis/deepvariant_outputs/PAN027_patched_deepvariant.GQ5.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "mat",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
+}
