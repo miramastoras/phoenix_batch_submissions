@@ -1,0 +1,16 @@
+{
+  "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_pat_HiFi_element_final/analysis/applyPolish_outputs/PAN027_pat_HiFi_element_final_pat.polished.fasta",
+  "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN027_mat_HiFi_element_final/analysis/applyPolish_outputs/PAN027_mat_HiFi_element_final_mat.polished.fasta",
+  "hprc_polishing_QC.rawHap1Fasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.paternal.fa",
+  "hprc_polishing_QC.rawHap2Fasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN027.maternal.fa",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/analysis/intersect_hifi_element_PAN027/PAN027_HiFi_DV_GQ5_element_DV_trio_Q100filt.final.vcf.gz",
+  "hprc_polishing_QC.sampleYak": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/sample.yak",
+  "hprc_polishing_QC.maternalYak": "/private/groups/migalab/mcechova/pedigree_assemblies/hifiasm/washu/yak/PAN010.cellIllumina.yak",
+  "hprc_polishing_QC.paternalYak": "/private/groups/migalab/mcechova/pedigree_assemblies/hifiasm/washu/yak/PAN011.cellIllumina.yak",
+  "hprc_polishing_QC.ilmMerylDBTarGz": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN027_patched_DV_PASS/analysis/hprc_polishing_QC_outputs/PAN027_patched_DV_PASS.meryl.tar",
+  "hprc_polishing_QC.grch38Fasta": "/private/groups/hprc/ref_files/grch38/GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta",
+  "hprc_polishing_QC.grch38InsideConfRegions": "/private/groups/hprc/ref_files/giab/HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.grch38OutsideConfRegions": "/private/groups/hprc/ref_files/giab/outside_HG002_intersect_HG005_GIAB_v4.2.1.bed",
+  "hprc_polishing_QC.sampleID": "PAN027_HiFi_element_final",
+  "hprc_polishing_QC.toilRunLog": "/private/groups/hprc/polishing/batch1/hprc_DeepPolisher_submit_logs/hprcDeepPolisher_submit_HPRC-DeepPolisher-batch1_relaunch_1501469_1501469_1.log"
+}
