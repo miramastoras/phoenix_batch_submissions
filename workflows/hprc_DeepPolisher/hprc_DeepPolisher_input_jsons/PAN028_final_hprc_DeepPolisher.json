@@ -1,0 +1,21 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_1.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_2.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_3.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_4.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_5.pass.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/ONT/PAN028.basecalled_03_15_22_R941_HG06808_6.pass.fastq.gz"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210429_180938.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210501_013313.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210503_174237.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210505_005712.dc.q20.fastq.gz"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN028.haplotype1.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN028.haplotype2.fa",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-72.tar.gz",
+  "hprc_DeepPolisher.sampleName": "PAN028_final",
+  "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.1.0_06202024"
+}
