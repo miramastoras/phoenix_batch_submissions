@@ -1,0 +1,9 @@
+{
+  "bwaAlignment.readFiles": [
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0843__eeedb9fab5914a9fb0c47f0d50637b09/Samples/6808/6808_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0843__eeedb9fab5914a9fb0c47f0d50637b09/Samples/6808/6808_R2.fastq.gz"
+  ],
+  "bwaAlignment.sampleName": "PAN028_ele_to_PAN028_raw_hap1",
+  "bwaAlignment.suffix": "bwa_0.7.17-r1188",
+  "bwaAlignment.assembly": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN028.haplotype1.fa"
+}
