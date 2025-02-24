@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/HG005_hifiasm_R10_chkpt1186.GQ_filt_no_hifi_model_overlaps_pat/analysis/applyPolish_outputs/HG005_hifiasm_R10_chkpt1186.GQ_filt_no_hifi_model_overlaps_pat_pat.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/HG005_hifiasm_R10_chkpt1186.GQ_filt_no_hifi_model_overlaps_mat/analysis/applyPolish_outputs/HG005_hifiasm_R10_chkpt1186.GQ_filt_no_hifi_model_overlaps_mat_mat.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG005.ilm.k31.30x.meryl.tar.gz"
+}
