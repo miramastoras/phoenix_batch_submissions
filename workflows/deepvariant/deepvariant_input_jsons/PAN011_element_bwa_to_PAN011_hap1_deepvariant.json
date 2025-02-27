@@ -3,7 +3,7 @@
   "runDeepVariant.DeepVariant.modelType": "WGS",
   "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/bwa/PAN011_ele_to_PAN011_raw_hap1/analysis/bwa_outputs/PAN011_ele_to_PAN011_raw_hap1_bwa_0.7.17-r1188.sorted.bam",
   "runDeepVariant.DeepVariant.sample": "PAN011_element_bwa_to_PAN011_hap1",
-  "runDeepVariant.DeepVariant.assembly": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN011.haplotype1.fa",
-  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN011.haplotype1.fa.fai",
+  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/washu_pedigree_polishing/assemblies/assembly.v1.0.PAN011.haplotype1.fa",
+  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/washu_pedigree_polishing/assemblies/assembly.v1.0.PAN011.haplotype1.fa.fai",
   "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
 }
