@@ -1,7 +1,7 @@
 {
   "runApplyPolish.applyPolish.outPrefix": "HG005_hifiasm_R10_chkpt1186.GQ_filt_no_hifi_model_overlaps_pat",
   "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/hprc_polishing/data/HG005_y2_polishing/HG005.trio_hifiasm_0.19.5.DC_1.2_40x.pat.fa",
-  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/hprc_polishing/R10_model_testing/checkpoint1186_coverage_dropouts/HG005_hifiasm_ONT_model_1186.R10_GQ_filt.hifi_model_merged.vcf.gz",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/DeepPolisher/HG005_hifiasm_ONT_model_1186_lt5x_cov.gt100bp.MAPQ1/analysis/DeepPolisher_outputs/polisher_output.R10_GQ_filt.lt5x_hifi_only.vcf",
   "runApplyPolish.applyPolish.HaplotypeLabel": "pat",
   "runApplyPolish.applyPolish.GenotypeToPolish": "2"
 }

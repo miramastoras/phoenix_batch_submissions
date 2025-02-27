@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "PAN028_hap2_HiFi_element_final",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/patenlab/mira/washu_pedigree_polishing/assemblies/assembly.v1.0.PAN028.haplotype2.fa",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/analysis/intersect_hifi_element_PAN028/PAN028_HiFi_DV_GQ5_element_DV_homalt_filtered.final.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "hap2",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "2"
+}
