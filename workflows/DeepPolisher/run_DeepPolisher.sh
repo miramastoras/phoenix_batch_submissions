@@ -39,9 +39,8 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher \
-     --array=[9]%1 \
+     --array=[10]%1 \
      --partition=long \
-     --time=72:00:00 \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
      --mem=400gb \
