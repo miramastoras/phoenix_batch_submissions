@@ -1,0 +1,15 @@
+{
+  "hprc_DeepPolisher.ONTReads": [
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_1_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_4_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_3_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz"
+  ],
+  "hprc_DeepPolisher.HifiReads": [
+    "s3://human-pangenomics/backup/Sergey/HG002/verkko_assembly.bam"
+  ],
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/HG002_verkko2.2.haplotype1.maternal.fasta",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/HG002_verkko2.2.haplotype2.paternal.fasta",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-50.tar.gz",
+  "hprc_DeepPolisher.sampleName": "HG002_verkko_model3_revio_PHARAOH",
+  "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.2.0_02202025"
+}
