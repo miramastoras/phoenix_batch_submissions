@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc_DeepPolisher \
-     --array=[12]%3 \
+     --array=[13-14]%3 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
