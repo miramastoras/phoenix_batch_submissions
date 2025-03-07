@@ -1,8 +1,8 @@
 {
   "hprc_DeepPolisher.ONTReads": [
-    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/01_09_24_R1041_UL_Marmoset_Maisie_1_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
-    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/01_09_24_R1041_UL_Marmoset_Maisie_2_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
-    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/12_05_23_R1041_UL_Marmoset_Maisie_3_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz"
+    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/01_09_24_R1041_UL_Marmoset_calJac220_1_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/01_09_24_R1041_UL_Marmoset_calJac220_2_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz",
+    "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/ont_data/12_05_23_R1041_UL_Marmoset_calJac220_3_dorado0.5.3_sup4.3.0_5mCG_5hmCG.50kb.fastq.gz"
   ],
   "hprc_DeepPolisher.HifiReads": [
     "/private/groups/cgl/pnhebbar/marmoset/Maisie/genomic_data/PacBio_HiFi/m84046_240209_155715_s4.hifi_reads.bc2015_trimmed.fastq.gz",
