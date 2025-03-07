@@ -11,7 +11,7 @@
   ],
   "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_maisie_v0305/final/maisie_primary_v0305.fa",
   "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_maisie_v0305/final/maisie_alternate_v0305.fa",
-  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-50.tar.gz",
+  "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-72.tar.gz",
   "hprc_DeepPolisher.sampleName": "patched_maisie_v0305",
-  "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.2.0_02202025"
+  "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.1.0_06202024"
 }
