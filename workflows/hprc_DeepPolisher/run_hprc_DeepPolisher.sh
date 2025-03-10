@@ -57,7 +57,6 @@ sbatch \
 
 cd /private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher
 
-
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
       --input_data_table hprc_DeepPolisher.csv  \
       --output_data_table hprc_DeepPolisher.outputs.csv  \

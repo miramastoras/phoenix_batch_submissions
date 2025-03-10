@@ -9,8 +9,8 @@
     "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_112408_s3.hifi_reads.bc2014_trimmed.fastq.gz",
     "/private/groups/cgl/pnhebbar/marmoset/Baguette/genomic_data/PacBio_HiFi/m84046_240218_132334_s4.hifi_reads.bc2014_trimmed.fastq.gz"
   ],
-  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_primary_v0305.fa",
-  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_alternate_v0305.fa",
+  "hprc_DeepPolisher.Hap1RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_primary_v0305_renamed.fa",
+  "hprc_DeepPolisher.Hap2RawFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_alternate_v0305_renamed.fa",
   "hprc_DeepPolisher.DeepPolisherModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-72.tar.gz",
   "hprc_DeepPolisher.sampleName": "patched_baguette_v0305",
   "hprc_DeepPolisher.DeepPolisherDocker": "google/deepconsensus:polisher_v0.1.0_06202024"
