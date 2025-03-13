@@ -1,0 +1,9 @@
+{
+  "runDeepVariant.DeepVariant.inputReadsIdx": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/patched_baguette_v0305/analysis/hprc_DeepPolisher_outputs/patched_baguette_v0305.hifi.to.diploid.asm.PHARAOH.bam.bai",
+  "runDeepVariant.DeepVariant.modelType": "PACBIO",
+  "runDeepVariant.DeepVariant.inputReads": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_DeepPolisher/patched_baguette_v0305/analysis/hprc_DeepPolisher_outputs/patched_baguette_v0305.hifi.to.diploid.asm.PHARAOH.bam",
+  "runDeepVariant.DeepVariant.sample": "baguette_v0305_renamed",
+  "runDeepVariant.DeepVariant.assembly": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/diploid/baguette_diploid_v0305_renamed.fa",
+  "runDeepVariant.DeepVariant.assemblyIndex": "/private/groups/patenlab/mira/t2t_primates_polishing/assemblies/diploid/baguette_diploid_v0305_renamed.fa.fai",
+  "runDeepVariant.DeepVariant.dockerImage": "google/deepvariant:1.6.1"
+}
