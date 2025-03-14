@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/maisie_primary_v0305_renamed_DV_GQ5/analysis/applyPolish_outputs/maisie_primary_v0305_renamed_DV_GQ5_prim.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/maisie_alternate_v0305_renamed_DV_GQ5/analysis/applyPolish_outputs/maisie_alternate_v0305_renamed_DV_GQ5_alt.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Maisie_ilm_k31.meryl.tar.gz"
+}

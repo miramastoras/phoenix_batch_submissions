@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_maisie_v0305/final/maisie_primary_v0305_renamed.fa",
+  "runMerqury.merqury.altHapFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_maisie_v0305/final/maisie_alternate_v0305_renamed.fa",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Maisie_ilm_k31.meryl.tar.gz"
+}

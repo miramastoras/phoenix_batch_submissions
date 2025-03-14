@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_primary_v0305_renamed.fa",
+  "runMerqury.merqury.altHapFasta": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_alternate_v0305_renamed.fa",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/t2t_primates_polishing/reads/meryl_dbs/Baguette_ilm_k31.meryl.tar.gz"
+}
