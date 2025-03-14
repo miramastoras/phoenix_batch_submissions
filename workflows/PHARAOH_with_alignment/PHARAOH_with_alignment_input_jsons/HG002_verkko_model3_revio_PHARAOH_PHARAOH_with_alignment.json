@@ -1,0 +1,13 @@
+{
+  "PHARAOH_with_alignment.ONTReads": [
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_1_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_4_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz",
+    "/private/groups/patenlab/masri/hprc/polishing/HG002/reads/R941_Guppy6/gt_100k/downsampled_40x/03_08_22_R941_HG002_3_Guppy_6.0.6_prom_sup.gt_100kb.fastq.gz"
+  ],
+  "PHARAOH_with_alignment.HifiReads": [
+    "s3://human-pangenomics/backup/Sergey/HG002/verkko_assembly.bam"
+  ],
+  "PHARAOH_with_alignment.Hap1RawFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/HG002_verkko2.2.haplotype1.maternal.fasta",
+  "PHARAOH_with_alignment.Hap2RawFasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/HG002_verkko2.2.haplotype2.paternal.fasta",
+  "PHARAOH_with_alignment.sampleName": "HG002_verkko_model3_revio_PHARAOH"
+}

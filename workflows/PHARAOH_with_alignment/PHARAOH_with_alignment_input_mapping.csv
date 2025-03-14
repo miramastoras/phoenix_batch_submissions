@@ -1,0 +1,6 @@
+input,type,value
+PHARAOH_with_alignment.ONTReads,array,$input.ont_reads
+PHARAOH_with_alignment.HifiReads,array,$input.hifi_reads
+PHARAOH_with_alignment.Hap1RawFasta,scalar,$input.hap1_raw_fasta
+PHARAOH_with_alignment.Hap2RawFasta,scalar,$input.hap2_raw_fasta
+PHARAOH_with_alignment.sampleName,scalar,$input.sample_id
