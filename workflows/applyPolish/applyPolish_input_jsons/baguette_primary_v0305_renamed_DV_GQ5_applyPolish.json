@@ -1,0 +1,7 @@
+{
+  "runApplyPolish.applyPolish.outPrefix": "baguette_primary_v0305_renamed_DV_GQ5",
+  "runApplyPolish.applyPolish.asmRaw": "/private/groups/cgl/pnhebbar/marmoset/patched_baguette_v0305/final/baguette_primary_v0305_renamed.fa",
+  "runApplyPolish.applyPolish.polishingVcf": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/deepvariant/baguette_v0305_renamed/analysis/deepvariant_outputs/baguette_v0305_renamed_deepvariant.GQ5.vcf.gz",
+  "runApplyPolish.applyPolish.HaplotypeLabel": "prim",
+  "runApplyPolish.applyPolish.GenotypeToPolish": "1"
+}
