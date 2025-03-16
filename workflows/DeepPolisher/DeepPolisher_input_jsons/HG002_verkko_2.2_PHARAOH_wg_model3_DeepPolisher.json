@@ -1,0 +1,11 @@
+{
+  "runDeepPolisher.useOptimalGQFilter": true,
+  "runDeepPolisher.ModelFilesTarGZ": "/private/groups/patenlab/mira/hprc_polishing/data/DeepPolisher_models/checkpoint-50.tar.gz",
+  "runDeepPolisher.Bai": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/PHARAOH_with_alignment/HG002_verkko_model3_revio_PHARAOH/analysis/PHARAOH_with_alignment_outputs/HG002_verkko_model3_revio_PHARAOH.hifi.to.diploid.asm.PHARAOH.bam.bai",
+  "runDeepPolisher.Bam": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/PHARAOH_with_alignment/HG002_verkko_model3_revio_PHARAOH/analysis/PHARAOH_with_alignment_outputs/HG002_verkko_model3_revio_PHARAOH.hifi.to.diploid.asm.PHARAOH.bam",
+  "runDeepPolisher.dockerImage": "google/deepconsensus:polisher_v0.2.0_02202025",
+  "runDeepPolisher.sampleName": "HG002_verkko_2.2_PHARAOH_wg_model3",
+  "runDeepPolisher.Fasta": "/private/groups/patenlab/mira/hprc_polishing/verkko_model_truthset/verkko_graph_alignments_Q100v1.1/verkko_assembly.fasta",
+  "runDeepPolisher.diskSize": 600,
+  "runDeepPolisher.memSize": 256
+}

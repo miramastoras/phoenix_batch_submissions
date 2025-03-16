@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher \
-     --array=[10]%1 \
+     --array=[11]%1 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
@@ -55,7 +55,7 @@ sbatch \
 ##                             write output files to csv                     ##
 ###############################################################################
 
-# on hprc after entire batch has finished
+# on hpc after entire batch has finished
 cd /private/groups/patenlab/mira/phoenix_batch_executions/workflows/DeepPolisher
 
 python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_table_with_outputs.py \
