@@ -1,0 +1,8 @@
+{
+  "bwaAlignment.readFiles": [
+    "/private/groups/patenlab/mira/hprc_polishing/data/element_HG002/HG002-20220606.grch38.bam.element.fq.gz"
+  ],
+  "bwaAlignment.sampleName": "HG002_ele_all_to_dip",
+  "bwaAlignment.suffix": "bwa_0.7.17-r1188",
+  "bwaAlignment.assembly": "/private/groups/patenlab/mira/hprc_polishing/data/HG002_y2_polishing/assembly/HG002.trio_hifiasm_0.19.5.DC_1.2_40x.dip.fa"
+}
