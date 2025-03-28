@@ -48,7 +48,7 @@ sbatch \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
      /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
-     --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/bwa.wdl \
+     --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/bwa_PE.wdl \
      --sample_csv bwa.csv \
      --input_json_path '../bwa_input_jsons/${SAMPLE_ID}_bwa.json'
 
