@@ -1,7 +1,7 @@
 {
   "hprc_polishing_QC.polishedHap1Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN011_hap1_HiFi_element_final/analysis/applyPolish_outputs/PAN011_hap1_HiFi_element_final_hap1.polished.fasta",
   "hprc_polishing_QC.polishedHap2Fasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN011_hap2_HiFi_element_final/analysis/applyPolish_outputs/PAN011_hap2_HiFi_element_final_hap2.polished.fasta",
-  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/analysis/intersect_hifi_element_PAN011/PAN011_HiFi_DV_GQ5_element_DV_homalt_filtered.final.vcf.gz",
+  "hprc_polishing_QC.polishingVcf": "/private/groups/patenlab/mira/washu_pedigree_polishing/analysis/intersect_hifi_element_PAN011/PAN011_HiFi_DV_GQ5_element_DV_homalt_filtered.final.withXY.vcf.gz",
   "hprc_polishing_QC.sampleReadsIlm": [
     "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTMKJDSX2_CGGCGTTCTA-GAGTTGAGGC_L004_R1.fastq.gz",
     "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTMKJDSX2_CGGCGTTCTA-GAGTTGAGGC_L004_R2.fastq.gz",
