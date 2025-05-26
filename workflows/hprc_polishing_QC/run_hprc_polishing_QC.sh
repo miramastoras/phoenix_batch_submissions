@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=hprc_polishing_QC \
-     --array=[6-8]%3 \
+     --array=[8]%3 \
      --partition=long \
      --time=72:00:00 \
      --cpus-per-task=32 \
