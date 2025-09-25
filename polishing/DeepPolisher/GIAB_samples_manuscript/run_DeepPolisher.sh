@@ -58,3 +58,5 @@ python3 /private/groups/hprc/polishing/hprc_intermediate_assembly/hpc/update_tab
       --input_data_table ./GIAB_samples_deepPolisher_manuscript.csv  \
       --output_data_table ./GIAB_samples_deepPolisher_manuscript.DP.csv  \
       --json_location '{sample_id}_DeepPolisher_outputs.json'
+
+# test
