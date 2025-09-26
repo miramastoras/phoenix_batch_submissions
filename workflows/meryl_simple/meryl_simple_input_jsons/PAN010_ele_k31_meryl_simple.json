@@ -1,6 +1,6 @@
 {
   "runMeryl.sampleID": "PAN010_ele_k31",
-  "runMeryl.memSizeGB": 800,
+  "runMeryl.memSizeGB": 400,
   "runMeryl.readFiles": [
     "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0872__dc8df09cedb341d19649fd46048aee5d/Samples/6803/6803_R1.fastq.gz",
     "/private/groups/migalab/mcechova/element/washu-ucsc/bases2fastq/KOL-0872__dc8df09cedb341d19649fd46048aee5d/Samples/6803/6803_R2.fastq.gz"

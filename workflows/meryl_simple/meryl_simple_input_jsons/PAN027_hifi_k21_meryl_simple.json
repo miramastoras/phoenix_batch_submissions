@@ -1,6 +1,6 @@
 {
   "runMeryl.sampleID": "PAN027_hifi_k21",
-  "runMeryl.memSizeGB": 600,
+  "runMeryl.memSizeGB": 400,
   "runMeryl.readFiles": [
     "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210925_220058.dc.q20.fastq.gz",
     "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/blood/PAN027.MGISTL-PAN027.m64043_210927_090130.dc.q20.fastq.gz",
