@@ -1,0 +1,2 @@
+sample_id,readType,kmerSize,reads,memSize
+test,illumina,21,"[""/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R1.fastq.gz""]",200

@@ -1,0 +1,6 @@
+input,type,value
+runMeryl.sampleID,scalar,$input.sample_id
+runMeryl.memSizeGB,scalar,$input.memSize
+runMeryl.readFiles,array,$input.reads
+runMeryl.kmerSize,scalar,$input.kmerSize
+runMeryl.readType,scalar,$input.readType

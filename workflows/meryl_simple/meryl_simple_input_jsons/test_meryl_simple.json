@@ -1,0 +1,9 @@
+{
+  "runMeryl.sampleID": "test",
+  "runMeryl.memSizeGB": 200,
+  "runMeryl.readFiles": [
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN027.cell.HTTMGDSX2_CCTGCAAGAC-GCATCATAGC_L002_R1.fastq.gz"
+  ],
+  "runMeryl.kmerSize": 21,
+  "runMeryl.readType": "illumina"
+}
