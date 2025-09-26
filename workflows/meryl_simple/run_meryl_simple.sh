@@ -39,15 +39,14 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=meryl_simple \
-     --array=[1]%1 \
+     --array=[1-23]%23 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
-     --mem=200gb \
      --mail-type=FAIL,END \
      --mail-user=mmastora@ucsc.edu \
-     /private/groups/hprc/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine.sh \
+     ~/progs/hprc_intermediate_assembly/hpc/toil_sbatch_single_machine_debug.sh \
      --wdl ~/progs/hpp_production_workflows/QC/wdl/tasks/meryl_simple.wdl \
      --sample_csv meryl_simple.csv \
      --input_json_path '../meryl_simple_input_jsons/${SAMPLE_ID}_meryl_simple.json'

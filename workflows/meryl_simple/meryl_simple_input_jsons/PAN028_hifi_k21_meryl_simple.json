@@ -1,0 +1,11 @@
+{
+  "runMeryl.sampleID": "PAN028_hifi_k21",
+  "runMeryl.memSizeGB": 400,
+  "runMeryl.readFiles": [
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210429_180938.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210501_013313.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210503_174237.dc.q20.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/PacBio/DC1.2/PAN028.MGISTL-PAN028.m64136_210505_005712.dc.q20.fastq.gz"
+  ],
+  "runMeryl.kmerSize": 21
+}

@@ -1,0 +1,11 @@
+{
+  "runMeryl.sampleID": "PAN011_ilm_k21",
+  "runMeryl.memSizeGB": 400,
+  "runMeryl.readFiles": [
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTMKJDSX2_CGGCGTTCTA-GAGTTGAGGC_L004_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTMKJDSX2_CGGCGTTCTA-GAGTTGAGGC_L004_R2.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTTMGDSX2_CGGCGTTCTA-GAGTTGAGGC_L002_R1.fastq.gz",
+    "/private/groups/migalab/mcechova/washu/Illumina/PAN011.cell.HTTMGDSX2_CGGCGTTCTA-GAGTTGAGGC_L002_R2.fastq.gz"
+  ],
+  "runMeryl.kmerSize": 21
+}
