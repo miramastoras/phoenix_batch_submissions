@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN011_hap1_HiFi_element_final_XY/analysis/applyPolish_outputs/PAN011_hap1_HiFi_element_final_XY_hap1.polished.fasta",
+  "runMerqury.merqury.altHapFasta": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/applyPolish/PAN011_hap2_HiFi_element_final_XY/analysis/applyPolish_outputs/PAN011_hap2_HiFi_element_final_XY_hap2.polished.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_union_hybrid/PAN011_hifi_ilm_k21/analysis/meryl_union_hybrid_outputs/PAN011_hifi_ilm_k21.k21.hybrid.meryl.tar.gz"
+}
