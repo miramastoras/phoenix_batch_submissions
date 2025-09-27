@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=merqury \
-     --array=[32-55]%40 \
+     --array=[56-83]%40 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
