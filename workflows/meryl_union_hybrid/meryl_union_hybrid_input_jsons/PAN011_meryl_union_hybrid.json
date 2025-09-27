@@ -1,0 +1,6 @@
+{
+  "runMerylUnionHybrid.sampleID": "PAN011",
+  "runMerylUnionHybrid.TarDB1": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN011_HiFi_element_final/analysis/hprc_polishing_QC_outputs/PAN011_HiFi_element_final.meryl.tar",
+  "runMerylUnionHybrid.TarDB2": NaN,
+  "runMerylUnionHybrid.kmerSize": 31
+}

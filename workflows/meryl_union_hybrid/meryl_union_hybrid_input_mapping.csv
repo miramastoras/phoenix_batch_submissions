@@ -1,0 +1,5 @@
+input,type,value
+runMerylUnionHybrid.sampleID,scalar,$input.sample_id
+runMerylUnionHybrid.TarDB1,scalar,$input.DB1
+runMerylUnionHybrid.TarDB2,scalar,$input.DB2
+runMerylUnionHybrid.kmerSize,scalar,$input.kmerSize
