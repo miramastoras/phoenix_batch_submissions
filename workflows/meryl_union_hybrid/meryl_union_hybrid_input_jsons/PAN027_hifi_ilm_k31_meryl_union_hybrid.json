@@ -1,0 +1,6 @@
+{
+  "runMerylUnionHybrid.sampleID": "PAN027_hifi_ilm_k31",
+  "runMerylUnionHybrid.TarDB1": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/PAN027_ilm_k31/analysis/meryl_simple_outputs/PAN027_ilm_k31.meryl.tar",
+  "runMerylUnionHybrid.TarDB2": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/PAN027_hifi_k31/analysis/meryl_simple_outputs/PAN027_hifi_k31.meryl.tar",
+  "runMerylUnionHybrid.kmerSize": 31
+}
