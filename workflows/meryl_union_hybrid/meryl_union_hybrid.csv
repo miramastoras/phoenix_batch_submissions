@@ -1,4 +1,4 @@
 sample_id,DB1,DB1_name,DB2,DB2_name,kmerSize
-test,/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/test/analysis/meryl_simple_outputs/test.meryl.tar,ilm,/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/test/analysis/meryl_simple_outputs/test.meryl.tar,hifi,31
+test,/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/test/analysis/meryl_simple_outputs/test.meryl.tar,ilm,/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_simple/test/analysis/meryl_simple_outputs/test2.meryl.tar,hifi,31
 PAN011,/private/groups/patenlab/mira/phoenix_batch_executions/workflows/hprc_polishing_QC/PAN011_HiFi_element_final/analysis/hprc_polishing_QC_outputs/PAN011_HiFi_element_final.meryl.tar,ilm,NA,,31
 PAN027,,ilm,,,31
