@@ -39,7 +39,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=meryl_union_hybrid \
-     --array=[1]%1 \
+     --array=[1-8,10,15,16]%20 \
      --partition=medium \
      --time=12:00:00 \
      --cpus-per-task=32 \
