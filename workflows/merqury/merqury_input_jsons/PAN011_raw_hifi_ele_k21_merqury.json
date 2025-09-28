@@ -1,5 +1,5 @@
 {
   "runMerqury.merqury.assemblyFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN011.haplotype1.fa",
-  "runMerqury.merqury.altHapFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN010.haplotype2.fa",
+  "runMerqury.merqury.altHapFasta": "/private/groups/migalab/mcechova/pedigree_assemblies/verkko2.0/assembly_release/diploid/assembly.v1.0.PAN011.haplotype2.fa",
   "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/phoenix_batch_executions/workflows/meryl_union_hybrid/PAN011_hifi_ele_k21/analysis/meryl_union_hybrid_outputs/PAN011_hifi_ele_k21.k21.hybrid.meryl.tar.gz"
 }
