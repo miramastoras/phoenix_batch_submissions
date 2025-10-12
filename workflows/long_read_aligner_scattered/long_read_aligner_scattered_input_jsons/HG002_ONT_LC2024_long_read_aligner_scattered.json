@@ -1,0 +1,17 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 0.02",
+  "longReadAlignmentScattered.preset": "lr:hqae",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/ONT_DeepPolisher/assemblies/hifiasm_ONT_Q25_10122025/GIAB_HG002_RAW_HIFIASM_v0.25.0.bp.dip.p_ctg.fasta",
+  "longReadAlignmentScattered.secphaseOptions": "--ont",
+  "longReadAlignmentScattered.enableRunningSecphase": true,
+  "longReadAlignmentScattered.aligner": "minimap2",
+  "longReadAlignmentScattered.alignerOptions": "--cs --eqx -Y -L",
+  "longReadAlignmentScattered.kmerSize": 19,
+  "longReadAlignmentScattered.sampleName": "HG002_ONT_LC2024",
+  "longReadAlignmentScattered.suffix": "minimap2_2.28-r1209",
+  "longReadAlignmentScattered.readFiles": [
+    "/private/groups/migalab/kkyriaki/experiments/data/GIAB_2025/HG002/PAW70337/PAW70337.fastq",
+    "/private/groups/migalab/kkyriaki/experiments/data/GIAB_2025/HG002/PAW71238/PAW71238.fastq"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v1.1.0"
+}
