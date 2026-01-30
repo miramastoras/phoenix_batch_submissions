@@ -1,0 +1,8 @@
+input,type,value
+runMerquryAndYak.Hap1Fasta,scalar,$input.hap1_aws_fasta
+runMerquryAndYak.Hap2Fasta,scalar,$input.hap2_aws_fasta
+runMerquryAndYak.maternalYak,scalar,$input.maternalYak
+runMerquryAndYak.paternalYak,scalar,$input.paternalYak
+runMerquryAndYak.sampleReadsIlm,array,$input.child_ilmn
+runMerquryAndYak.sampleID,scalar,$input.sample_id
+runMerquryAndYak.referenceFasta,scalar,$input.referenceFasta

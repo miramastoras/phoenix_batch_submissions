@@ -1,0 +1,20 @@
+{
+  "runMerquryAndYak.Hap1Fasta": "s3://human-pangenomics/working/HPRC/HG02559/assemblies/year1_f1_assembly_v2_genbank/HG02559.paternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.Hap2Fasta": "s3://human-pangenomics/working/HPRC/HG02559/assemblies/year1_f1_assembly_v2_genbank/HG02559.maternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.maternalYak": "/private/groups/hprc/assembly/batch3/HG02559/analysis/assembly/HG02558.yak",
+  "runMerquryAndYak.paternalYak": "/private/groups/hprc/assembly/batch3/HG02559/analysis/assembly/HG02557.yak",
+  "runMerquryAndYak.sampleReadsIlm": [
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02559-111121_S3_L001_R1_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02559-111121_S3_L001_R2_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L001_R1_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L001_R2_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L002_R1_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L002_R2_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L003_R1_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L003_R2_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L004_R1_001.fastq.gz",
+    "s3://human-pangenomics/submissions/30E441F3-6820-4BF6-BCF4-E64D56C8D6A4--TRUSEQ/HG02559/raw_data/Illumina/child/HG02599_S18_L004_R2_001.fastq.gz"
+  ],
+  "runMerquryAndYak.sampleID": "HG02559",
+  "runMerquryAndYak.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
+}

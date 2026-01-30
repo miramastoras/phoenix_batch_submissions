@@ -1,0 +1,11 @@
+{
+  "runMerquryAndYak.Hap1Fasta": "s3://human-pangenomics/working/HPRC_PLUS/HG03492/assemblies/year1_f1_assembly_v2_genbank/HG03492.paternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.Hap2Fasta": "s3://human-pangenomics/working/HPRC_PLUS/HG03492/assemblies/year1_f1_assembly_v2_genbank/HG03492.maternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.maternalYak": "/private/groups/hprc/assembly/batch10/HG03492/analysis/trio_hifiasm_assembly_cutadapt_multistep_outputs/d67053e8-c8ca-4291-95d5-ae72fc53dba8/HG03491.yak",
+  "runMerquryAndYak.paternalYak": "/private/groups/hprc/assembly/batch10/HG03492/analysis/trio_hifiasm_assembly_cutadapt_multistep_outputs/cf715488-83be-4890-a0f1-6fb0e54e8a20/HG03490.yak",
+  "runMerquryAndYak.sampleReadsIlm": [
+    "s3://human-pangenomics/working/HPRC_PLUS/HG03492/raw_data/Illumina/child/HG03492.final.cram"
+  ],
+  "runMerquryAndYak.sampleID": "HG03492",
+  "runMerquryAndYak.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
+}

@@ -1,0 +1,12 @@
+{
+  "runMerquryAndYak.Hap1Fasta": "s3://human-pangenomics/working/HPRC_PLUS/HG002/assemblies/year1_f1_assembly_v2_genbank/HG002.paternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.Hap2Fasta": "s3://human-pangenomics/working/HPRC_PLUS/HG002/assemblies/year1_f1_assembly_v2_genbank/HG002.maternal.f1_assembly_v2_genbank.fa.gz",
+  "runMerquryAndYak.maternalYak": "/private/groups/hprc/assembly/batch10/HG002/analysis/trio_hifiasm_assembly_cutadapt_multistep_outputs/b34297f9-c6f6-422b-b536-c7d5f030c1c4/HG004.yak",
+  "runMerquryAndYak.paternalYak": "/private/groups/hprc/assembly/batch10/HG002/analysis/trio_hifiasm_assembly_cutadapt_multistep_outputs/b0ddd51d-7144-4800-b478-8bdffb6864d5/HG003.yak",
+  "runMerquryAndYak.sampleReadsIlm": [
+    "s3://human-pangenomics/submissions/FFC78D9F-296E-41DD-9E50-C4B5806613EE--HPRC_PLUS_GIAB/HG002/raw_data/Illumina/child/brain-genomics/HG002.novaseq.pcr-free.30x.R1.fastq.gz",
+    "s3://human-pangenomics/submissions/FFC78D9F-296E-41DD-9E50-C4B5806613EE--HPRC_PLUS_GIAB/HG002/raw_data/Illumina/child/brain-genomics/HG002.novaseq.pcr-free.30x.R2.fastq.gz"
+  ],
+  "runMerquryAndYak.sampleID": "HG002",
+  "runMerquryAndYak.referenceFasta": "/private/groups/hprc/ref_files/grch38/hs38DH.fa"
+}
