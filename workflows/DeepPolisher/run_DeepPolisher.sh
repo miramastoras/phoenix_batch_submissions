@@ -15,6 +15,7 @@ python3 /Users/miramastoras/Desktop/Paten_lab/hprc_intermediate_assembly/hpc/lau
      --field_mapping ../DeepPolisher_input_mapping.csv \
      --workflow_name DeepPolisher
 
+## Check the input jsons to make sure they look okay
 ## add/commit/push to github (hprc_intermediate_assembly)
 
 ###############################################################################
@@ -39,7 +40,7 @@ export PYTHONPATH="/private/home/juklucas/miniconda3/envs/toil/bin/python"
 # submit job
 sbatch \
      --job-name=DeepPolisher \
-     --array=[11]%1 \
+     --array=[12]%1 \
      --partition=long \
      --cpus-per-task=32 \
      --exclude=phoenix-[09,10,22,23,24,18] \
