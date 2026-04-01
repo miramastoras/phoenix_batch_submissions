@@ -1,0 +1,18 @@
+{
+  "longReadAlignmentScattered.correctBamOptions": "--maxDiv 0.02",
+  "longReadAlignmentScattered.preset": "map-hifi",
+  "longReadAlignmentScattered.assemblyFasta": "/private/groups/patenlab/mira/data/chm13v2.0.fa",
+  "longReadAlignmentScattered.secphaseOptions": "--hifi",
+  "longReadAlignmentScattered.enableRunningSecphase": true,
+  "longReadAlignmentScattered.aligner": "minimap2",
+  "longReadAlignmentScattered.alignerOptions": "--cs --eqx -Y -L",
+  "longReadAlignmentScattered.kmerSize": 19,
+  "longReadAlignmentScattered.sampleName": "CHM13_v2.0_HiFi",
+  "longReadAlignmentScattered.suffix": "minimap2",
+  "longReadAlignmentScattered.readFiles": [
+    "s3://human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190803_042216.subreads.bam",
+    "s3://human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190804_172951.subreads.bam",
+    "s3://human-pangenomics/T2T/CHM13/pacbio/hifi_20kb/m64062_190806_063919.subreads.bam"
+  ],
+  "longReadAlignmentScattered.alignerDockerImage": "mobinasri/long_read_aligner:v0.3.3"
+}
