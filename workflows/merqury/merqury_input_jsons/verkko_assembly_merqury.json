@@ -1,0 +1,5 @@
+{
+  "runMerqury.merqury.assemblyFasta": "s3://human-pangenomics/backup/Sergey/HG002/65xrevio_100xcorrectedONT_300xONT/assembly.fasta",
+  "runMerqury.merqury.altHapFasta": "s3://human-pangenomics/backup/Sergey/HG002/65xrevio_100xcorrectedONT_300xONT/assembly.fasta",
+  "runMerqury.merqury.kmerTarball": "/private/groups/patenlab/mira/hprc_polishing/polisher_evaluation/meryl_dbs/HG002.k31.redownload.meryl.tar.gz"
+}
